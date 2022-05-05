@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" 
+	elementFormDefault="qualified" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Certificate">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="FreeCertificate" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="director" use="optional"/>
+      <xs:attribute type="xs:byte" name="percentage" use="optional"/>
+      <xs:attribute type="xs:string" name="allowedOwners" use="optional"/>
+      <xs:attribute type="xs:byte" name="quantity" use="optional"/>
+      <xs:attribute type="xs:short" name="corporationId" use="optional"/>
+      <xs:attribute type="xs:byte" name="discountAmount" use="optional"/>
+      <xs:attribute type="xs:string" name="canBeBidOn" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Benefit">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="actorType" use="optional"/>
+          <xs:attribute type="xs:string" name="class" use="optional"/>
+          <xs:attribute type="xs:string" name="extra" use="optional"/>
+          <xs:attribute type="xs:string" name="mapCell" use="optional"/>
+          <xs:attribute type="xs:byte" name="cost" use="optional"/>
+          <xs:attribute type="xs:string" name="passive" use="optional"/>
+          <xs:attribute type="xs:string" name="closeOnUse" use="optional"/>
+          <xs:attribute type="xs:string" name="sameTurn" use="optional"/>
+          <xs:attribute type="xs:short" name="corporationID" use="optional"/>
+          <xs:attribute type="xs:byte" name="certificatePercentage" use="optional"/>
+          <xs:attribute type="xs:string" name="certificatePresident" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Benefits">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Benefit" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FreeCertificate">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:short" name="corporationId" use="optional"/>
+          <xs:attribute type="xs:byte" name="percentage" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Certificate"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="row" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Private">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Benefits" minOccurs="0"/>
+        <xs:element ref="Certificate"/>
+      </xs:sequence>
+      <xs:attribute type="xs:short" name="id" use="required"/>
+      <xs:attribute type="xs:string" name="name" use="required"/>
+      <xs:attribute type="xs:string" name="abbrev" use="required"/>
+      <xs:attribute type="xs:short" name="cost" use="optional"/>
+      <xs:attribute type="xs:string" name="note" use="optional"/>
+      <xs:attribute type="xs:byte" name="revenue" use="optional"/>
+      <xs:attribute type="xs:string" name="homeCell1" use="required"/>
+      <xs:attribute type="xs:byte" name="homeLocation1" use="required"/>
+      <xs:attribute type="xs:byte" name="homeLocation2" use="optional"/>
+      <xs:attribute type="xs:string" name="special" use="optional"/>
+      <xs:attribute type="xs:string" name="mustSell" use="optional"/>
+      <xs:attribute type="xs:short" name="exchangeID" use="optional"/>
+      <xs:attribute type="xs:byte" name="exchangePercentage" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Share">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Certificate" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:short" name="id" use="required"/>
+      <xs:attribute type="xs:string" name="name" use="required"/>
+      <xs:attribute type="xs:string" name="abbrev" use="required"/>
+      <xs:attribute type="xs:string" name="homeCell1" use="required"/>
+      <xs:attribute type="xs:byte" name="homeLocation1" use="required"/>
+      <xs:attribute type="xs:string" name="homeCell2" use="optional"/>
+      <xs:attribute type="xs:byte" name="homeLocation2" use="optional"/>
+      <xs:attribute type="xs:string" name="bgColor" use="required"/>
+      <xs:attribute type="xs:string" name="fgColor" use="required"/>
+      <xs:attribute type="xs:byte" name="tokens" use="required"/>
+      <xs:attribute type="xs:short" name="closeOnTrainPurchase" use="optional"/>
+      <xs:attribute type="xs:string" name="mustBuyTrain" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartPacket">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Item" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Corporations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Private" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="Share" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="StartPacket"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
