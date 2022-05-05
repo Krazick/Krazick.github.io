@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-        
     <wb-module deploy-name="18XX-Game-Engine-XML">
-                
         <wb-resource deploy-path="/" source-path="/public"/>
-                
-        <property name="context-root" value="18XX_Game_Engine_XML"/>
-            
+        <property name="context-root" value="18XX-Game-Engine-XML"/>
     </wb-module>
-    
 </project-modules>
