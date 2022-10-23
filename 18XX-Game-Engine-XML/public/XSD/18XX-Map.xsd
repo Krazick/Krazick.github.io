@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 	xmlns="https://krazick.github.io/schema"
+	targetNamespace="https://krazick.github.io/schema"
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Map">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TerrainCosts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Terrain" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="cost" use="required"/>
+                      <xs:attribute type="xs:string" name="type" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Row" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MapCell" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element name="Terrain">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="category" use="required"/>
+                            <xs:attribute type="xs:string" name="type" use="required"/>
+                            <xs:attribute type="xs:byte" name="location" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Tile">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:short" name="number" use="required"/>
+                            <xs:attribute type="xs:byte" name="orientation" use="required"/>
+                            <xs:attribute type="xs:string" name="starting" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="RevenueCenter">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                            <xs:attribute type="xs:byte" name="location" use="required"/>
+                            <xs:attribute type="xs:string" name="name" use="optional"/>
+                            <xs:attribute type="xs:byte" name="number" use="optional"/>
+                            <xs:attribute type="xs:string" name="type" use="required"/>
+                            <xs:attribute type="xs:string" name="category" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="TileName">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="name" use="optional"/>
+                            <xs:attribute type="xs:byte" name="location" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Blocked">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="side" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="index" use="optional"/>
+            <xs:attribute type="xs:byte" name="startCol" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="cols"/>
+      <xs:attribute type="xs:string" name="defaultType"/>
+      <xs:attribute type="xs:string" name="direction"/>
+      <xs:attribute type="xs:string" name="fillColor"/>
+      <xs:attribute type="xs:byte" name="rows"/>
+      <xs:attribute type="xs:string" name="rowStart"/>
+      <xs:attribute type="xs:byte" name="colStart"/>
+      <xs:attribute type="xs:short" name="width"/>
+      <xs:attribute type="xs:short" name="height"/>
+      <xs:attribute type="xs:byte" name="xLocation"/>
+      <xs:attribute type="xs:byte" name="yLocation"/>
+      <xs:attribute type="xs:string" name="visible"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
