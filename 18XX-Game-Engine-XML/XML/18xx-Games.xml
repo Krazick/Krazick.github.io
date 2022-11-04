@@ -75,11 +75,11 @@
 				rust="4" />
 		</Trains>
 		<Files>
-			<File type="map" name="1830 XML Data/1830 Map.xml" />
-			<File type="companies" name="1830 XML Data/1830 Companies.xml" />
-			<File type="cities" name="1830 XML Data/1830 Cities.xml" />
-			<File type="market" name="1830 XML Data/1830 Market.xml" />
-			<File type="tileSet" name="1830 XML Data/1830 TileSet.xml" />
+			<File type="map" name="1830/1830-Map.xml" />
+			<File type="companies" name="1830/1830-Companies.xml" />
+			<File type="cities" name="1830/1830-Cities.xml" />
+			<File type="market" name="1830/1830-Market.xml" />
+			<File type="tileSet" name="1830/1830-TileSet.xml" />
 		</Files>
 	</GameInfo>
 	<GameInfo id="2" name="1835" minPlayers="3" maxPlayers="7"
