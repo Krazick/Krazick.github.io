@@ -486,7 +486,7 @@
 			<File type="tileSet" name="1830+/1830+-TileSet.xml" />
 		</Files>
 	</GameInfo>
-	<GameInfo id="6" name="1830TESTU" minPlayers="2" maxPlayers="6" status="Play Test ONLY" 
+	<GameInfo id="6" name="1830TEST" minPlayers="2" maxPlayers="6" status="Play Test ONLY" 
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011" testGraphs="true"
