@@ -57,8 +57,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9807" type="Red Off Board" fixed="true">
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="2" exit="99" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="split" />
