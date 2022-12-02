@@ -4,9 +4,9 @@
 		<Track enter="0" exit="3" gauge="FERRY" />
 	</Tile>
 	<Tile number="9801" type="Red Off Board" fixed="true">
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="40" layout="split" />
@@ -14,8 +14,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9802" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="split" />
@@ -23,7 +23,7 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9803" type="Red Off Board" fixed="true">
-		<Track enter="4" exit="99" gauge="NORMAL" />
+		<Track enter="4" exit="94" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="split" />
@@ -31,8 +31,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9804" type="Red Off Board" fixed="true">
-		<Track enter="4" exit="99" gauge="NORMAL" />
-		<Track enter="5" exit="99" gauge="NORMAL" />
+		<Track enter="4" exit="94" gauge="NORMAL" />
+		<Track enter="5" exit="95" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="split" />
@@ -40,7 +40,7 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9805" type="Red Off Board" fixed="true">
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="split" />
@@ -48,8 +48,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9806" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="split" />
@@ -66,7 +66,7 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9809" type="Red Off Board" fixed="true">
-		<Track enter="5" exit="99" gauge="NORMAL" />
+		<Track enter="5" exit="95" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
@@ -74,8 +74,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9810" type="Red Off Board" fixed="true">
-		<Track enter="4" exit="99" gauge="NORMAL" />
-		<Track enter="5" exit="99" gauge="NORMAL" />
+		<Track enter="4" exit="94" gauge="NORMAL" />
+		<Track enter="5" exit="95" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
@@ -83,8 +83,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9811" type="Red Off Board" fixed="true">
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="2" exit="99" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="14" name="" number="0"
 			type="Destination City">
 		</RevenueCenter>
@@ -96,8 +96,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9812" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
@@ -116,8 +116,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9814" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="17" name="" number="0"
 			type="Destination City">
 		</RevenueCenter>
@@ -129,8 +129,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9815" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="vertical" />
@@ -138,8 +138,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9816" type="Red Off Board" fixed="true">
-		<Track enter="3" exit="99" gauge="NORMAL" />
-		<Track enter="4" exit="99" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
+		<Track enter="4" exit="94" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="vertical" />
@@ -148,9 +148,9 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9817" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
-		<Track enter="4" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
+		<Track enter="4" exit="94" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="vertical" />
@@ -159,7 +159,7 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9818" type="Red Off Board" fixed="true">
-		<Track enter="5" exit="99" gauge="NORMAL" />
+		<Track enter="5" exit="95" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="vertical" />
@@ -177,9 +177,9 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9820" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
-		<Track enter="4" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
+		<Track enter="4" exit="94" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="9" phase="1" value="20" layout="vertical" />
@@ -194,9 +194,9 @@
 			type="Destination City" />
 	</Tile>
 	<Tile number="9821" type="Red Off Board" fixed="true">
-		<Track enter="0" exit="99" gauge="NORMAL" />
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="5" exit="99" gauge="NORMAL" />
+		<Track enter="0" exit="90" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="5" exit="95" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="9" phase="1" value="20" layout="vertical" />
@@ -207,8 +207,8 @@
 			type="Destination City" />
 	</Tile>
 	<Tile number="9822" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="11" phase="1" value="30" layout="vertical" />
@@ -219,8 +219,8 @@
 			type="Destination City" />
 	</Tile>
 	<Tile number="9823" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="6" phase="1" value="40" layout="vertical" />
@@ -231,7 +231,7 @@
 			type="Destination City" />
 	</Tile>
 	<Tile number="9830" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="0" layout="horizontal" />
@@ -240,7 +240,7 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9831" type="Red Off Board" fixed="true">
-		<Track enter="0" exit="99" gauge="NORMAL" />
+		<Track enter="0" exit="90" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="horizontal" />
@@ -249,7 +249,7 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9832" type="Red Off Board" fixed="true">
-		<Track enter="0" exit="99" gauge="NORMAL" />
+		<Track enter="0" exit="90" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="horizontal" />
@@ -258,10 +258,10 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9833" type="Red Off Board" fixed="true">
-		<Track enter="0" exit="99" gauge="NORMAL" />
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="0" exit="90" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="split" />
@@ -636,8 +636,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9989" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="40" layout="vertical" />
@@ -646,8 +646,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9990" type="Red Off Board" fixed="true">
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="2" exit="99" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="17" name="" number="0"
 			type="Destination City">
 			<Revenue location="50" phase="1" value="30" />
@@ -663,8 +663,8 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9992" type="Red Off Board" fixed="true">
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
@@ -677,8 +677,8 @@
 			type="Dead-End Only City" />
 	</Tile>
 	<Tile number="9994" type="Red Off Board" fixed="true">
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="2" exit="99" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="14" name="" number="0"
 			type="Destination City">
 			<Revenue location="50" phase="1" value="30" />
@@ -700,16 +700,16 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9996" type="Red Off Board" fixed="true">
-		<Track enter="1" exit="99" gauge="NORMAL" />
-		<Track enter="2" exit="99" gauge="NORMAL" />
-		<Track enter="3" exit="99" gauge="NORMAL" />
+		<Track enter="1" exit="91" gauge="NORMAL" />
+		<Track enter="2" exit="92" gauge="NORMAL" />
+		<Track enter="3" exit="93" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" />
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9997" type="Red Off Board" fixed="true">
-		<Track enter="0" exit="99" gauge="NORMAL" />
+		<Track enter="0" exit="90" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" />
