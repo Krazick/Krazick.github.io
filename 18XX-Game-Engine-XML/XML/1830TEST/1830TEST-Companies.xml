@@ -136,7 +136,7 @@
 	</Share>
 	<Share id="1106" name="Boston &amp; Maine" abbrev="B&amp;M"
 		homeCell1="E23" homeLocation1="21" mustBuyTrain="true" 
-		bgColor="Light Green" fgColor="Black" tokens="2">
+		bgColor="Light Green" fgColor="Black" homeColor="Black" tokens="2">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
@@ -149,7 +149,7 @@
 	</Share>
 	<Share id="1108" name="Eire" abbrev="Erie" homeCell1="E11"
 		homeLocation1="17" homeLocation2="15" bgColor="Gold" fgColor="Black"
-		tokens="3">
+		homeColor="Black" tokens="3">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
