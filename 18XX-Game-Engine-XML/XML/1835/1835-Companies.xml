@@ -36,37 +36,37 @@
 	</Private>
 	<Minor id="1701" name="Bergisch-Markische Bahn" abbrev="1" cost="80"
 		homeCell1="H2" homeLocation1="15" upgradeID="1810" upgradePercentage="5"
-		bgColor="Black" fgColor="White" tokens="1">
+		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
 	<Minor id="1702" name="Berline-Potsdamer Bahn" abbrev="2" cost="170"
 		homeCell1="E19" homeLocation1="6" upgradeID="1810" upgradePercentage="10"
-		bgColor="Black" fgColor="White" tokens="1">
+		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
 	<Minor id="1703" name="Magdeburger-Bahn" abbrev="3" cost="80"
 		homeCell1="F14" homeLocation1="9" upgradeID="1810" upgradePercentage="5"
-		bgColor="Black" fgColor="White" tokens="1">
+		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
 	<Minor id="1704" name="Koln-Mindener Bahn" abbrev="4" cost="160"
 		homeCell1="G5" homeLocation1="12" upgradeID="1810" upgradePercentage="10"
-		bgColor="Black" fgColor="White" tokens="1">
+		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
 	<Minor id="1705" name="Berlin-Stettiner Bahn" abbrev="5" cost="80"
 		homeCell1="E19" homeLocation1="20" upgradeID="1810" upgradePercentage="5"
-		bgColor="Black" fgColor="White" tokens="1">
+		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
 	<Minor id="1706" name="Altona-Kiel Bahn" abbrev="6" cost="80"
 		homeCell1="C11" homeLocation1="7" upgradeID="1810" upgradePercentage="5"
-		bgColor="Black" fgColor="White" tokens="1">
+		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
