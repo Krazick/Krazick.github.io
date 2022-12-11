@@ -207,7 +207,7 @@
 		bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Southern Ontario, Canada" producers="Mayfair Games (US)"
 		releaseDate="1995" privates="true" minors="false" coals="false" shares="true" 
-		bankPoolShareLimit="5" playerShareLimit="6" loans="true">
+		bankPoolShareLimit="5" playerShareLimit="6" loans="true" loanAmount="100" loanInterest="10">
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="500" certificateLimit="20" />
 			<Player numPlayers="4" startingCash="375" certificateLimit="16" />
