@@ -7,6 +7,7 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Avalon Hill / Hasbro (US)" releaseDate="1986"
+		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" coals="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -206,7 +207,9 @@
 		status="IN PROGRESS"
 		bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Southern Ontario, Canada" producers="Mayfair Games (US)"
-		releaseDate="1995" privates="true" minors="false" coals="false" shares="true" 
+		releaseDate="1995" 
+		firstTokenCost="40" laterTokenCost="100"
+		privates="true" minors="false" coals="false" shares="true" 
 		bankPoolShareLimit="5" playerShareLimit="6" loans="true" loanAmount="100" loanInterest="10">
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="500" certificateLimit="20" />
@@ -324,6 +327,7 @@
 			status="BROKEN"
 		maxPlayers="6" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Mississippi Valley, USA" producers="Mayfair Games (US)" releaseDate="1995"
+		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" coals="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		
 		<Variants>
@@ -407,6 +411,7 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
+		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" coals="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -489,7 +494,8 @@
 	<GameInfo id="6" name="1830TEST" minPlayers="2" maxPlayers="6" status="Play Test ONLY" 
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
-		producers="Mayfair" releaseDate="2011" testGraphs="true"
+		producers="Mayfair" releaseDate="2011"
+		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" coals="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
