@@ -102,82 +102,82 @@
 			allowedOwners="IPO,Player,Share" />
 	</Private>
 	<Share id="1101" name="Pennsylvania" abbrev="PRR" homeCell1="H12"
-		homeLocation1="14" bgColor="Dark Green" fgColor="White" tokens="4">
+		homeLocation1="14" bgColor="Dark Green" fgColor="White" tokens="4" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1102" name="Baltimore &amp; Ohio" abbrev="B&amp;O"
 		homeCell1="I15" homeLocation1="21" bgColor="Deep Blue" fgColor="White"
-		tokens="3" closeOnTrainPurchase="1006">
+		tokens="3" tokenType="FixedCost" closeOnTrainPurchase="1006">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1103" name="New York Central" abbrev="NYC" homeCell1="E19"
-		homeLocation1="50" bgColor="Black" fgColor="White" tokens="4">
+		homeLocation1="50" bgColor="Black" fgColor="White" tokens="4" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1104" name="Chesapeake &amp; Ohio" abbrev="C&amp;O"
 		homeCell1="F6" homeLocation1="17" homeCell2="K13" homeLocation2="50" homeType="choice"
-		bgColor="turquoise" fgColor="Black" tokens="3">
+		bgColor="turquoise" fgColor="Black" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1105" name="New York, New Haven &amp; Hartford"
 		abbrev="NYNH" homeCell1="G19" homeLocation1="8" bgColor="Orange"
-		fgColor="Black" tokens="2">
+		fgColor="Black" tokens="2" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1106" name="Boston &amp; Maine" abbrev="B&amp;M"
 		homeCell1="E23" homeLocation1="21" mustBuyTrain="true" 
-		bgColor="Light Green" fgColor="Black" homeColor="Black" tokens="2">
+		bgColor="Light Green" fgColor="Black" homeColor="Black" tokens="2" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1107" name="Canadian Pacific" abbrev="CP" homeCell1="A19"
-		homeLocation1="50" bgColor="Red" fgColor="White" tokens="4">
+		homeLocation1="50" bgColor="Red" fgColor="White" tokens="4" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1108" name="Eire" abbrev="Erie" homeCell1="E11"
 		homeLocation1="17" homeLocation2="15" bgColor="Gold" fgColor="Black"
-		homeColor="Black" tokens="3">
+		homeColor="Black" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1109" name="Reading" abbrev="RDR" homeCell1="H16"
 		homeLocation1="8" bgColor="Black" fgColor="Yellow" 
-		tokens="3" status="INACTIVE" >
+		tokens="3" tokenType="FixedCost" status="INACTIVE" >
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1110" name="Norfolk &amp; Western" abbrev="N&amp;W" homeCell1="L16"
 		homeLocation1="50" bgColor="Maroon" fgColor="Yellow"
-		tokens="3" status="INACTIVE" >
+		tokens="3" tokenType="FixedCost" status="INACTIVE" >
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1111" name="Pere Marquette" abbrev="PMQ" homeCell1="E5"
 		homeLocation1="6" homeLocation2="10" bgColor="Black" fgColor="White"
-		tokens="3" status="INACTIVE" >
+		tokens="3" tokenType="FixedCost" status="INACTIVE" >
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1112" name="Nickle Plate" abbrev="NKP" homeCell1="H4"
 		homeLocation1="14" bgColor="Black" fgColor="White" 
-		tokens="3" status="INACTIVE" >
+		tokens="3" tokenType="FixedCost" status="INACTIVE" >
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />

@@ -63,56 +63,56 @@
 	</Private>
 	<Share id="1501" name="Buffalo, Brantford &amp; Goderich Railway"
 		abbrev="BBG" homeCell1="J15" homeLocation1="50" destination="N17"
-		destinationLocation="12" bgColor="255,102,255" fgColor="Black" tokens="3">
+		destinationLocation="12" bgColor="255,102,255" fgColor="Black" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1502" name="Canadian Air Line Railway" abbrev="CA"
 		homeCell1="D17" homeLocation1="50" destination="H15"
-		destinationLocation="15" bgColor="Red" fgColor="White" tokens="3">
+		destinationLocation="15" bgColor="Red" fgColor="White" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1503" name="Canadian Pacific Railway" abbrev="CPR"
 		homeCell1="M4" homeLocation1="50" destination="N11"
-		destinationLocation="8" bgColor="153,51,204" fgColor="White" tokens="4">
+		destinationLocation="8" bgColor="153,51,204" fgColor="White" tokens="4" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1504" name="Credit Valley Railway" abbrev="CV"
 		homeCell1="N11" homeLocation1="10" destination="I14"
-		destinationLocation="7" bgColor="102,0,102" fgColor="White" tokens="3">
+		destinationLocation="7" bgColor="102,0,102" fgColor="White" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1505" name="Grand Trunk Railway" abbrev="GT"
 		homeCell1="P9" homeLocation1="50" destination="K8"
-		destinationLocation="17" bgColor="51,204,153" fgColor="Black" tokens="4">
+		destinationLocation="17" bgColor="51,204,153" fgColor="Black" tokens="4" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1506" name="Great Western Railway" abbrev="GW"
 		homeCell1="F15" homeLocation1="50" destination="A20"
-		destinationLocation="14" bgColor="153,102,102" fgColor="White" tokens="4">
+		destinationLocation="14" bgColor="153,102,102" fgColor="White" tokens="4" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1507" name="London &amp; Port Sarnia Railway" abbrev="LPS"
 		homeCell1="C14" homeLocation1="50" destination="F17"
-		destinationLocation="17" bgColor="51,204,255" fgColor="Black" tokens="2">
+		destinationLocation="17" bgColor="51,204,255" fgColor="Black" homeColor="Black" tokens="2" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1508" name="Toronto, Grey &amp; Bruce Railway" abbrev="TGB"
 		homeCell1="K8" homeLocation1="50" destination="H5"
-		destinationLocation="17" bgColor="Orange" fgColor="Black" tokens="2">
+		destinationLocation="17" bgColor="Orange" fgColor="Black" tokens="2" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
@@ -120,27 +120,27 @@
 	<Share id="1509" name="Toronto, Hamilton and Buffalo Railway"
 		abbrev="THB" homeCell1="L15" homeLocation1="13" homeLocation2="16"
 		destination="J11" destinationLocation="17" bgColor="204,204,102"
-		fgColor="Black" tokens="2">
+		fgColor="Black" homeColor="Black" tokens="2" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1510" name="Welland Railway" abbrev="WR" homeCell1="O16"
 		homeLocation1="50" destination="L15" destinationLocation="14" bgColor="102,51,0"
-		fgColor="White" tokens="3">
+		fgColor="White" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1511" name="Wellington, Grey &amp; Bruce Railway"
 		abbrev="WGB" homeCell1="J11" homeLocation1="50" destination="F9"
-		destinationLocation="12" bgColor="0,51,204" fgColor="White" tokens="2">
+		destinationLocation="12" bgColor="0,51,204" fgColor="White" tokens="2" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1512" name="Canadian Government Railway" abbrev="CGR"
-		bgColor="Black" fgColor="White" tokens="9" formationPhase="5" formationRequirement="loanDefault">
+		bgColor="Black" fgColor="White" tokens="9" tokenType="FixedCost" formationPhase="5" formationRequirement="loanDefault">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
