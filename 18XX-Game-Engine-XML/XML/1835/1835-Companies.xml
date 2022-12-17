@@ -8,31 +8,54 @@
 		revenue="5" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
+		<Benefits>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1801" certificatePercentage="10" passive="true"/>
+		</Benefits>
 	</Private>
 	<Private id="1602" name="Leipzig-Dresdner Bahn" abbrev="LD"
 		cost="190" revenue="20" special="Free President's of Sachsische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
+		<Benefits>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1802" certificatePercentage="10" passive="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TokenPlacementBenefit" closeOnUse="true" extra="true" mapCell="L14" cost="0" passive="false"/>
+		</Benefits>
 	</Private>
 	<Private id="1603" name="Braunschweigische Bahn" abbrev="BSG"
 		cost="130" revenue="25" special="Exchange for 10% Share of Prussian">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
+		<Benefits>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.ExchangeBenefit" corporationID="1810" certificatePercentage="10" closeOnUse="true" passive="false"/>
+		</Benefits>
 	</Private>
 	<Private id="1604" name="Hannoversche Bahn" abbrev="Han" cost="160"
 		revenue="30" special="Exchange for 10% Share of Prussian">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
+		<Benefits>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.ExchangeBenefit" corporationID="1810" certificatePercentage="10" closeOnUse="true" passive="false"/>
+		</Benefits>
 	</Private>
 	<Private id="1605" name="Ostbayerische Bahn" abbrev="OB" cost="120"
 		revenue="10" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
+		<Benefits>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1801" certificatePercentage="10" passive="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="M15" cost="0" passive="false" closeOnUse="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="M17" cost="0" passive="false" closeOnUse="true"/>
+		</Benefits>
 	</Private>
 	<Private id="1606" name="Pfalzbahnen" abbrev="Pf" cost="150"
 		revenue="15" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
+		<Benefits>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1801" certificatePercentage="10" passive="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="J6" cost="0" passive="false" closeOnUse="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TokenPlacementBenefit" closeOnUse="true" extra="true" mapCell="J6" cost="0" passive="false"/>
+		</Benefits>
 	</Private>
 	<Minor id="1701" name="Bergisch-Markische Bahn" abbrev="1" cost="80"
 		homeCell1="H2" homeLocation1="15" upgradeID="1810" upgradePercentage="5"
@@ -79,7 +102,7 @@
 	</Share>
 	<Share id="1802" name="Sachsische Eisenbahn" abbrev="SX" startPrice="3,2"
 		homeCell1="H16" homeLocation1="14" bgColor="Red" fgColor="White"
-		tokens="3" tokenType="RangeCost">
+		tokens="3" tokenType="RangeCost" closeOnTrainPurchase="1602">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
