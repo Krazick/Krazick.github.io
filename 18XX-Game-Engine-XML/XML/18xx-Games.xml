@@ -313,7 +313,7 @@
 			<Train name="6" order="5" revenueCenters="6" quantity="2" price="700"
 				onFirst="6" triggerPhase="5.1" rust="3" tileInfo="Grey" />
 			<Train name="Diesel" order="6" revenueCenters="unlimited" quantity="6"
-				price="1100" triggerPhase="6.1" discountPrice="750" tradeInTrain="4,5,6" />
+				price="1100" rust="4" triggerPhase="6.1" discountPrice="750" tradeInTrain="4,5,6" />
 		</Trains>
 		<Files>
 			<File type="map" name="1856/1856-Map.xml" />
