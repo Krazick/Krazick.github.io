@@ -109,7 +109,9 @@
 		<Track enter="1" exit="3" gauge="NORMAL" />
 		<Track enter="2" exit="3" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="12" name="" number="0"
-			type="Destination City">
+			type="Destination City" />
+		<RevenueCenter id="-1" location="-1" name="" number="0"
+			type="Run Through City">
 			<Revenue location="29" phase="1" value="30" layout="vertical" />
 			<Revenue location="29" phase="4" value="50" layout="vertical" />
 			<Revenue location="29" phase="6" value="40" layout="vertical" />
