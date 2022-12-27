@@ -2,23 +2,23 @@
 <TileManifest game="1856" variant="Normal" direction="NS">
 	<TileSet color="Yellow">
 		<Tile number="1" quantity="1" />
-			<Upgrade toNumber="14" rotations="0" phase="5,6">
+			<Upgrade toNumber="14" rotations="0" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		<Tile number="2" quantity="1" />
-			<Upgrade toNumber="15" rotations="3" phase="5,6">
+			<Upgrade toNumber="15" rotations="3" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		<Tile number="3" quantity="3" />
-			<Upgrade toNumber="5" rotations="4" phase="5,6">
+			<Upgrade toNumber="5" rotations="4" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
-			<Upgrade toNumber="7" rotations="4" phase="5,6" />
+			<Upgrade toNumber="7" rotations="4" phases="5,6" />
 		<Tile number="4" quantity="3" />
-			<Upgrade toNumber="57" rotations="1" phase="5,6">
+			<Upgrade toNumber="57" rotations="1" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
-			<Upgrade toNumber="9" rotations="0" phase="5,6" />
+			<Upgrade toNumber="9" rotations="0" phases="5,6" />
 		<Tile number="5" quantity="2">
 			<Upgrade toNumber="14" rotations="2,5">
 				<RevenueCenter from="50" to="50" />
@@ -62,11 +62,11 @@
 			<Upgrade toNumber="27" rotations="0,3" />
 		</Tile>
 		<Tile number="55" quantity="1" />
-			<Upgrade toNumber="14" rotations="2,5" phase="5,6">
+			<Upgrade toNumber="14" rotations="2,5" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		<Tile number="56" quantity="1" />
-			<Upgrade toNumber="15" rotations="3" phase="5,6">
+			<Upgrade toNumber="15" rotations="3" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		<Tile number="57" quantity="4">
@@ -78,10 +78,10 @@
 			</Upgrade>
 		</Tile>
 		<Tile number="58" quantity="3" />
-			<Upgrade toNumber="57" rotations="3" phase="5,6">
+			<Upgrade toNumber="57" rotations="3" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
-			<Upgrade toNumber="8" rotations="3" phase="5,6" />
+			<Upgrade toNumber="8" rotations="3" phases="5,6" />
 		<Tile number="69" quantity="1" />
 	</TileSet>
 	<TileSet color="Green">
@@ -255,8 +255,8 @@
 		<Tile number="127" quantity="1" />
 	</TileSet>
 	<TileSet color="Grey">
-		<Tile number="123" quantity="1" />
-		<Tile number="124" quantity="1" />
+		<Tile number="123" quantity="1"  merge="true" />
+		<Tile number="124" quantity="1"  merge="true" />
 	</TileSet>
 	<TileSet color="Other">
 		<Tile number="9809" quantity="1" />

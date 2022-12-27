@@ -250,7 +250,7 @@
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
-		<Tile number="209" quantity="1">
+		<Tile number="209" quantity="1" merge="true" >
 			<Upgrade toNumber="220" rotations="0">
 				<BaseCityName value="Berlin" />
 				<RevenueCenter from="50" to="50" />
@@ -310,7 +310,7 @@
 		<Tile number="218" quantity="2" />
 		<Tile number="219" quantity="2" />
 		<Tile number="220" quantity="1" />
-		<Tile number="221" quantity="1" />
+		<Tile number="221" quantity="1" merge="true" />
 	</TileSet>
 	<TileSet color="Other">
 		<Tile number="9830" quantity="2" />
