@@ -19,7 +19,7 @@
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 			<Upgrade toNumber="9" rotations="0" phases="5,6" />
-		<Tile number="5" quantity="2">
+		<Tile number="5" quantity="2" override="true">
 			<Upgrade toNumber="14" rotations="2,5">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
@@ -35,7 +35,7 @@
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
-		<Tile number="7" quantity="7">
+		<Tile number="7" quantity="7" override="true">
 			<Upgrade toNumber="18" rotations="4" />
 			<Upgrade toNumber="26" rotations="0" />
 			<Upgrade toNumber="27" rotations="5" />
@@ -52,7 +52,7 @@
 			<Upgrade toNumber="28" rotations="0" />
 			<Upgrade toNumber="29" rotations="4" />
 		</Tile>
-		<Tile number="9" quantity="13">
+		<Tile number="9" quantity="13" override="true">
 			<Upgrade toNumber="18" rotations="0,3" />
 			<Upgrade toNumber="19" rotations="0,3" />
 			<Upgrade toNumber="20" rotations="0,2,3,5" />
@@ -69,7 +69,7 @@
 			<Upgrade toNumber="15" rotations="3" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
-		<Tile number="57" quantity="4">
+		<Tile number="57" quantity="4" override="true">
 			<Upgrade toNumber="14" rotations="2,4,5,1">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
@@ -85,7 +85,7 @@
 		<Tile number="69" quantity="1" />
 	</TileSet>
 	<TileSet color="Green">
-		<Tile number="14" quantity="4">
+		<Tile number="14" quantity="4" override="true">
 			<Upgrade toNumber="63" rotations="0">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
@@ -94,7 +94,7 @@
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
-		<Tile number="15" quantity="4">
+		<Tile number="15" quantity="4" override="true">
 			<Upgrade toNumber="63" rotations="0">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
@@ -255,8 +255,8 @@
 		<Tile number="127" quantity="1" />
 	</TileSet>
 	<TileSet color="Grey">
-		<Tile number="123" quantity="1"  merge="true" />
-		<Tile number="124" quantity="1"  merge="true" />
+		<Tile number="123" quantity="1"  override="true" />
+		<Tile number="124" quantity="1"  override="true" />
 	</TileSet>
 	<TileSet color="Other">
 		<Tile number="9809" quantity="1" />
