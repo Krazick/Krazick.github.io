@@ -18,10 +18,10 @@
 			<Upgrade toNumber="7" rotations="4" phases="5,6" />
 		</Tile>
 		<Tile number="4" quantity="3">
-			<Upgrade toNumber="57" rotations="1" phases="5,6">
+			<Upgrade toNumber="57" rotations="1,4" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
-			<Upgrade toNumber="9" rotations="0" phases="5,6" />
+			<Upgrade toNumber="9" rotations="0,3" phases="5,6" />
 		</Tile>
 		<Tile number="5" quantity="2" override="true">
 			<Upgrade toNumber="14" rotations="2,5">
@@ -84,7 +84,7 @@
 			</Upgrade>
 		</Tile>
 		<Tile number="58" quantity="3">
-			<Upgrade toNumber="57" rotations="3" phases="5,6">
+			<Upgrade toNumber="6" rotations="3" phases="5,6">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 			<Upgrade toNumber="8" rotations="3" phases="5,6" />
