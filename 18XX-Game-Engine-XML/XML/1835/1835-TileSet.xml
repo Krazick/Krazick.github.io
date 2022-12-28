@@ -79,7 +79,7 @@
 			<Upgrade toNumber="28" rotations="0" />
 			<Upgrade toNumber="29" rotations="5" />
 		</Tile>
-		<Tile number="8" quantity="16">
+		<Tile number="8" quantity="16" override="">
 			<Upgrade toNumber="16" rotations="0,5" />
 			<Upgrade toNumber="19" rotations="5" />
 			<Upgrade toNumber="23" rotations="0" />

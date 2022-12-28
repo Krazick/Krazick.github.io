@@ -31,7 +31,7 @@
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
-		<Tile number="6" quantity="2">
+		<Tile number="6" quantity="2" override="true">
 			<Upgrade toNumber="14" rotations="0,3">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
@@ -46,7 +46,7 @@
 			<Upgrade toNumber="28" rotations="0" />
 			<Upgrade toNumber="29" rotations="5" />
 		</Tile>
-		<Tile number="8" quantity="13">
+		<Tile number="8" quantity="13" override="true">
 			<Upgrade toNumber="16" rotations="0,5" />
 			<Upgrade toNumber="17" rotations="0,3" />
 			<Upgrade toNumber="19" rotations="5" />
