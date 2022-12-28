@@ -98,7 +98,7 @@
 	<Tile number="9812" type="Red Off Board" fixed="true">
 		<Track enter="2" exit="92" gauge="NORMAL" />
 		<Track enter="3" exit="93" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="99" name="" number="0"
+		<RevenueCenter id="-1" location="99" name="Sarina" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
 			<Revenue location="50" phase="4" value="50" layout="vertical" />
@@ -108,23 +108,19 @@
 		<Track enter="1" exit="2" gauge="NORMAL" />
 		<Track enter="1" exit="3" gauge="NORMAL" />
 		<Track enter="2" exit="3" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="6" name="" number="0"
-			type="Destination City" />
-		<RevenueCenter id="-1" location="12" name="" number="0"
-			type="Run Through City">
-			<Revenue location="29" phase="1" value="30" layout="vertical" />
-			<Revenue location="29" phase="4" value="50" layout="vertical" />
-			<Revenue location="29" phase="6" value="40" layout="vertical" />
+		<RevenueCenter id="-1" location="6" type="Destination City" />
+		<RevenueCenter id="-1" location="99" name="Goderich" type="Run Through City">
+			<Revenue location="50" phase="1" value="30" layout="vertical" />
+			<Revenue location="50" phase="4" value="50" layout="vertical" />
+			<Revenue location="50" phase="6" value="40" layout="vertical" />
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9814" type="Red Off Board" fixed="true">
 		<Track enter="2" exit="92" gauge="NORMAL" />
 		<Track enter="3" exit="93" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="17" name="" number="0"
-			type="Destination City">
+		<RevenueCenter id="-1" location="17" type="Destination City">
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="99" name="" number="0"
-			type="Dead-End Only City">
+		<RevenueCenter id="-1" location="99" name="Lake Huron" type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
 			<Revenue location="50" phase="4" value="50" layout="vertical" />
 			<Revenue location="50" phase="6" value="40" layout="vertical" />
@@ -133,8 +129,7 @@
 	<Tile number="9815" type="Red Off Board" fixed="true">
 		<Track enter="2" exit="92" gauge="NORMAL" />
 		<Track enter="3" exit="93" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="99" name="" number="0"
-			type="Dead-End Only City">
+		<RevenueCenter id="-1" location="99" name="Georgian Bay" type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="vertical" />
 			<Revenue location="50" phase="4" value="30" layout="vertical" />
 		</RevenueCenter>
