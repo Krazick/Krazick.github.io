@@ -109,18 +109,17 @@
 			<Revenue location="50" phase="4" value="50" layout="vertical" />
 			<Revenue location="50" phase="6" value="40" layout="vertical" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="26" type="Destination City" />
+		<RevenueCenter id="-1" location="17" type="Destination City" />
 	</Tile>
 	<Tile number="9814" type="Red Off Board" fixed="true">
 		<Track enter="2" exit="92" gauge="NORMAL" />
 		<Track enter="3" exit="93" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="17" type="Destination City">
-		</RevenueCenter>
 		<RevenueCenter id="-1" location="99" name="Lake Huron" type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
 			<Revenue location="50" phase="4" value="50" layout="vertical" />
 			<Revenue location="50" phase="6" value="40" layout="vertical" />
 		</RevenueCenter>
+		<RevenueCenter id="-1" location="17" type="Destination City"></RevenueCenter>
 	</Tile>
 	<Tile number="9815" type="Red Off Board" fixed="true">
 		<Track enter="2" exit="92" gauge="NORMAL" />
