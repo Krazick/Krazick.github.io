@@ -56,7 +56,7 @@
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="50" name="" number="1"
 			type="Single City">
-			<Revenue location="12" phase="0" value="20" />
+			<Revenue location="8" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
 	<Tile number="7" type="Yellow">
@@ -88,7 +88,7 @@
 		<Track enter="2" exit="25" gauge="OVERPASS" />
 		<Track enter="2" exit="25" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="25" name="" type="Small Town">
-			<Revenue location="21" phase="0" value="10" />
+			<Revenue location="14" phase="0" value="10" />
 		</RevenueCenter>
 		<RevenueCenter id="-1" location="33" name="" type="Small Town">
 			<Revenue location="-1" phase="0" value="10" />
