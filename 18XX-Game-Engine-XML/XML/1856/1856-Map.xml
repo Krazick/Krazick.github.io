@@ -195,10 +195,10 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<RevenueCenter id="12" location="15" name="" number="1"
-				type="Destination City" />
 			<RevenueCenter id="12" location="50" name="" number="1"
 				type="Single City" />
+			<RevenueCenter id="12" location="15" name="" number="1"
+				type="Destination City" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
