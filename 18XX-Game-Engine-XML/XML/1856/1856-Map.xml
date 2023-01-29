@@ -259,10 +259,10 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<RevenueCenter id="15" location="17" name="" number="1"
-				type="Destination City" />
 			<RevenueCenter id="15" location="50" name="" number="1"
 				type="Single City" />
+			<RevenueCenter id="15" location="17" name="" number="1"
+				type="Destination City" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
@@ -296,10 +296,10 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<RevenueCenter id="19" location="17" name="" number="1"
-				type="Destination City" />
 			<RevenueCenter id="19" location="50" name="" number="1"
 				type="Single City" />
+			<RevenueCenter id="19" location="17" name="" number="1"
+				type="Destination City" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
@@ -352,12 +352,12 @@
 			<Terrain category="base" type="Clear" />
 			<Terrain category="optional" cost="40" location="12" type="Hill" />
 			<TileName name="OO" location="15" />
-			<RevenueCenter id="21" location="14" name="" number="1"
-				type="Destination City" />
 			<RevenueCenter id="21" location="13" name="" number="1"
 				type="Single City" />
 			<RevenueCenter id="21" location="16" name="" number="1"
 				type="Single City" />
+			<RevenueCenter id="21" location="14" name="" number="1"
+				type="Destination City" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
@@ -432,12 +432,12 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<TileName location="50" name="TORONTO" />
-			<RevenueCenter id="25" location="8" name="" number="1"
-				type="Destination City" />
 			<RevenueCenter id="25" location="7" name="" number="1"
 				type="Single City" />
 			<RevenueCenter id="25" location="10" name="" number="1"
 				type="Single City" />
+			<RevenueCenter id="25" location="8" name="" number="1"
+				type="Destination City" />
 			<Tile number="9995" orientation="0" starting="TRUE" />
 		</MapCell>
 		<MapCell>
@@ -450,12 +450,12 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<TileName name="OO" location="15" />
-			<RevenueCenter id="26" location="12" name="" number="1"
-				type="Destination City" />
 			<RevenueCenter id="26" location="13" name="" number="1"
 				type="Single City" />
 			<RevenueCenter id="26" location="16" name="" number="1"
 				type="Single City" />
+			<RevenueCenter id="26" location="12" name="" number="1"
+				type="Destination City" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
