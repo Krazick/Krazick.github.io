@@ -9,6 +9,14 @@
 		producers="Avalon Hill / Hasbro (US)" releaseDate="1986"
 		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
+		<Capitalizations>
+			<Capitalization availableTrain="2" level="FULL" />
+			<Capitalization availableTrain="3" level="FULL" />
+			<Capitalization availableTrain="4" level="FULL" />
+			<Capitalization availableTrain="5" level="FULL" />
+			<Capitalization availableTrain="6" level="FULL" />
+			<Capitalization availableTrain="Diesel" level="FULL" />
+		</Capitalizations>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
 				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
@@ -88,6 +96,14 @@
 		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany)"
 		producers="Hans im Gluck (Germany)" location="Germany" releaseDate="1990"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
+		<Capitalizations>
+			<Capitalization availableTrain="2" level="FULL" />
+			<Capitalization availableTrain="3" level="FULL" />
+			<Capitalization availableTrain="4" level="FULL" />
+			<Capitalization availableTrain="5" level="FULL" />
+			<Capitalization availableTrain="6" level="FULL" />
+			<Capitalization availableTrain="Diesel" level="FULL" />
+		</Capitalizations>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
 			<Player numPlayers="4" startingCash="475" certificateLimit="15" />
@@ -211,6 +227,14 @@
 		firstTokenCost="40" laterTokenCost="100" noTouchPass="true"
 		privates="true" minors="false" shares="true" 
 		bankPoolShareLimit="5" playerShareLimit="6" loans="true" loanAmount="100" loanInterest="10">
+		<Capitalizations>
+			<Capitalization availableTrain="2" level="Incremental_5" />
+			<Capitalization availableTrain="3" level="Incremental_5" />
+			<Capitalization availableTrain="4" level="Incremental_5" />
+			<Capitalization availableTrain="5" level="Incremental_10" />
+			<Capitalization availableTrain="6" level="FULL" />
+			<Capitalization availableTrain="Diesel" level="FULL" />
+		</Capitalizations>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="500" certificateLimit="20" />
 			<Player numPlayers="4" startingCash="375" certificateLimit="16" />
@@ -283,17 +307,17 @@
 		</PlayerInfo>
 		<Phases>
 			<Phase name="1" subName="1" rounds="1" tiles="Yellow"
-				trainLimit="4" offBoard="Low" capitalization="min_Shares_Sold_5"
+				trainLimit="4" offBoard="Low" capitalization="Incremental_5"
 				loansAllowed="true" minToFloat="2" minToFloatLast="3" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyTrain="true" canBuyPrivate="true" trainLimit="4" offBoard="Low" 
-				loansAllowed="true" minToFloat="3" minToFloatLast="4" capitalization="min_Shares_Sold_5" />
+				loansAllowed="true" minToFloat="3" minToFloatLast="4" capitalization="Incremental_5" />
 			<Phase name="3" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyTrain="true" canBuyPrivate="true" trainLimit="3" offBoard="Low" 
-				loansAllowed="true" minToFloat="4" minToFloatLast="5" capitalization="min_Shares_Sold_5" />
+				loansAllowed="true" minToFloat="4" minToFloatLast="5" capitalization="Incremental_5" />
 			<Phase name="4" subName="1" rounds="3" tiles="Yellow,Green,Brown"
 				canBuyTrain="true" closePrivate="true" trainLimit="2" offBoard="Mid" 
-				loansAllowed="true" minToFloat="5" minToFloatLast="6" capitalization="FULL" />
+				loansAllowed="true" minToFloat="5" minToFloatLast="6" capitalization="Incremental_10" />
 			<Phase name="5" subName="1" rounds="3" tiles="Yellow,Green,Brown,Grey"
 				canBuyTrain="true" trainLimit="2" offBoard="Mid" 
 				loansAllowed="false" minToFloat="6" capitalization="FULL" />
@@ -329,7 +353,14 @@
 		location="Mississippi Valley, USA" producers="Mayfair Games (US)" releaseDate="1995"
 		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
-		
+		<Capitalizations>
+			<Capitalization availableTrain="2" level="FULL" />
+			<Capitalization availableTrain="3" level="FULL" />
+			<Capitalization availableTrain="4" level="FULL" />
+			<Capitalization availableTrain="5" level="FULL" />
+			<Capitalization availableTrain="6" level="FULL" />
+			<Capitalization availableTrain="Diesel" level="FULL" />
+		</Capitalizations>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="$400 Finish">
 				<VariantEffect action="End Game on Stock Cell" cellName="A21" class="ge18xx.game.variants.VariantEffect" id="101" name="$400 Finish" />
@@ -413,6 +444,14 @@
 		producers="Mayfair" releaseDate="2011"
 		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
+		<Capitalizations>
+			<Capitalization availableTrain="2" level="FULL" />
+			<Capitalization availableTrain="3" level="FULL" />
+			<Capitalization availableTrain="4" level="FULL" />
+			<Capitalization availableTrain="5" level="FULL" />
+			<Capitalization availableTrain="6" level="FULL" />
+			<Capitalization availableTrain="Diesel" level="FULL" />
+		</Capitalizations>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
 				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
@@ -497,6 +536,14 @@
 		producers="Mayfair" releaseDate="2011"
 		firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
+		<Capitalizations>
+			<Capitalization availableTrain="2" level="FULL" />
+			<Capitalization availableTrain="3" level="FULL" />
+			<Capitalization availableTrain="4" level="FULL" />
+			<Capitalization availableTrain="5" level="FULL" />
+			<Capitalization availableTrain="6" level="FULL" />
+			<Capitalization availableTrain="Diesel" level="FULL" />
+		</Capitalizations>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
 				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
