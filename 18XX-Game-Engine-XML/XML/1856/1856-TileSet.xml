@@ -187,8 +187,8 @@
 			<Upgrade toNumber="67" rotations="1,3">
 				<RevenueCenter from="13" to="6" rotation="1" />
 				<RevenueCenter from="16" to="27" rotation="1" />
-				<RevenueCenter from="13" to="6" rotation="3" />
-				<RevenueCenter from="16" to="27" rotation="3" />
+				<RevenueCenter from="13" to="27" rotation="3" />
+				<RevenueCenter from="16" to="6" rotation="3" />
 			</Upgrade>
 			<Upgrade toNumber="68" rotations="1">
 				<RevenueCenter from="13" to="6" rotation="1" />
