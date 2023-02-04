@@ -352,7 +352,7 @@
 			<Terrain category="base" type="Clear" />
 			<Terrain category="optional" cost="40" location="12" type="Hill" />
 			<TileName name="OO" location="15" />
-			<RevenueCenter id="21" location="14" name="" number="1"
+			<RevenueCenter id="21" location="8" name="" number="1"
 				type="Destination City" abbrev="WR" />
 			<RevenueCenter id="21" location="13" name="" number="1"
 				type="Single City" />
