@@ -12,10 +12,7 @@
 			<Terrain category="base" type="Off Board Green" />
 		</MapCell>
 		<MapCell>
-			<Terrain category="base" type="Off Board Red" />
-			<RevenueCenter id="1" location="50" name="" number="0"
-				type="Dead-End Only City" />
-			<Tile number="9993" orientation="0" starting="TRUE" />
+			<Terrain category="base" type="Off Board Green" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Off Board Green" />
