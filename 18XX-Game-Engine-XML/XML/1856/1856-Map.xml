@@ -26,7 +26,7 @@
 		<MapCell>
 			<Terrain category="base" type="Off Board Red" />
 			<RevenueCenter id="2" location="14" name="" number="0"
-				type="Destination City" />
+				type="Destination City" abbrev="GW" /> 
 			<RevenueCenter id="2" location="16" name="" number="0"
 				type="Dead-End Only City" />
 			<Tile number="9811" orientation="0" starting="TRUE" />
@@ -113,7 +113,7 @@
 			<Terrain category="base" type="Off Board Red" />
 			<Terrain category="optional" location="13" type="Port" />
 			<RevenueCenter id="17" location="12" name="" number="0"
-				type="Destination City" />
+				type="Destination City" abbrev="WGB" />
 			<Tile number="9813" orientation="0" starting="TRUE" />
 		</MapCell>
 		<MapCell>
@@ -136,7 +136,7 @@
 			<Terrain category="optional" location="15" type="Port" />
 			<TileName name="L" location="16" />
 			<RevenueCenter id="9" location="17" name="" number="1"
-				type="Destination City" />
+				type="Destination City" abbrev="LPS" />
 			<RevenueCenter id="9" location="50" name="" number="1"
 				type="Single City" />
 		</MapCell>
@@ -168,7 +168,7 @@
 			<Terrain category="base" type="Off Board Red" />
 			<Terrain category="optional" location="7" type="Port" />
 			<RevenueCenter id="11" location="17" name=""
-				type="Destination City" />
+				type="Destination City" abbrev="TGB" />
 			<RevenueCenter id="11" location="16" name=""
 				type="Dead-End Only City" />
 			<Tile number="9814" orientation="0" starting="TRUE" />
@@ -196,7 +196,7 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<RevenueCenter id="12" location="15" name="" number="1"
-				type="Destination City" />
+				type="Destination City" abbrev="CA"/>
 			<RevenueCenter id="12" location="50" name="" number="1"
 				type="Single City" />
 		</MapCell>
@@ -233,7 +233,7 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<RevenueCenter id="36" location="7" name=""
-				type="Destination City" />
+				type="Destination City" abbrev="CV" />
 			<RevenueCenter id="36" location="9" name="" type="Small Town" />
 			<RevenueCenter id="36" location="6" name="" type="Small Town" />
 		</MapCell>
@@ -260,7 +260,7 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<RevenueCenter id="15" location="17" name="" number="1"
-				type="Destination City" />
+				type="Destination City" abbrev="THB" />
 			<RevenueCenter id="15" location="50" name="" number="1"
 				type="Single City" />
 		</MapCell>
@@ -297,7 +297,7 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<RevenueCenter id="19" location="17" name="" number="1"
-				type="Destination City" />
+				type="Destination City" abbrev="GT" />
 			<RevenueCenter id="19" location="50" name="" number="1"
 				type="Single City" />
 		</MapCell>
@@ -353,7 +353,7 @@
 			<Terrain category="optional" cost="40" location="12" type="Hill" />
 			<TileName name="OO" location="15" />
 			<RevenueCenter id="21" location="14" name="" number="1"
-				type="Destination City" />
+				type="Destination City" abbrev="WR" />
 			<RevenueCenter id="21" location="13" name="" number="1"
 				type="Single City" />
 			<RevenueCenter id="21" location="16" name="" number="1"
@@ -433,7 +433,7 @@
 			<Terrain category="base" type="Clear" />
 			<TileName location="50" name="TORONTO" />
 			<RevenueCenter id="25" location="8" name="" number="1"
-				type="Destination City" />
+				type="Destination City" abbrev="CPR" />
 			<RevenueCenter id="25" location="7" name="" number="1"
 				type="Single City" />
 			<RevenueCenter id="25" location="10" name="" number="1"
@@ -451,7 +451,7 @@
 			<Terrain category="base" type="Clear" />
 			<TileName name="OO" location="15" />
 			<RevenueCenter id="26" location="12" name="" number="1"
-				type="Destination City" />
+				type="Destination City" abbrev="BBG" />
 			<RevenueCenter id="26" location="13" name="" number="1"
 				type="Single City" />
 			<RevenueCenter id="26" location="16" name="" number="1"
