@@ -109,7 +109,7 @@
 		<MapCell>
 			<Terrain category="base" type="Off Board Red" />
 			<Terrain category="optional" location="13" type="Port" />
-			<RevenueCenter id="17" location="12" name="" number="0"
+			<RevenueCenter id="7" location="12" name="" number="0"
 				type="Destination City" abbrev="WGB" />
 			<Tile number="9813" orientation="0" starting="TRUE" />
 		</MapCell>
