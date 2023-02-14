@@ -101,10 +101,10 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9813" type="Red Off Board" fixed="true">
-		<Track enter="1" exit="20" gauge="NORMAL" />
-		<Track enter="2" exit="20" gauge="NORMAL" />
-		<Track enter="3" exit="20" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="20" name="Goderich" type="Dot Town">
+		<Track enter="1" exit="8" gauge="NORMAL" />
+		<Track enter="2" exit="8" gauge="NORMAL" />
+		<Track enter="3" exit="8" gauge="NORMAL" />
+		<RevenueCenter id="-1" location="8" name="Goderich" type="Dot Town">
 			<Revenue location="50" phase="1" value="30" layout="vertical" />
 			<Revenue location="50" phase="4" value="50" layout="vertical" />
 			<Revenue location="50" phase="6" value="40" layout="vertical" />
