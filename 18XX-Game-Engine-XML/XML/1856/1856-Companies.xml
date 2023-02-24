@@ -17,7 +17,7 @@
 		revenue="10" homeCell1="I12" homeLocation1="20"
 		homeLocation2="23" special="Tile and Token Placement">
 		<Benefits>
-			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" tilePlacement="true" mapCell="I12" cost="0" closeOnUse="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" tilePlacement="true" mapCell="I12" cost="0" closeOnUse="false"/>
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TokenPlacementBenefit" tokenPlacment="true" mapCell="I12" cost="0" sameTurn="true" closeOnUse="true"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
