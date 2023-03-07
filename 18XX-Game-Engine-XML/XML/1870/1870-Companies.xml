@@ -51,9 +51,9 @@
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
 	</Private>
-	<Private id="1206" name="Missouri-Kansas-Texas Railroad" abbrev="KATY" cost="160" 
+	<Private id="1206" name="Missouri-Kansas-Texas Railroad" abbrev="MKT" cost="160" 
 		note="Comes with a 10% share of the Missouri-Kanasas-Texas Railroad"
-		revenue="20" special="Free Share of KATY">
+		revenue="20" special="Free Share of MKT">
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" freeShareID="1306" freeSharePercentage="10"/>
 		</Benefits>
@@ -95,7 +95,7 @@
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1306" name="Missouri-Kansas-Texas Railroad" abbrev="KATY"
+	<Share id="1306" name="Missouri-Kansas-Texas Railroad" abbrev="MKT"
 		homeCell1="B11" homeLocation1="17" destination="N1"
 		destinationLocation="13" bgColor="51,153,102" fgColor="Black" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
