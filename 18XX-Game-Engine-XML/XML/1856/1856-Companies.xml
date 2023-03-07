@@ -48,6 +48,7 @@
 		special="Buffalo Bonus">
 		<Benefits>
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.FreeLicenseBenefit" corporationID="1405" mapCell="P17,P19" value="10" passive="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.PassiveTokenBenefit" corporationID="1405" mapCell="P17,P19" value="10" passive="true"/>
 			<Benefit actorType="Share Company" allActors="true" class="ge18xx.company.benefit.LicenseBenefit" license="true" licenseCost="50" mapCell="P17,P19" value="10"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
@@ -58,6 +59,7 @@
 		revenue="20" homeCell1="A14" homeLocation1="50" special="Sarnia Bonus">
 		<Benefits>
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.FreeLicenseBenefit" corporationID="1406" mapCell="B13" value="10" passive="true"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.PassiveTokenBenefit" corporationID="1406" mapCell="B13" value="10" passive="true"/>
 			<Benefit actorType="Share Company" allActors="true" class="ge18xx.company.benefit.LicenseBenefit" license="true" licenseCost="50" mapCell="B13" value="10"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
