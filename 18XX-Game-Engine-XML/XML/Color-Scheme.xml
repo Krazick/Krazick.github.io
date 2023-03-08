@@ -9,7 +9,7 @@
 		<Terrain id="5" type="Off Board Gray" color="102,102,102" />
 		<Terrain id="6" type="Off Board Black" color="0,0,0" />
 		<Terrain id="7" type="Off Board Green" color="100,166,80" />
-		<Terrain id="8" type="" color="0,0,0" />
+		<Terrain id="8" type="Off Board XXX" color="0,0,0" />
 		<Terrain id="9" type="Thick Border" color="255,255,0" />
 		<Terrain id="10" type="River" color="0,0,255" />
 		<Terrain id="11" type="Multiple River" color="0,0,255" />
@@ -27,6 +27,11 @@
 		<Terrain id="23" type="Coast" color="0,0,255" />
 		<Terrain id="24" type="Deep Coast" color="0,0,255" />
 		<Terrain id="25" type="Desert" color="0,0,0" />
+		<Terrain id="26" type="Cattle" color="0,0,0" />
+		<Terrain id="27" type="End Route" color="0,0,0" />
+		<Terrain id="28" type="Clear Highlight" color="0,0,0" />
+		<Terrain id="29" type="Bridge" color="0,0,0" />
+		<Terrain id="30" type="Tunnel" color="0,0,0" />
 	</TerrainFeatures>
 	<TileTypes>
 		<TileType id="0" type="No Type" color="192,192,192" />
