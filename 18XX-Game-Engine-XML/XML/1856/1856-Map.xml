@@ -6,6 +6,8 @@
 		<Terrain cost="40" type="River" />
 		<Terrain cost="40" type="Hill" />
 		<Terrain cost="0" type="Port" />
+		<Terrain cost="0" type="Tunnel" />
+		<Terrain cost="0" type="Bridge" />
 	</TerrainCosts>
 	<Row index="0" startCol="6">
 		<MapCell>
@@ -32,6 +34,7 @@
 	<Row index="1" startCol="6">
 		<MapCell>
 			<Terrain category="base" type="Off Board Red" />
+			<Terrain category="optional" location="17" type="Tunnel" />
 			<RevenueCenter id="3" location="16" name="" number="0"
 				type="Dead-End Only City" />
 			<Tile number="9812" orientation="0" starting="TRUE" />
@@ -531,12 +534,14 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Off Board Red" />
+			<Terrain category="optional" location="14" type="Bridge" />
 			<RevenueCenter id="30" location="50" name=""
 				type="Dead-End Only City" />
 			<Tile number="9810" orientation="0" starting="TRUE" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Off Board Red" />
+			<Terrain category="optional" location="14" type="Bridge" />
 			<RevenueCenter id="30" location="50" name=""
 				type="Dead-End Only City" />
 			<Tile number="9809" orientation="0" starting="TRUE" />
