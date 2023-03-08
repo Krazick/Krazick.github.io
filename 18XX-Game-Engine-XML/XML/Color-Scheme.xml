@@ -28,8 +28,8 @@
 		<Terrain id="24" type="Deep Coast" color="0,0,255" />
 		<Terrain id="25" type="Desert" color="0,0,0" />
 		<Terrain id="26" type="Cattle" color="0,0,0" />
-		<Terrain id="27" type="End Route" color="0,0,0" />
-		<Terrain id="28" type="Clear Highlight" color="0,0,0" />
+		<Terrain id="27" type="End Route" color="255,0,0" />
+		<Terrain id="28" type="Start Route" color="0,153,0" />
 		<Terrain id="29" type="Bridge" color="0,0,0" />
 		<Terrain id="30" type="Tunnel" color="0,0,0" />
 	</TerrainFeatures>
