@@ -25,7 +25,7 @@
 		note="This company has a token that may be placed on any city west of the Mississippi river. Cities locateduinb the same hex as any portion of the Mississippi are not eligible for this placement. This increases the value of that city by $10 for the corporation only. Placing the token does not close the company."
 		revenue="10" special="Cattle Token Placement">
 		<Benefits>
-			<Benefit actorType="Corporation" class="ge18xx.company.benefit.CattlePlacementBenefit" tokenType="cattle" tokenPlacement="true" tokenBonus="10" close="false"/>
+			<Benefit actorType="Corporation" class="ge18xx.company.benefit.CattlePlacementBenefit" tokenType="Cattle" tokenPlacement="true" tokenBonus="10" close="false"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -34,9 +34,9 @@
 		note="This company has two tokens. One represents an open port and the other is a closed port. One (but not both) of these tokens may be placed on any city on the gulf cost, or any cityon the Mississippi river south of and including Memphis. For a city to be consider on the Gulf or on the River, it must be in a hex that contains a portion of either. For example, New Orleans is eligible, but the South east red off-board location is not. Either token increases the value of that city for the owning company by $20. The open port token also increases the value of that city for all other companies by $10. If the president of the owning company places the closed port token, the private company is closed. If the open port token is placed, it may be replaced in a later operating round by the closed port token, closing the company. Once placed, however neither token may be moved to a different city. When the company closes at the begining of phase four, the status of the port is fixed; that is if it is open, it may not then be closed."
 		revenue="15" special="Place Open or Closed Port Token">
 		<Benefits>
-			<Benefit actorType="Corporation" class="ge18xx.company.benefit.PortPlacementBenefit" tokenType="openPort" tokenPlacement="true" 
+			<Benefit actorType="Corporation" class="ge18xx.company.benefit.PortPlacementBenefit" tokenType="OpenPort" tokenPlacement="true" 
 				ownerTokenBonus="20" tokenBonus="10" close="false"/>
-			<Benefit actorType="Corporation" class="ge18xx.company.benefit.PortPlacementBenefit" tokenType="closedPort" tokenPlacement="true" 
+			<Benefit actorType="Corporation" class="ge18xx.company.benefit.PortPlacementBenefit" tokenType="ClosedPort" tokenPlacement="true" 
 				ownerTokenBonus="20" close="true"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
