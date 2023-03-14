@@ -75,8 +75,8 @@
 		note="The owner of the C&amp;O Canal Private Company may build on the hexes containing the CC (I1-J12) for a terrain cost of only $20. The company is closed when tiles have been laid on both hexes."
 		revenue="5" homeCell1="I11" homeCell2="J12" homeLocation1="11" homeLocation2="9" special="NONE" mustSell="false" status="INACTIVE" >
 		<Benefits>
-			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="I11" cost="20" passive="false"/>
-			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="I12" cost="20" passive="false"/>
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="I11" cost="20" passive="false" closeOn="both" />
+			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="I12" cost="20" passive="false" closeOn="both" />
 		</Benefits>
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -85,7 +85,7 @@
 		note="No other attributes"
 		revenue="5" homeCell1="J12" homeLocation1="6" homeLocation2="10" special="NONE" mustSell="false" status="INACTIVE" >
 		<Benefits>
-			<Benefit actorType="ShareCompany" class="ge18xx.company.benefit.LicenseBenefit"></Benefit>
+			<Benefit actorType="ShareCompany" class="ge18xx.company.benefit.LicenseBenefit" tokenType="Coal"></Benefit>
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="I12" cost="60" passive="false"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
@@ -95,7 +95,7 @@
 		note="No other attributes"
 		revenue="5" homeCell1="K11" homeLocation1="12" homeLocation2="13" special="NONE" mustSell="false" status="INACTIVE" >
 		<Benefits>
-			<Benefit actorType="ShareCompany" class="ge18xx.company.benefit.LicenseBenefit"></Benefit>
+			<Benefit actorType="ShareCompany" class="ge18xx.company.benefit.LicenseBenefit" tokenType="River" discount="40"></Benefit>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
