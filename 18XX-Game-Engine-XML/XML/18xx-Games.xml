@@ -7,7 +7,7 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Avalon Hill / Hasbro (US)" releaseDate="1986"
-		firstTokenCost="40" laterTokenCost="100"
+		maxRounds="3" firstTokenCost="40" laterTokenCost="100"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -94,7 +94,8 @@
 	<GameInfo id="2" name="1835" minPlayers="3" maxPlayers="7"
 		status="INCOMPLETE"
 		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany)"
-		producers="Hans im Gluck (Germany)" location="Germany" releaseDate="1990"
+		producers="Hans im Gluck (Germany)" location="Germany" 
+		maxRounds="3" releaseDate="1990"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -167,7 +168,8 @@
 	<GameInfo id="3" name="1853" minPlayers="3" maxPlayers="6"
 		status="INCOMPLETE"
 		bankTotal="12500" currencyFormat="£ ###,###" designers="Frances Tresham (UK)"
-		producers="Hartland Trefoil Ltd (UK)" location="India" releaseDate="1989"
+		producers="Hartland Trefoil Ltd (UK)" location="India" 
+		maxRounds="4" optionalOR="true" releaseDate="1989"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="730" certificateLimit="21" />
@@ -220,11 +222,10 @@
 		</Files>
 	</GameInfo>
 	<GameInfo id="4" name="1856" Subtitle="Railroading in Upper Canada from 1856" minPlayers="3" maxPlayers="6"
-		status="IN PROGRESS"
-		bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
+		status="IN PROGRESS" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Southern Ontario, Canada" producers="Mayfair Games (US)"
-		releaseDate="1995" 
-		firstTokenCost="40" laterTokenCost="100" noTouchPass="true"
+		releaseDate="1995" firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3" noTouchPass="true"
 		privates="true" minors="false" shares="true" 
 		bankPoolShareLimit="5" playerShareLimit="6" loans="true" loanAmount="100" loanInterest="10">
 		<Capitalizations>
@@ -351,7 +352,7 @@
 			status="BROKEN"
 		maxPlayers="6" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Mississippi Valley, USA" producers="Mayfair Games (US)" releaseDate="1995"
-		firstTokenCost="40" laterTokenCost="100"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -442,7 +443,7 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -534,7 +535,7 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
