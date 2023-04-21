@@ -113,9 +113,9 @@
 			<Player numPlayers="7" startingCash="310" certificateLimit="9" />
 		</PlayerInfo>
 		<Phases>
-			<Phase name="1" subName="1" rounds="1" tiles="Yellow"
+			<Phase name="1" subName="1" rounds="1" tiles="Yellow" majorTileLays="2"
 				majorTrainLimit="4" minorTrainLimit="2" minToFloat="5" offBoard="Low" />
-			<Phase name="1" subName="2" rounds="1" tiles="Yellow"
+			<Phase name="1" subName="2" rounds="1" tiles="Yellow" majorTileLays="2"
 				majorTrainLimit="4" minorTrainLimit="2" minToFloat="5" offBoard="Low" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyPrivate="true" canBuyTrain="true" majorTrainLimit="4" 
