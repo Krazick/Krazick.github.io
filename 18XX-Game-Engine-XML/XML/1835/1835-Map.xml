@@ -296,7 +296,7 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<TileName name="Y" location="17" />
-			<Terrain category="optional" location="7" type="River" />
+<!-- 			<Terrain category="optional" location="7" type="River" /> -->
 			<RevenueCenter id="13" location="15" name="" number="1"
 				type="Single City" />
 		</MapCell>
