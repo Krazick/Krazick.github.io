@@ -222,8 +222,8 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" location="14" type="River" />
-			<TileName location="11" name="Y" />
+			<Terrain category="optional" location="41" type="River" />
+			<TileName location="17" name="Y" />
 			<RevenueCenter id="18" location="50" name="" number="2"
 				type="Double City" />
 			<Tile number="9968" starting="TRUE" />
