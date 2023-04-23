@@ -222,8 +222,8 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" location="10" type="River" />
-			<TileName name="Y" />
+			<Terrain category="optional" location="14" type="River" />
+			<TileName location="11" name="Y" />
 			<RevenueCenter id="18" location="50" name="" number="2"
 				type="Double City" />
 			<Tile number="9968" starting="TRUE" />
@@ -296,7 +296,6 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<TileName name="Y" location="17" />
-<!-- 			<Terrain category="optional" location="7" type="River" /> -->
 			<RevenueCenter id="13" location="15" name="" number="1"
 				type="Single City" />
 		</MapCell>
@@ -419,7 +418,6 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" location="6" type="River" />
 			<RevenueCenter id="10" location="9" name="" number="1"
 				type="Single City" />
 		</MapCell>
