@@ -222,7 +222,7 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" location="41" type="River" />
+			<Terrain category="optional" location="14" type="River" />
 			<TileName location="17" name="Y" />
 			<RevenueCenter id="18" location="50" name="" number="2"
 				type="Double City" />
