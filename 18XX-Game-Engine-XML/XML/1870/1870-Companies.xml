@@ -49,7 +49,7 @@
 		note="This is the president's certificate of the St. Louis San Francisco Railway. The purchaser sets the par value of the railway. Unlike other companies, this company may operate with just 20% sold. It may not be purchased by a public company"
 		revenue="0" special="Free President's Share of Frisco">
 		<Benefits>
-			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1309" certificatePercentage="20" passive="true" close="true"/>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1309" certificatePercentage="20" certificatePresident="true" passive="true" close="true"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player,Share" />
 	</Private>
