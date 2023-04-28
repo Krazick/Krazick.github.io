@@ -139,22 +139,22 @@
 	</Share>
 	<StartPacket>
 		<Item row="1">
-			<Certificate corporationId="1401" discountAmount="5" canBeBidOn="NO"></Certificate>
+			<Certificate available="true" corporationId="1401" discountAmount="5" canBeBidOn="NO"></Certificate>
 		</Item>
 		<Item row="2">
-			<Certificate corporationId="1402" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1402" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="3">
-			<Certificate corporationId="1403" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1403" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="4">
-			<Certificate corporationId="1404" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1404" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="5">
-			<Certificate corporationId="1405" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1405" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="6">
-			<Certificate corporationId="1406" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1406" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 	</StartPacket>
 </Corporations>

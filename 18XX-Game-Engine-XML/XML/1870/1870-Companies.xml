@@ -123,24 +123,24 @@
 	</Share>
 	<StartPacket>
 		<Item row="1">
-			<Certificate corporationId="1201" discountAmount="5" canBeBidOn="NO"></Certificate>
+			<Certificate available="true" corporationId="1201" discountAmount="5" canBeBidOn="NO"></Certificate>
 		</Item>
 		<Item row="2">
-			<Certificate corporationId="1202" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1202" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="3">
-			<Certificate corporationId="1203" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1203" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="4">
-			<Certificate corporationId="1204" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1204" discountAmount="5" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="5">
-			<Certificate corporationId="1205" discountAmount="5" canBeBidOn="YES">
+			<Certificate available="true" corporationId="1205" discountAmount="5" canBeBidOn="YES">
 				<FreeCertificate corporationId="1309" percentage="20"/>
 			</Certificate>
 		</Item>
 		<Item row="6">
-			<Certificate corporationId="1206" discountAmount="5" canBeBidOn="YES">
+			<Certificate available="true" corporationId="1206" discountAmount="5" canBeBidOn="YES">
 				<FreeCertificate corporationId="1306" percentage="10"/>
 			</Certificate>
 		</Item>
