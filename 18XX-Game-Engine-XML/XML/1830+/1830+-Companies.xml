@@ -186,21 +186,21 @@
 			<Certificate corporationId="1001" discountAmount="5" canBeBidOn="NO"></Certificate>
 		</Item>
 		<Item row="2">
-			<Certificate corporationId="1002" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate corporationId="1002" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="3">
-			<Certificate corporationId="1003" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate corporationId="1003" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="4">
-			<Certificate corporationId="1004" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate corporationId="1004" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="5">
-			<Certificate corporationId="1005" discountAmount="5" canBeBidOn="YES">
+			<Certificate corporationId="1005" discountAmount="0" canBeBidOn="YES">
 				<FreeCertificate corporationId="1101" percentage="10"/>
 			</Certificate>
 		</Item>
 		<Item row="6">
-			<Certificate corporationId="1006" discountAmount="5" canBeBidOn="YES">
+			<Certificate corporationId="1006" discountAmount="0" canBeBidOn="YES">
 				<FreeCertificate corporationId="1102" percentage="20"/>
 			</Certificate>
 		</Item>
