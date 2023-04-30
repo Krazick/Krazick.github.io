@@ -20,16 +20,15 @@
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player,Share" />
 	</Private>
 	<Private id="1203" name="The Southern Cattle Company" abbrev="TSCC" cost="50" 
-		note="This company has a token that may be placed on any city west of the Mississippi river. Cities locateduinb the same hex as any portion of the Mississippi are not eligible for this placement. This increases the value of that city by $10 for the corporation only. Placing the token does not close the company."
+		note="This company has a token that may be placed on any city west of the Mississippi river. Cities located in the same hex as any portion of the Mississippi are not eligible for this placement. This increases the value of that city by $10 for the corporation only. Placing the token does not close the company."
 		revenue="10" special="Cattle Token Placement">
 		<Benefits>
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.CattlePlacementBenefit" 
-				tokenType="Cattle" tokenPlacement="true" tokenBonus="10" close="false"/>
-<!--  		
+				tokenType="Cattle" tokenPlacement="true" tokenBonus="10" close="false"/>  		
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.FreeLicenseBenefit" corporationID="1203" 
 				mapCell="B13" value="10" passive="true" tokenType="Cattle" />
 			<Benefit actorType="Share Company" allActors="true" class="ge18xx.company.benefit.LicenseBenefit" 
-				license="true" licenseCost="50" mapCell="B13" tokenType="Cattle" value="10"/>   -->	
+				license="true" licenseCost="50" mapCell="B13" tokenType="Cattle" value="10"/> 
 		</Benefits>
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player,Share" />
 	</Private>
