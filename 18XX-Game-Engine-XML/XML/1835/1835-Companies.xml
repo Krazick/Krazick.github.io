@@ -154,20 +154,20 @@
 				<FreeCertificate corporationId="1801" percentage="10"/>
 			</Certificate>
 		</Item>
-		<Item row="2">
+		<Item row="2" buyNItems="1">
 			<Certificate available="true" corporationId="1701" discountAmount="0" canBeBidOn="NO"></Certificate>
 			<Certificate available="true" corporationId="1602" discountAmount="0" canBeBidOn="NO">
 				<FreeCertificate corporationId="1802" percentage="20"/>
 			</Certificate>
 			<Certificate available="true" corporationId="1702" discountAmount="0" canBeBidOn="NO"></Certificate>
 		</Item>
-		<Item row="3">
+		<Item row="3" buyNItems="1">
 			<Certificate available="true" corporationId="1703" discountAmount="0" canBeBidOn="NO"></Certificate>
 			<Certificate available="true" corporationId="1704" discountAmount="0" canBeBidOn="NO"></Certificate>
 			<Certificate available="true" corporationId="1801" percentage="20" discountAmount="0" canBeBidOn="NO"></Certificate>
 			<Certificate available="true" corporationId="1603" discountAmount="0" canBeBidOn="NO"></Certificate>
 		</Item>
-		<Item row="4">
+		<Item row="4" buyNItems="1">
 			<Certificate available="true" corporationId="1604" discountAmount="0" canBeBidOn="NO"></Certificate>
 			<Certificate available="true" corporationId="1705" discountAmount="0" canBeBidOn="NO"></Certificate>
 			<Certificate available="true" corporationId="1706" discountAmount="0" canBeBidOn="NO"></Certificate>
