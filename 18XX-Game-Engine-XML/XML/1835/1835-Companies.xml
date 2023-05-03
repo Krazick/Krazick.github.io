@@ -62,6 +62,9 @@
 		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
+		<Portfolio minorIndex="1">
+			<Certificate abbrev="1" isPresident="false" percentage="50"/>
+		</Portfolio>
 	</Minor>
 	<Minor id="1702" name="Berline-Potsdamer Bahn" abbrev="2" cost="170"
 		homeCell1="E19" homeLocation1="6" upgradeID="1810" upgradePercentage="10"
