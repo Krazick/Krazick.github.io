@@ -178,8 +178,8 @@
 		<Tile number="9807" quantity="1" />
 		<Tile number="9940" quantity="1">
 			<Upgrade toNumber="54" rotations="0">
-				<RevenueCenter from="10" to="14" rotation="2"/>
-				<RevenueCenter from="6" to="12" rotation="2"/>
+				<RevenueCenter from="8" to="14" rotation="0"/>
+				<RevenueCenter from="11" to="12" rotation="0"/>
 			</Upgrade>
 		</Tile>
 		<Tile number="9941" quantity="1">
