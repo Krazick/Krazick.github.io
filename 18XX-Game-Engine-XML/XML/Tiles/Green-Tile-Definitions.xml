@@ -100,15 +100,15 @@
 	</Tile>
 	<Tile number="54" type="Green">
 		<TileName location="14" name="NY" />
-		<Track enter="0" exit="12" gauge="NORMAL" />
+		<Track enter="2" exit="14" gauge="NORMAL" />
+		<Track enter="1" exit="14" gauge="NORMAL" />
 		<Track enter="5" exit="12" gauge="NORMAL" />
-		<Track enter="3" exit="16" gauge="NORMAL" />
-		<Track enter="4" exit="16" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="12" name="" number="1"
+		<Track enter="0" exit="12" gauge="NORMAL" />
+		<RevenueCenter id="-1" location="14" name="" number="1"
 			type="Single City">
 			<Revenue location="17" phase="0" value="60" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="16" name="" number="1"
+		<RevenueCenter id="-1" location="12" name="" number="1"
 			type="Single City">
 			<Revenue location="17" phase="0" value="60" />
 		</RevenueCenter>
