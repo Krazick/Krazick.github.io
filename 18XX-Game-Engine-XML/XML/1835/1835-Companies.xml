@@ -60,6 +60,7 @@
 	</Private>
 	<Minor id="1701" name="Bergisch-Markische Bahn" abbrev="1" cost="80"
 		homeCell1="H2" homeLocation1="15" upgradeID="1810" upgradePercentage="5"
+		formUpgrade="true" formPhase="2.3"
 		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
