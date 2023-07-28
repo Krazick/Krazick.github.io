@@ -5,6 +5,7 @@
 	xsi:schemaLocation="https://krazick.github.io/schema 
 						https://krazick.github.io/18XX-Game-Engine-XML/public/XSD/18XX-Corporations.xsd">
 	<Private id="1601" name="Nurnberg-Furth" abbrev="NF" cost="100"
+		note="The owner of the Nurenberg-Furth receives in addition a free share in the Bayerische. He may, if he becomes director of a share company, lay a station marker of that company onto the Nurnberg-Furth space during an operating round. This can be in addition to the normal placing of a station marker and is free. A connection with the track of the company as per rule VIII (7) is not reguired. This action closes the Nurnberg-Furth."
 		revenue="5" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -14,6 +15,7 @@
 		</Benefits>
 	</Private>
 	<Private id="1602" name="Leipzig-Dresdner Bahn" abbrev="LD"
+		note="The buyer of the Leipzig-Dresdener receives in addition the Director's -certificate of the Sachsische Railway. The Leinzig-Dresdener is closed as soon as the Sachsische buys it's first train."
 		cost="190" revenue="20" special="Free President's of Sachsische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -23,6 +25,7 @@
 		</Benefits>
 	</Private>
 	<Private id="1603" name="Braunschweigische Bahn" abbrev="BSG"
+		note="The Braunschweigische Bahn. once the Prussian Railway has been formed, can be converted into a 10% share certificate of the Prussian Railway. This action closes them."
 		cost="130" revenue="25" special="Exchange for 10% Share of Prussian">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -31,6 +34,7 @@
 		</Benefits>
 	</Private>
 	<Private id="1604" name="Hannoversche Bahn" abbrev="Han" cost="160"
+		note="The Hannoversche Bahn, once the Prussian Railway has been formed, can be converted into a 10% share certificate of the Prussian Railway. This action closes them."
 		revenue="30" special="Exchange for 10% Share of Prussian">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -39,6 +43,8 @@
 		</Benefits>
 	</Private>
 	<Private id="1605" name="Ostbayerische Bahn" abbrev="OB" cost="120"
+			note="The owner of the Ostavern receives in addition a free share in the
+Bayerische. He may, if director of a share company, during an operating round, lay a tile on to the hex southeast of Numberg, or the hex to the right of this. This tile lay is in addition to a normal lav and is free. In a later operating round he may lay a tile on to the other of these two hexes. The Ostbavern is closed when both hexes have been built on. A connection to any tracks already existing is not required."
 		revenue="10" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -49,6 +55,8 @@
 		</Benefits>
 	</Private>
 	<Private id="1606" name="Pfalzbahnen" abbrev="Pf" cost="150"
+		note="The owner of the Palzbahnen receives in addition a free share in the Bayerische. He may, if he is the Director of a share company, during an operating round,lay a tile onto the Mannheim Ludwigshafen hex. This
+lay is in addition to a normal lay and is free. A connection with the company home base is notrequired. He may also as Director of a share company , lay a station marker onto this hex.This too is free. When both these actions have been carried out, the Platzbahnen close. If the owner of the Pfaizbahnen is also the director of the Badische railway then, he may use this feature to gain two tile lays in the first operating round of this railway (Compare VIII.10)"
 		revenue="15" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
