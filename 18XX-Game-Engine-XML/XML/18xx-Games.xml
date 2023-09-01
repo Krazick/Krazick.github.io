@@ -125,9 +125,11 @@
 				minorTrainLimit="2" minToFloat="5" offBoard="Mid" />
 			<Phase name="2" subName="3" rounds="2" tiles="Yellow,Green"
 				canBuyPrivate="true" canBuyTrain="true" govtTrainLimit="4" majorTrainLimit="3" 
-				minorTrainLimit="1" minToFloat="5" offBoard="Mid" />
+				minorTrainLimit="1" minToFloat="5" offBoard="Mid" 
+				triggerClass="ge18xx.company.special.FormPrussianOption" />/>
 			<Phase name="2" subName="4" rounds="2" tiles="Yellow,Green"
-				canBuyTrain="true" govtTrainLimit="4" majorTrainLimit="3" minorTrainLimit="1" minToFloat="5" offBoard="Mid" />
+				canBuyTrain="true" govtTrainLimit="4" majorTrainLimit="3" minorTrainLimit="1" minToFloat="5" offBoard="Mid" 
+				triggerClass="ge18xx.company.special.FormPrussianMust" />
 			<Phase name="3" subName="1" rounds="3" tiles="Yellow,Green,Brown"
 				canBuyTrain="true" closePrivate="true" govtTrainLimit="3" majorTrainLimit="2" minToFloat="5" offBoard="High" />
 			<Phase name="3" subName="2" rounds="3" tiles="Yellow,Green,Brown"
@@ -323,7 +325,8 @@
 				loansAllowed="true" minToFloat="5" minToFloatLast="6" capitalization="Incremental_10" />
 			<Phase name="5" subName="1" rounds="3" tiles="Yellow,Green,Brown,Grey"
 				canBuyTrain="true" trainLimit="2" offBoard="Mid" 
-				loansAllowed="false" minToFloat="6" capitalization="FULL" />
+				loansAllowed="false" minToFloat="6" capitalization="FULL" 
+				triggerClass="ge18xx.company.special.LoanRepayment" />
 			<Phase name="6" subName="1" rounds="3" tiles="Yellow,Green,Brown,Grey"
 				canBuyTrain="true" trainLimit="2" offBoard="High" 
 				loansAllowed="false" minToFloat="6" capitalization="FULL" />
