@@ -240,6 +240,13 @@
 			<Capitalization availableTrain="6" level="FULL" />
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
+		<Variants>
+			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
+				<VariantEffect action="Alternate Destination" companyID="1501"
+					startCell="J15" endCell="N11"
+					class="ge18xx.game.variants.VariantEffect" id="901" name="BBG Alternate Destination" />
+			</Variant>
+		</Variants>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="500" certificateLimit="20" />
 			<Player numPlayers="4" startingCash="375" certificateLimit="16" />
