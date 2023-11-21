@@ -131,7 +131,7 @@
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1512" name="Canadian Government Railway" abbrev="CGR"
-		bgColor="Black" fgColor="White" tokens="10" tokenType="FixedCost" tokenCost="100"
+		bgColor="Black" fgColor="White" tokens="10" tokenType="FixedCost" allTokensCost="100"
 		formationPhase="5" formationRequirement="loanDefault">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
