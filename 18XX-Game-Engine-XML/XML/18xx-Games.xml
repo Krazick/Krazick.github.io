@@ -76,12 +76,12 @@
 			<Train name="4" order="3" revenueCenters="4" quantity="4" price="300"
 				onLast="4" triggerPhase="2.2" rust="2" />
 			<Train name="5" order="4" revenueCenters="5" quantity="3" price="450"
-				onLast="5" triggerPhase="3.1" tileInfo="Brown"/>
+				onLast="5" triggerPhase="3.1" tileInfo="Brown" isPermanent="true" />
 			<Train name="6" order="5" revenueCenters="6" quantity="2" price="630"
-				onFirst="6" triggerPhase="3.2" rust="3" />
+				onFirst="6" triggerPhase="3.2" rust="3" isPermanent="true" />
 			<Train name="Diesel" order="6" revenueCenters="unlimited" quantity="6"
 				price="1100" triggerPhase="3.3" discountPrice="800" tradeInTrain="4,5,6"
-				rust="4" />
+				rust="4" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1830/1830-Map.xml" />
@@ -149,17 +149,17 @@
 			<Train name="3+3" order="4" revenueCenters="3" townRevenueCenters="3"
 				quantity="3" price="270" onLast="5" triggerPhase="2.2" />
 			<Train name="4" order="5" revenueCenters="4" quantity="3" price="360"
-				onLast="6" triggerPhase="2.3" rust="2" />
+				onLast="6" triggerPhase="2.3" rust="2" isPermanent="true" />
 			<Train name="4+4" order="6" revenueCenters="4" townRevenueCenters="4"
-				quantity="1" price="440" onLast="7" triggerPhase="2.4" rust="2+2" />
+				quantity="1" price="440" onLast="7" triggerPhase="2.4" rust="2+2" isPermanent="true" />
 			<Train name="5" order="7" revenueCenters="5" quantity="2" price="500"
-				onLast="8" triggerPhase="3.1" tileInfo="Brown" />
+				onLast="8" triggerPhase="3.1" tileInfo="Brown" isPermanent="true" />
 			<Train name="5+5" order="8" revenueCenters="5" townRevenueCenters="5"
-				quantity="1" price="600" onLast="9" triggerPhase="3.2" />
+				quantity="1" price="600" onLast="9" triggerPhase="3.2" isPermanent="true" />
 			<Train name="6" order="9" revenueCenters="6" quantity="2" price="600"
-				onLast="10" triggerPhase="3.3" rust="3" />
+				onLast="10" triggerPhase="3.3" rust="3" isPermanent="true" />
 			<Train name="6+6" order="10" revenueCenters="6" townRevenueCenters="6"
-				quantity="4" price="720" triggerPhase="3.4" rust="3+3" />
+				quantity="4" price="720" triggerPhase="3.4" rust="3+3" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1835/1835-Map.xml" />
@@ -207,15 +207,15 @@
 			<Train name="2M" order="3" revenueCenters="2" TownRevenueCenters="unlimited"
 				gauge="Meter" quantity="2" price="250" triggerPhase="2.2" />
 			<Train name="4" order="4" revenueCenters="4" TownRevenueCenters="unlimited"
-				quantity="4" price="620" rust="2" triggerPhase="3.1" tileInfo="Brown" />
+				quantity="4" price="620" rust="2" triggerPhase="3.1" tileInfo="Brown" isPermanent="true" />
 			<Train name="3M" order="5" revenueCenters="3" TownRevenueCenters="unlimited"
-				gauge="Meter" quantity="3" price="430" rust="2" triggerPhase="3.2" />
+				gauge="Meter" quantity="3" price="430" rust="2" triggerPhase="3.2" isPermanent="true" />
 			<Train name="5" order="6" revenueCenters="5" TownRevenueCenters="unlimited"
-				quantity="3" price="830" rust="3,2M" triggerPhase="4.1" tileInfo="Grey" />
+				quantity="3" price="830" rust="3,2M" triggerPhase="4.1" tileInfo="Grey" isPermanent="true" />
 			<Train name="4M" order="7" revenueCenters="4" TownRevenueCenters="unlimited"
-				gauge="Meter" quantity="2" price="590" rust="3,2M" triggerPhase="4.2" />
+				gauge="Meter" quantity="2" price="590" rust="3,2M" triggerPhase="4.2" isPermanent="true" />
 			<Train name="6" order="8" revenueCenters="6" TownRevenueCenters="unlimited"
-				quantity="2" price="1050" rust="3,2M" triggerPhase="4.3" />
+				quantity="2" price="1050" rust="3,2M" triggerPhase="4.3" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1853 XML Data/1853 Map.xml" />
@@ -346,11 +346,11 @@
 			<Train name="4" order="3" revenueCenters="4" quantity="4" price="350"
 				onLast="4" triggerPhase="3.1" rust="2" />
 			<Train name="5" order="4" revenueCenters="5" quantity="3" price="550"
-				onLast="5" triggerPhase="4.1" tileInfo="Brown" />
+				onLast="5" triggerPhase="4.1" tileInfo="Brown" isPermanent="true" />
 			<Train name="6" order="5" revenueCenters="6" quantity="2" price="700"
-				onFirst="6" triggerPhase="5.1" rust="3" tileInfo="Grey" />
+				onFirst="6" triggerPhase="5.1" rust="3" tileInfo="Grey" isPermanent="true" />
 			<Train name="Diesel" order="6" revenueCenters="unlimited" quantity="6"
-				price="1100" rust="4" triggerPhase="6.1" discountPrice="750" tradeInTrain="4,5,6" />
+				price="1100" rust="4" triggerPhase="6.1" discountPrice="750" tradeInTrain="4,5,6" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1856/1856-Map.xml" />
@@ -435,13 +435,13 @@
 			<Train name="5" order="4" revenueCenters="5" quantity="4" price="450"
 				onLast="5" triggerPhase="4.1" tileInfo="Brown" />
 			<Train name="6" order="5" revenueCenters="6" quantity="3" price="630"
-				onLast="6" triggerPhase="5.1" rust="3" tileInfo="Grey" />
+				onLast="6" triggerPhase="5.1" rust="3" tileInfo="Grey" isPermanent="true" />
 			<Train name="8" order="6" revenueCenters="8" quantity="3" price="800"
-				onLast="7" triggerPhase="6.1" rust="4" />
+				onLast="7" triggerPhase="6.1" rust="4" isPermanent="true" />
 			<Train name="10" order="7" revenueCenters="10" quantity="2" price="950"
-				onLast="8" triggerPhase="7.1" />
+				onLast="8" triggerPhase="7.1" isPermanent="true" />
 			<Train name="12" order="8" revenueCenters="12" quantity="6" price="1100"
-				triggerPhase="8.1" rust="5" />
+				triggerPhase="8.1" rust="5" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1870/1870-Map.xml" />
@@ -528,12 +528,12 @@
 			<Train name="4" order="3" revenueCenters="4" quantity="4" price="300"
 				onLast="4" triggerPhase="2.2" rust="2" />
 			<Train name="5" order="4" revenueCenters="5" quantity="3" price="450"
-				onLast="5" triggerPhase="3.1" tileInfo="Brown"/>
+				onLast="5" triggerPhase="3.1" tileInfo="Brown" isPermanent="true" />
 			<Train name="6" order="5" revenueCenters="6" quantity="2" price="630"
-				onFirst="6" triggerPhase="3.2" rust="3" />
+				onFirst="6" triggerPhase="3.2" rust="3" isPermanent="true" />
 			<Train name="Diesel" order="6" revenueCenters="unlimited" quantity="6"
 				price="1100" triggerPhase="3.3" discountPrice="800" tradeInTrain="4,5,6"
-				rust="4" />
+				rust="4" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1830+/1830+-Map.xml" />
@@ -640,12 +640,12 @@
 			<Train name="4" order="5" revenueCenters="4" quantity="4" price="300"
 				onLast="7" triggerPhase="2.2" rust="2" />
 			<Train name="5" order="7" revenueCenters="5" quantity="3" price="450"
-				onLast="9" triggerPhase="3.1" tileInfo="Brown"/>
+				onLast="9" triggerPhase="3.1" tileInfo="Brown" isPermanent="true" />
 			<Train name="6" order="9" revenueCenters="6" quantity="2" price="630"
-				onFirst="11" triggerPhase="3.2" rust="3" />
+				onFirst="11" triggerPhase="3.2" rust="3" isPermanent="true" />
 			<Train name="Diesel" order="11" revenueCenters="unlimited" quantity="6"
 				price="1100" triggerPhase="3.3" discountPrice="800" tradeInTrain="4,5,6"
-				rust="4" />
+				rust="4" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1830TEST/1830TEST-Map.xml" />
