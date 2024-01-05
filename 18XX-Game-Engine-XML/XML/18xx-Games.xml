@@ -229,11 +229,12 @@
 	</GameInfo>
 	<GameInfo id="4" name="1856" Subtitle="Railroading in Upper Canada from 1856" minPlayers="3" maxPlayers="6"
 		status="IN PROGRESS" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
-		location="Southern Ontario, Canada" producers="Mayfair Games (US)"
-		releaseDate="1995" firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3" noTouchPass="true" bankPoolName="Open Market"
+		location="Southern Ontario, Canada" producers="Mayfair Games (US)" releaseDate="1995"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="3" 
 		privates="true" minors="false" shares="true" bankPoolDividends="corporation" ipoDivedends="bank"
-		bankPoolShareLimit="5" playerShareLimit="6" licenses="true" loans="true" loanAmount="100" loanInterest="10">
+		bankPoolShareLimit="5" playerShareLimit="6" 
+		licenses="true" noTouchPass="true" bankPoolName="Open Market"
+		loans="true" loanAmount="100" loanInterest="10">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="Incremental_5" />
 			<Capitalization availableTrain="3" level="Incremental_5" />
@@ -352,7 +353,8 @@
 			<Train name="6" order="5" revenueCenters="6" quantity="2" price="700"
 				onFirst="6" triggerPhase="5.1" rust="3" tileInfo="Grey" isPermanent="true" />
 			<Train name="Diesel" order="6" revenueCenters="unlimited" quantity="6"
-				price="1100" rust="4" triggerPhase="6.1" discountPrice="750" tradeInTrain="4,5,6" isPermanent="true" />
+				price="1100" rust="4" triggerPhase="6.1" discountPrice="750" 
+				tradeInTrain="4,5,6" isPermanent="true" />
 		</Trains>
 		<Files>
 			<File type="map" name="1856/1856-Map.xml" />
@@ -366,7 +368,8 @@
 		maxPlayers="6" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Mississippi Valley, USA" producers="Mayfair Games (US)" releaseDate="1995"
 		status="BROKEN" bankPoolName="Open Market"
-		firstTokenCost="40" laterTokenCost="100" maxRounds="4"  bankPoolDividends="bank" ipoDivedends="corporation"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
+		bankPoolDividends="bank" ipoDivedends="corporation"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -378,18 +381,32 @@
 		</Capitalizations>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="$400 Finish">
-				<VariantEffect action="End Game on Stock Cell" cellName="A21" class="ge18xx.game.variants.VariantEffect" id="101" name="$400 Finish" />
+				<VariantEffect action="End Game on Stock Cell" cellName="A21" 
+					class="ge18xx.game.variants.VariantEffect" id="101" name="$400 Finish" />
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantAll" id="200" title="1830 Diesels">
-				<VariantEffect action="Remove all 8, 10 and 12 Trains" class="ge18xx.game.variants.SetTrainCountVEffect" id="201" name="No 8 Trains" trainName="8" quantity="0" />
-				<VariantEffect action="Remove all 10 Trains" class="ge18xx.game.variants.SetTrainCountVEffect" hide="true" id="202" name="No 10 Trains" trainName="10" quantity="0" />
-				<VariantEffect action="Remove all 12 Trains" class="ge18xx.game.variants.SetTrainCountVEffect" hide="true" id="203" name="No 12 Trains" trainName="12" quantity="0" />
-				<VariantEffect action="Add 6 Diesel Trains" class="ge18xx.game.variants.AddTrainVEffect" id="204" name="Add 6 Diesels" quantity="6">
+				<VariantEffect action="Remove all 8, 10 and 12 Trains" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="201" 
+					name="No 8 Trains" trainName="8" quantity="0" />
+				<VariantEffect action="Remove all 10 Trains" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" hide="true" id="202" 
+					name="No 10 Trains" trainName="10" quantity="0" />
+				<VariantEffect action="Remove all 12 Trains" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" hide="true" id="203" 
+					name="No 12 Trains" trainName="12" quantity="0" />
+				<VariantEffect action="Add 6 Diesel Trains" 
+					class="ge18xx.game.variants.AddTrainVEffect" id="204" name="Add 6 Diesels" 
+					quantity="6">
 					<Train name="Diesel" order="9" revenueCenters="unlimited" quantity="6"
-							price="1100" triggerPhase="3.3" discountPrice="800" tradeInTrain="4,5,6" rust="4" />
+							price="1100" triggerPhase="3.3" discountPrice="800" 
+							tradeInTrain="4,5,6" rust="4" />
 				</VariantEffect>
-				<VariantEffect action="Remove Phases 7 and 8" class="ge18xx.game.variants.RemovePhaseVEffect" id="205" name="No Phase 7" phaseName="7" />
-				<VariantEffect action="Remove Phase 8" class="ge18xx.game.variants.RemovePhaseVEffect" hide="true" id="206" name="No Phase 8" phaseName="8" />
+				<VariantEffect action="Remove Phases 7 and 8" 
+					class="ge18xx.game.variants.RemovePhaseVEffect" id="205" 
+					name="No Phase 7" phaseName="7" />
+				<VariantEffect action="Remove Phase 8" 
+					class="ge18xx.game.variants.RemovePhaseVEffect" hide="true" id="206" 
+					name="No Phase 8" phaseName="8" />
 			</Variant>
 		</Variants>
 		<PlayerInfo>
@@ -457,7 +474,8 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100" maxRounds="4" bankPoolDividends="corporation" ipoDivedends="bank"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
+		bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -469,36 +487,65 @@
 		</Capitalizations>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
-				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
+				<VariantEffect action="Set Bank Cash to $4,500" 
+					class="ge18xx.game.variants.AddBankCashVEffect" id="301" 
+					name="$4,500" quantity="-7500" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="500" title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
-				<VariantEffect action="Allow M&amp;H Exchange at Operating Round Start" class="ge18xx.game.variants.EnableBenefitVEffect" id="501" name="Query M&amp;H Exchange" companyID="1004" benefitName="QUERY EXCHANGE" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="500" 
+				title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
+				<VariantEffect action="Allow M&amp;H Exchange at Operating Round Start" 
+					class="ge18xx.game.variants.EnableBenefitVEffect" id="501" 
+					name="Query M&amp;H Exchange" companyID="1004" benefitName="QUERY EXCHANGE" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="800" title="Require Share Company to Operate before Sale" default="true">
-				<VariantEffect action="Require Share Company to Operate before Sale" class="ge18xx.game.variants.ModifyGameInfoVEffect" id="801" name="Operate Before Sale" attributeName="operateBeforeSale" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="800" 
+				title="Require Share Company to Operate before Sale" default="true">
+				<VariantEffect action="Require Share Company to Operate before Sale" 
+					class="ge18xx.game.variants.ModifyGameInfoVEffect" id="801" 
+					name="Operate Before Sale" attributeName="operateBeforeSale" />
 			</Variant>
 			<!--  Train specific Variants -->
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="Optional 6 Train">
-				<VariantEffect action="Set 6 Train Quantity to 3" class="ge18xx.game.variants.SetTrainCountVEffect" id="101" name="(3) 6 Trains" trainName="6" quantity="3" />
+				<VariantEffect action="Set 6 Train Quantity to 3" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="101" 
+					name="(3) 6 Trains" trainName="6" quantity="3" />
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantChoose1" id="200" title="Choose Diesel Count">
-				<VariantEffect action="Set Diesel Train Quantity to Unlimited" class="ge18xx.game.variants.SetTrainCountVEffect" id="201" name="Unlimited" trainName="Diesel" quantity="99"/>
-				<VariantEffect action="Set Diesel Train Quantity to 6 (Standard)" class="ge18xx.game.variants.SetTrainCountVEffect" defaultEffect="true" id="202" name="Standard" trainName="Diesel" quantity="6" />
-				<VariantEffect action="Set Diesel Train Quantity to Zero (0)" class="ge18xx.game.variants.SetTrainCountVEffect" id="203" name="Zero (0)" trainName="Diesel" quantity="0"/>
+				<VariantEffect action="Set Diesel Train Quantity to Unlimited" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="201" 
+					name="Unlimited" trainName="Diesel" quantity="99"/>
+				<VariantEffect action="Set Diesel Train Quantity to 6 (Standard)" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" defaultEffect="true" id="202" 
+					name="Standard" trainName="Diesel" quantity="6" />
+				<VariantEffect action="Set Diesel Train Quantity to Zero (0)" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="203" 
+					name="Zero (0)" trainName="Diesel" quantity="0"/>
 			</Variant>
 			<!--  Company specific Variants -->
-			<Variant class="ge18xx.game.variants.VariantChooseAny" id="400" title="Activate Share Companies">
-				<VariantEffect action="Activate Reading Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1109" id="401" name="Reading" companyAbbrev="RR" />
-				<VariantEffect action="Activate Norfolk &amp; Western Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1110" id="403" name="Norfolk &amp; Western" companyAbbrev="N&amp;W" />
-				<VariantEffect action="Activate Pere Marquette Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1111" id="404" name="Pere Marquette" companyAbbrev="PMQ" />
-				<VariantEffect action="Activate Nickel Plate Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1112" id="402" name="Nickel Plate" companyAbbrev="NKP" />
+			<Variant class="ge18xx.game.variants.VariantChooseAny" id="400" 
+				title="Activate Share Companies">
+				<VariantEffect action="Activate Reading Railroad" 
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1109" id="401" 
+					name="Reading" companyAbbrev="RR" />
+				<VariantEffect action="Activate Norfolk &amp; Western Railroad" 
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1110" id="403" 
+					name="Norfolk &amp; Western" companyAbbrev="N&amp;W" />
+				<VariantEffect action="Activate Pere Marquette Railroad"
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1111" id="404" 
+					name="Pere Marquette" companyAbbrev="PMQ" />
+				<VariantEffect action="Activate Nickel Plate Railroad" 
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1112" id="402" 
+					name="Nickel Plate" companyAbbrev="NKP" />
 			</Variant>
 			<!--  Tile specific Variants -->
 			<Variant class="ge18xx.game.variants.VariantAll" id="600" title="Add Double-Town Yellow Tiles">
-				<VariantEffect action="Add Yellow Tile 630" class="ge18xx.game.variants.AddTilesVEffect" id="601" name="Double Town 630" tileNumber="630" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 631" class="ge18xx.game.variants.AddTilesVEffect" id="602" name="Double Town 631" tileNumber="631" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 632" class="ge18xx.game.variants.AddTilesVEffect" id="603" name="Double Town 632" tileNumber="632" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 633" class="ge18xx.game.variants.AddTilesVEffect" id="604" name="Double Town 633" tileNumber="633" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 630" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="601" name="Double Town 630" tileNumber="630" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 631" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="602" name="Double Town 631" tileNumber="631" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 632" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="603" name="Double Town 632" tileNumber="632" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 633" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="604" name="Double Town 633" tileNumber="633" tileType="Yellow" quantity="1"/>
 			</Variant>
 		</Variants>
 		<PlayerInfo>
@@ -549,7 +596,8 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100" maxRounds="4" bankPoolDividends="corporation" ipoDivedends="bank"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
+		bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -561,51 +609,90 @@
 		</Capitalizations>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
-				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
+				<VariantEffect action="Set Bank Cash to $4,500" 
+					class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" 
+					quantity="-7500" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="500" title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
-				<VariantEffect action="Allow M&amp;H Exchange at Operating Round Start" class="ge18xx.game.variants.EnableBenefitVEffect" id="501" name="Query M&amp;H Exchange" companyID="1004" benefitName="QUERY EXCHANGE" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="500" 
+				title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
+				<VariantEffect action="Allow M&amp;H Exchange at Operating Round Start" 
+					class="ge18xx.game.variants.EnableBenefitVEffect" id="501" 
+					name="Query M&amp;H Exchange" companyID="1004" benefitName="QUERY EXCHANGE" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="800" title="Require Share Company to Operate before Sale" default="true">
-				<VariantEffect action="Require Share Company to Operate before Sale" class="ge18xx.game.variants.ModifyGameInfoVEffect" id="801" name="Operate Before Sale" attributeName="operateBeforeSale" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="800" 
+				title="Require Share Company to Operate before Sale" default="true">
+				<VariantEffect action="Require Share Company to Operate before Sale" 
+					class="ge18xx.game.variants.ModifyGameInfoVEffect" id="801" 
+					name="Operate Before Sale" attributeName="operateBeforeSale" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="900" title="Random Player Start Order" default="true" hotSeatOnly="true">
-				<VariantEffect action="Random Player Start Order" class="ge18xx.game.variants.ModifyGameInfoVEffect" id="901" name="Randomize Start Order" attributeName="randomizeStartOrder" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="900" 
+				title="Random Player Start Order" default="true" hotSeatOnly="true">
+				<VariantEffect action="Random Player Start Order" 
+					class="ge18xx.game.variants.ModifyGameInfoVEffect" id="901" 
+					name="Randomize Start Order" attributeName="randomizeStartOrder" />
 			</Variant>
 			<!--  Train specific Variants -->
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="Optional 6 Train">
-				<VariantEffect action="Set 6 Train Quantity to 3" class="ge18xx.game.variants.SetTrainCountVEffect" id="101" name="(3) 6 Trains" trainName="6" quantity="3" />
+				<VariantEffect action="Set 6 Train Quantity to 3" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="101" 
+						name="(3) 6 Trains" trainName="6" quantity="3" />
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantChoose1" id="200" title="Choose Diesel Count">
-				<VariantEffect action="Set Diesel Train Quantity to Unlimited" class="ge18xx.game.variants.SetTrainCountVEffect" id="201" name="Unlimited" trainName="Diesel" quantity="99"/>
-				<VariantEffect action="Set Diesel Train Quantity to 6 (Standard)" class="ge18xx.game.variants.SetTrainCountVEffect" defaultEffect="true" id="202" name="Standard" trainName="Diesel" quantity="6" />
-				<VariantEffect action="Set Diesel Train Quantity to Zero (0)" class="ge18xx.game.variants.SetTrainCountVEffect" id="203" name="Zero (0)" trainName="Diesel" quantity="0"/>
+				<VariantEffect action="Set Diesel Train Quantity to Unlimited" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="201" 
+					name="Unlimited" trainName="Diesel" quantity="99"/>
+				<VariantEffect action="Set Diesel Train Quantity to 6 (Standard)" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" defaultEffect="true" id="202" 
+					name="Standard" trainName="Diesel" quantity="6" />
+				<VariantEffect action="Set Diesel Train Quantity to Zero (0)" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="203" 
+					name="Zero (0)" trainName="Diesel" quantity="0"/>
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantAll" id="700" title="Add Plus Trains">
-				<VariantEffect action="Replace last 2 with 2+2 Train" class="ge18xx.game.variants.AddTrainVEffect" id="701" name="Add 2+2 Train" trainName="2+2" quantity="1" >
+				<VariantEffect action="Replace last 2 with 2+2 Train" 
+					class="ge18xx.game.variants.AddTrainVEffect" id="701" 
+					name="Add 2+2 Train" trainName="2+2" quantity="1" >
 					<Train name="2+2" order="2" revenueCenters="2" townRevenueCenters="2"
 							quantity="1" price="180" onLast="3" triggerPhase="1.2" />
 							<!--  2+2 - $180, 3+3 - $300, 4+4 - $450, 5+5 - $630, 6+6 - $ 800 -->
 				</VariantEffect>
-				<VariantEffect action="Set 2 Train Quantity to 5" class="ge18xx.game.variants.SetTrainCountVEffect" hide="true" id="702" name="(5) 2 Trains" trainName="2" quantity="5" />
-				<VariantEffect action="Add Phase 1.2" class="ge18xx.game.variants.AddPhaseVEffect" hide="true" id="703" name="1.2">
+				<VariantEffect action="Set 2 Train Quantity to 5" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" hide="true" id="702" 
+					name="(5) 2 Trains" trainName="2" quantity="5" />
+				<VariantEffect action="Add Phase 1.2" class="ge18xx.game.variants.AddPhaseVEffect" 
+					hide="true" id="703" name="1.2">
 					<Phase name="1" subName="2" rounds="1" tiles="Yellow" trainLimit="4" offBoard="Low" />
 				</VariantEffect>
-				<VariantEffect action="Modify 2 Train settting OnLast to 2, not 3" class="ge18xx.game.variants.ModifyTrainVEffect" id="704" name="2" attributeName="onLast" value="2" />
+				<VariantEffect action="Modify 2 Train settting OnLast to 2, not 3" 
+					class="ge18xx.game.variants.ModifyTrainVEffect" id="704" name="2" 
+					attributeName="onLast" value="2" />
 			</Variant>
 			<!--  Company specific Variants -->
-			<Variant class="ge18xx.game.variants.VariantChooseAny" id="400" title="Activate Share Companies">
-				<VariantEffect action="Activate Reading Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1109" id="401" name="Reading" companyAbbrev="RR" />
-				<VariantEffect action="Activate Norfolk &amp; Western Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1110" id="403" name="Norfolk &amp; Western" companyAbbrev="N&amp;W" />
-				<VariantEffect action="Activate Pere Marquette Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1111" id="404" name="Pere Marquette" companyAbbrev="PMQ" />
-				<VariantEffect action="Activate Nickel Plate Railroad" class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1112" id="402" name="Nickel Plate" companyAbbrev="NKP" />
+			<Variant class="ge18xx.game.variants.VariantChooseAny" id="400" 
+				title="Activate Share Companies">
+				<VariantEffect action="Activate Reading Railroad"
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1109" id="401" 
+					name="Reading" companyAbbrev="RR" />
+				<VariantEffect action="Activate Norfolk &amp; Western Railroad" 
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1110" id="403" 
+					name="Norfolk &amp; Western" companyAbbrev="N&amp;W" />
+				<VariantEffect action="Activate Pere Marquette Railroad" 
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1111" id="404" 
+					name="Pere Marquette" companyAbbrev="PMQ" />
+				<VariantEffect action="Activate Nickel Plate Railroad" 
+					class="ge18xx.game.variants.ActivateCompanyVEffect" companyID="1112" id="402" 
+					name="Nickel Plate" companyAbbrev="NKP" />
 			</Variant>
 			<!--  Tile specific Variants -->
 			<Variant class="ge18xx.game.variants.VariantAll" id="600" title="Add Double-Town Yellow Tiles">
-				<VariantEffect action="Add Yellow Tile 630" class="ge18xx.game.variants.AddTilesVEffect" id="601" name="Double Town 630" tileNumber="630" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 631" class="ge18xx.game.variants.AddTilesVEffect" id="602" name="Double Town 631" tileNumber="631" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 632" class="ge18xx.game.variants.AddTilesVEffect" id="603" name="Double Town 632" tileNumber="632" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 633" class="ge18xx.game.variants.AddTilesVEffect" id="604" name="Double Town 633" tileNumber="633" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 630" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="601" name="Double Town 630" tileNumber="630" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 631" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="602" name="Double Town 631" tileNumber="631" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 632" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="603" name="Double Town 632" tileNumber="632" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 633" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="604" name="Double Town 633" tileNumber="633" tileType="Yellow" quantity="1"/>
 			</Variant>
 <!-- 
 			<Variant class="ge18xx.game.variants.Variant" title="All Share Companies must buy Train">
