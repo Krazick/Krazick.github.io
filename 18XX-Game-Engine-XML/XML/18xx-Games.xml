@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GE18xx version="1.0">
 <Network name="Mark's Server" localServerIP="192.168.1.21" remoteServerIP="72.83.66.50" serverPort="18300"/>
-<Games ge18XXVersion="0.7.32 Beta">
+<Games ge18XXVersion="0.7.33 Beta">
 	<GameInfo id="1" name="1830" minPlayers="2" maxPlayers="6"
 		status="Playable"
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
-		producers="Avalon Hill / Hasbro (US)" releaseDate="1986"
-		maxRounds="3" firstTokenCost="40" laterTokenCost="100" bankPoolDividends="corporation" ipoDivedends="bank"
+		producers="Avalon Hill / Hasbro (US)" releaseDate="1986" maxRounds="3" 
+		firstTokenCost="40" laterTokenCost="100" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
