@@ -338,7 +338,9 @@
 				loansAllowed="false" minToFloat="6" capitalization="FULL" 
 				triggerClass="ge18xx.company.formation.FormationPhase" formCompanyID="1512">
 				<PreparedAction>
-					<Action actor="LPS" chainPrevious="false" class="ge18xx.round.action.StartFormationAction" name="Formation Phase Action" number="1667" roundID="10.1" roundType="Operating Round">
+					<ActorType type="Corporation"/>
+					<TargetState state="Operated"/>
+					<Action actor="COP" chainPrevious="false" class="ge18xx.round.action.StartFormationAction" name="Formation Phase Action" number="1667" roundID="10.1" roundType="Operating Round">
 						<Effects>
 							<Effect actor="Mark" class="ge18xx.round.action.effects.ShowFormationPanelEffect" fromName="Mark" isAPrivate="false" name="Show Formation Panel" order="1"/>
 							<Effect actor="Mark" class="ge18xx.round.action.effects.SetFormationStateEffect" fromName="Mark" isAPrivate="false" name="Set Formation State" newState="Loan Repayment" order="2" previousState="No State"/>
