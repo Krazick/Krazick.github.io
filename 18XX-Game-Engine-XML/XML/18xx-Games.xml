@@ -340,11 +340,11 @@
 				<PreparedAction>
 					<ActorType type="Corporation"/>
 					<TargetState state="Operated"/>
-					<Action actor="COP" chainPrevious="false" class="ge18xx.round.action.StartFormationAction" name="Formation Phase Action" number="1667" roundID="10.1" roundType="Operating Round">
+					<Action actor="COCABBREV" chainPrevious="false" class="ge18xx.round.action.StartFormationAction" name="Formation Phase Action" number="AN" roundID="RID" roundType="Operating Round">
 						<Effects>
-							<Effect actor="Mark" class="ge18xx.round.action.effects.ShowFormationPanelEffect" fromName="Mark" isAPrivate="false" name="Show Formation Panel" order="1"/>
-							<Effect actor="Mark" class="ge18xx.round.action.effects.SetFormationStateEffect" fromName="Mark" isAPrivate="false" name="Set Formation State" newState="Loan Repayment" order="2" previousState="No State"/>
-							<Effect actor="Mark" class="ge18xx.round.action.effects.StartFormationEffect" formingCompanyID="1512" fromName="Mark" isAPrivate="false\" name="Start Formation" order="3"/>
+							<Effect actor="PLAYERNAME" class="ge18xx.round.action.effects.ShowFormationPanelEffect" fromName="PLAYERNAME" isAPrivate="false" name="Show Formation Panel" order="1"/>
+							<Effect actor="PLAYERNAMES" class="ge18xx.round.action.effects.SetFormationStateEffect" fromName="PLAYERNAME" isAPrivate="false" name="Set Formation State" newState="Loan Repayment" order="2" previousState="No State"/>
+							<Effect actor="PLAYERNAME" class="ge18xx.round.action.effects.StartFormationEffect" formingCompanyID="1512" fromName="PLAYERNAME" isAPrivate="false" name="Start Formation" order="3"/>
 						</Effects>
 					</Action>
 				</PreparedAction>
