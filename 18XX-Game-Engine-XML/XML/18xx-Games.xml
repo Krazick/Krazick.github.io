@@ -340,7 +340,7 @@
 				<PreparedAction>
 					<ActorType type="Corporation"/>
 					<TargetState state="Operated"/>
-					<Action actor="COCABBREV" chainPrevious="false" class="ge18xx.round.action.StartFormationAction" name="Formation Phase Action" number="9999" roundID="RID" roundType="Operating Round">
+					<Action actor="COCABBREV" chainPrevious="false" class="ge18xx.round.action.StartFormationAction" name="Formation Phase" number="9999" roundID="RID" roundType="Operating Round">
 						<Effects>
 							<Effect actor="PLAYERNAME" class="ge18xx.round.action.effects.ShowFormationPanelEffect" fromName="PLAYERNAME" isAPrivate="false" name="Show Formation Panel" order="1"/>
 							<Effect actor="PLAYERNAMES" class="ge18xx.round.action.effects.SetFormationStateEffect" fromName="PLAYERNAME" isAPrivate="false" name="Set Formation State" newState="Loan Repayment" order="2" previousState="No State"/>
