@@ -340,6 +340,7 @@
 				<PreparedAction>
 					<ActorType type="Corporation"/>
 					<TargetState state="Operated"/>
+					<TriggeringActor name="COCABBREV"/>
 					<Action actor="COCABBREV" chainPrevious="true" class="ge18xx.round.action.StartFormationAction" name="Formation Phase" number="9999" roundID="RID" roundType="Operating Round">
 						<Effects>
 							<Effect actor="PLAYERNAME" class="ge18xx.round.action.effects.ShowFormationPanelEffect" fromName="PLAYERNAME" isAPrivate="false" name="Show Formation Panel" order="1"/>
