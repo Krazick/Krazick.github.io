@@ -5,7 +5,7 @@
 	xsi:schemaLocation="https://krazick.github.io/schema 
 						https://krazick.github.io/18XX-Game-Engine-XML/public/XSD/18XX-Corporations.xsd">
 	<Private id="1401" name="Flos Tramway" abbrev="FT" cost="20" note="No other attributes" 
-		revenue="5" homeCell1="L3" homeLocation1="12" homeLocation2="14" special="NONE">
+		revenue="5" homeCell1="L3" homeLocation1="12" homeLocation2="14" special="NONE" mustSell="true">
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player,Share" />
 	</Private>
 	<Private id="1402" name="Waterloo &amp; Saugeen Railway Co."
@@ -144,19 +144,19 @@
 			<Certificate available="true" corporationId="1401" discountAmount="5" canBeBidOn="NO"></Certificate>
 		</Item>
 		<Item row="2">
-			<Certificate available="true" corporationId="1402" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1402" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="3">
-			<Certificate available="true" corporationId="1403" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1403" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="4">
-			<Certificate available="true" corporationId="1404" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1404" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="5">
-			<Certificate available="true" corporationId="1405" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1405" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 		<Item row="6">
-			<Certificate available="true" corporationId="1406" discountAmount="5" canBeBidOn="YES"></Certificate>
+			<Certificate available="true" corporationId="1406" discountAmount="0" canBeBidOn="YES"></Certificate>
 		</Item>
 	</StartPacket>
 </Corporations>
