@@ -485,7 +485,7 @@
 		<Track enter="0" exit="6" gauge="NORMAL" />
 		<Track enter="1" exit="20" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="6" name="" number="1" type="Single City">
-			<Revenue location="13" phase="1" value="30" />
+			<Revenue location="16" phase="1" value="30" />
 		</RevenueCenter>
 		<RevenueCenter id="-1" location="20" name="" number="1" type="Single City">
 			<Revenue location="-1" phase="1" value="30" />
