@@ -39,7 +39,7 @@
 	</Private>
 	<Private id="1405" name="Niagra Falls Suspension Bridge Company" abbrev="NFSBC" cost="100" 
 		note="The public company that owns this private company may add the $10 bonus when running to Buffalo. Other companies may purchase the right to use this bonus by paying $50 to the owning company. This right may not be purchased if this private company is owned by a player. The right may be purchased from the bank for $50 after the private company closes. Company that have gained this right never lose it. The Canadian Goverment Railways gains this right if any of its forming companies had this right."
-		revenue="20" homeCell1="P19" homeLocation1="50" special="Buffalo Bonus">
+		revenue="20" homeCell1="P19" homeLocation1="50" homeCell2="P17" homeLocation2="50" special="Buffalo Bonus">
 		<Benefits>
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.FreeLicenseBenefit" corporationID="1405" 
 				mapCell="P17,P19" value="10" passive="true" tokenType="Bridge"/>
@@ -52,7 +52,7 @@
 	</Private>
 	<Private id="1406" name="St. Clair Frontier Tunnel Company" abbrev="SCFTC" cost="100" 
 		note="The public company that owns this private company may add the $10 Port Huron bonus when running to Sarnia. Other public companies may purchase the right to use this bonus by paying $50 to the owning company. This right may not be purchased if this private company is owned by a player. The right may be purchased from the bank for $50 after the private comapny closes. Companies that have gained this right never lose it. The Canadian Government Railways gains this right if any of its forming companies had this right."
-		revenue="20" homeCell1="A14" homeLocation1="50" special="Sarnia Bonus">
+		revenue="20" homeCell1="B13" homeLocation1="50" special="Sarnia Bonus">
 		<Benefits>
 			<Benefit actorType="Share Company" class="ge18xx.company.benefit.FreeLicenseBenefit" corporationID="1406" 
 				mapCell="B13" value="10" passive="true" tokenType="Tunnel" />
