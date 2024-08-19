@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GE18xx version="1.0">
 <Network name="Mark's Server" localServerIP="192.168.1.21" remoteServerIP="72.83.66.50" serverPort="18300"/>
-<Games ge18XXVersion="0.7.35 Beta">
+<Games ge18XXVersion="0.7.36 Beta">
 	<GameInfo id="1" name="1830" minPlayers="2" maxPlayers="6"
 		status="Playable"
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
