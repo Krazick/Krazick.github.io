@@ -41,8 +41,8 @@
 		<TileType id="4" type="Brown" color="170,114,42" />
 		<TileType id="5" type="Red Brown" color="153,0,0" />
 		<TileType id="6" type="Red off-Board" color="204,51,51" />
-		<TileTYpe id="7" type="Ocean Ferry" color="117,197,240" />
-		<TileTYpe id="8" type="Ocean" color="1117,197,240" />
+		<TileType id="7" type="Ocean Ferry" color="117,197,240" />
+		<TileType id="8" type="Ocean" color="1117,197,240" />
 		<TileType id="9" type="Purple" color="200,141,240" />
 	</TileTypes>
 	<Bidders>
