@@ -45,4 +45,21 @@
 		<TileTYpe id="8" type="Ocean" color="1117,197,240" />
 		<TileType id="9" type="Purple" color="200,141,240" />
 	</TileTypes>
+	<Bidders>
+		<Bidder id="0" type="No Bidders" color="0,0,0" />
+		<Bidder id="1" type="1 Bidder" color="0,0,255" />
+		<Bidder id="2" type="2 Bidders" color="255,255,0" />
+		<Bidder id="3" type="3 Bidders" color="255,128,0" />
+		<Bidder id="4" type="4 Bidders" color="255,0,0" />
+		<Bidder id="5" type="5 Bidders" color="127,0,255" />
+		<Bidder id="6" type="6 Bidders" color="204,0,204" />
+		<Bidder id="7" type="7 Bidders" color="153,0,76" />
+	</Bidders>
+	<Tracks>
+		<Track id="0" type="No Train" color="0,0,0" />
+		<Track id="1" type="Train 1" color="0,153,0" />
+		<Track id="2" type="Train 2" color="255,128,0" />
+		<Track id="3" type="Train 3" color="255,0,0" />
+		<Track id="4" type="Train 4" color="204,0,204" />
+	</Tracks>
 </ColorScheme>
