@@ -18,6 +18,11 @@
 			<Capitalization availableTrain="6" level="FULL" />
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
+		<RoundTypes>
+			<RoundType>StockRound</RoundType>
+			<RoundType>AuctionRound</RoundType>
+			<RoundType>OperatingRound</RoundType>
+		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
 				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
@@ -107,6 +112,12 @@
 			<Capitalization availableTrain="6" level="FULL" />
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
+		<RoundTypes>
+			<RoundType>StockRound</RoundType>
+			<RoundType>AuctionRound</RoundType>
+			<RoundType>OperatingRound</RoundType>
+			<RoundType>FormationRound</RoundType>
+		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
 			<Player numPlayers="4" startingCash="475" certificateLimit="15" />
@@ -180,6 +191,12 @@
 		maxRounds="4" optionalOR="true" initialRoundType="ContractBidRound"
 		releaseDate="1989"  bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
+		<RoundTypes>
+			<RoundType>StockRound</RoundType>
+			<RoundType>AuctionRound</RoundType>
+			<RoundType>OperatingRound</RoundType>
+			<RoundType>ContractBidRound</RoundType>
+		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="730" certificateLimit="21" />
 			<Player numPlayers="4" startingCash="570" certificateLimit="16" />
@@ -247,6 +264,12 @@
 			<Capitalization availableTrain="6" level="FULL" />
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
+		<RoundTypes>
+			<RoundType>StockRound</RoundType>
+			<RoundType>AuctionRound</RoundType>
+			<RoundType>OperatingRound</RoundType>
+			<RoundType>FormationRound</RoundType>
+		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
 				<VariantEffect action="Alternate Destination" companyID="1501"
@@ -407,6 +430,11 @@
 			<Capitalization availableTrain="6" level="FULL" />
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
+		<RoundTypes>
+			<RoundType>StockRound</RoundType>
+			<RoundType>AuctionRound</RoundType>
+			<RoundType>OperatingRound</RoundType>
+		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="$400 Finish">
 				<VariantEffect action="End Game on Stock Cell" cellName="A21" 
@@ -514,6 +542,11 @@
 			<Capitalization availableTrain="6" level="FULL" />
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
+		<RoundTypes>
+			<RoundType>StockRound</RoundType>
+			<RoundType>AuctionRound</RoundType>
+			<RoundType>OperatingRound</RoundType>
+		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
 				<VariantEffect action="Set Bank Cash to $4,500" 
@@ -637,6 +670,11 @@
 			<Capitalization availableTrain="6" level="FULL" />
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
+		<RoundTypes>
+			<RoundType>StockRound</RoundType>
+			<RoundType>AuctionRound</RoundType>
+			<RoundType>OperatingRound</RoundType>
+		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
 				<VariantEffect action="Set Bank Cash to $4,500" 
