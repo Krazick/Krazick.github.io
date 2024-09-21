@@ -6,7 +6,8 @@
 		status="Playable"
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
-		producers="Avalon Hill / Hasbro (US)" releaseDate="1986" maxRounds="3" 
+		producers="Avalon Hill / Hasbro (US)" releaseDate="1986" 
+		maxRounds="3" initialRoundType="StockRound"
 		firstTokenCost="40" laterTokenCost="100" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
@@ -95,7 +96,8 @@
 		status="INCOMPLETE"
 		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany)"
 		producers="Hans im Gluck (Germany)" location="Germany" 
-		maxRounds="3" releaseDate="1990" bankPoolDividends="corporation" ipoDivedends="bank"
+		maxRounds="3" initialRoundType="StockRound"
+		releaseDate="1990" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -175,7 +177,8 @@
 		status="INCOMPLETE"
 		bankTotal="12500" currencyFormat="£ ###,###" designers="Frances Tresham (UK)"
 		producers="Hartland Trefoil Ltd (UK)" location="India" 
-		maxRounds="4" optionalOR="true" releaseDate="1989"  bankPoolDividends="corporation" ipoDivedends="bank"
+		maxRounds="4" optionalOR="true" initialRoundType="ContractBidRound"
+		releaseDate="1989"  bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="730" certificateLimit="21" />
@@ -230,7 +233,8 @@
 	<GameInfo id="4" name="1856" Subtitle="Railroading in Upper Canada from 1856" minPlayers="3" maxPlayers="6"
 		status="IN PROGRESS" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Southern Ontario, Canada" producers="Mayfair Games (US)" releaseDate="1995"
-		firstTokenCost="40" laterTokenCost="100" maxRounds="3" 
+		firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3" initialRoundType="StockRound"
 		privates="true" minors="false" shares="true" bankPoolDividends="corporation" ipoDivedends="bank"
 		bankPoolShareLimit="5" playerShareLimit="6" 
 		licenses="true" noTouchPass="true" bankPoolName="Open Market"
@@ -391,7 +395,8 @@
 		maxPlayers="6" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Mississippi Valley, USA" producers="Mayfair Games (US)" releaseDate="1995"
 		status="BROKEN" bankPoolName="Open Market"
-		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
+		firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3"  initialRoundType="StockRound"
 		bankPoolDividends="bank" ipoDivedends="corporation"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
@@ -497,7 +502,8 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
+		firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3" initialRoundType="StockRound"
 		bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
@@ -619,7 +625,8 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100" maxRounds="4" 
+		firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3" initialRoundType="StockRound"
 		bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
