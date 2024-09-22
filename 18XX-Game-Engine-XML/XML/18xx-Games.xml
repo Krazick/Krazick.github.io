@@ -19,9 +19,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType>StockRound</RoundType>
-			<RoundType>AuctionRound</RoundType>
-			<RoundType>OperatingRound</RoundType>
+			<RoundType name="StockRound" />
+			<RoundType name="AuctionRound" />
+			<RoundType name="OperatingRound" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -113,10 +113,10 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType>StockRound</RoundType>
-			<RoundType>AuctionRound</RoundType>
-			<RoundType>OperatingRound</RoundType>
-			<RoundType>FormationRound</RoundType>
+			<RoundType name="StockRound" />
+			<RoundType name="AuctionRound" />
+			<RoundType name="OperatingRound" />
+			<RoundType name="FormationRound" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
@@ -192,10 +192,10 @@
 		releaseDate="1989"  bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
 		<RoundTypes>
-			<RoundType>StockRound</RoundType>
-			<RoundType>AuctionRound</RoundType>
-			<RoundType>OperatingRound</RoundType>
-			<RoundType>ContractBidRound</RoundType>
+			<RoundType name="StockRound" />
+			<RoundType name="AuctionRound" />
+			<RoundType name="OperatingRound" />
+			<RoundType name="ContractBidRound" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="730" certificateLimit="21" />
@@ -265,10 +265,10 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType>StockRound</RoundType>
-			<RoundType>AuctionRound</RoundType>
-			<RoundType>OperatingRound</RoundType>
-			<RoundType>FormationRound</RoundType>
+			<RoundType name="StockRound" />
+			<RoundType name="AuctionRound" />
+			<RoundType name="OperatingRound" />
+			<RoundType name="FormationRound" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
@@ -431,9 +431,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType>StockRound</RoundType>
-			<RoundType>AuctionRound</RoundType>
-			<RoundType>OperatingRound</RoundType>
+			<RoundType name="StockRound" />
+			<RoundType name="AuctionRound" />
+			<RoundType name="OperatingRound" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="$400 Finish">
@@ -543,9 +543,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType>StockRound</RoundType>
-			<RoundType>AuctionRound</RoundType>
-			<RoundType>OperatingRound</RoundType>
+			<RoundType name="StockRound" />
+			<RoundType name="AuctionRound" />
+			<RoundType name="OperatingRound" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -671,9 +671,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType>StockRound</RoundType>
-			<RoundType>AuctionRound</RoundType>
-			<RoundType>OperatingRound</RoundType>
+			<RoundType name="StockRound" />
+			<RoundType name="AuctionRound" />
+			<RoundType name="OperatingRound" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
