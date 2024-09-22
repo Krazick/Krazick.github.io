@@ -7,7 +7,7 @@
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Avalon Hill / Hasbro (US)" releaseDate="1986" 
-		maxRounds="3" initialRoundType="StockRound"
+		maxRounds="3" initialRoundType="Stock Round"
 		firstTokenCost="40" laterTokenCost="100" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
@@ -19,9 +19,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="StockRound" />
-			<RoundType name="AuctionRound" />
-			<RoundType name="OperatingRound" />
+			<RoundType name="Stock Round" />
+			<RoundType name="Auction Round" />
+			<RoundType name="Operating Round" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -101,7 +101,7 @@
 		status="INCOMPLETE"
 		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany)"
 		producers="Hans im Gluck (Germany)" location="Germany" 
-		maxRounds="3" initialRoundType="StockRound"
+		maxRounds="3" initialRoundType="Stock Round"
 		releaseDate="1990" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
 		<Capitalizations>
@@ -113,10 +113,10 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="StockRound" />
-			<RoundType name="AuctionRound" />
-			<RoundType name="OperatingRound" />
-			<RoundType name="FormationRound" />
+			<RoundType name="Stock Round" />
+			<RoundType name="Auction Round" />
+			<RoundType name="Operating Round" />
+			<RoundType name="Formation Round" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
@@ -188,14 +188,14 @@
 		status="INCOMPLETE"
 		bankTotal="12500" currencyFormat="£ ###,###" designers="Frances Tresham (UK)"
 		producers="Hartland Trefoil Ltd (UK)" location="India" 
-		maxRounds="4" optionalOR="true" initialRoundType="ContractBidRound"
+		maxRounds="4" optionalOR="true" initialRoundType="Contract Bid Round"
 		releaseDate="1989"  bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
 		<RoundTypes>
-			<RoundType name="StockRound" />
-			<RoundType name="AuctionRound" />
-			<RoundType name="OperatingRound" />
-			<RoundType name="ContractBidRound" />
+			<RoundType name="Stock Round" />
+			<RoundType name="Auction Round" />
+			<RoundType name="Operating Round" />
+			<RoundType name="Contract Bid Round" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="730" certificateLimit="21" />
@@ -251,7 +251,7 @@
 		status="IN PROGRESS" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Southern Ontario, Canada" producers="Mayfair Games (US)" releaseDate="1995"
 		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3" initialRoundType="StockRound"
+		maxRounds="3" initialRoundType="Stock Round"
 		privates="true" minors="false" shares="true" bankPoolDividends="corporation" ipoDivedends="bank"
 		bankPoolShareLimit="5" playerShareLimit="6" 
 		licenses="true" noTouchPass="true" bankPoolName="Open Market"
@@ -265,10 +265,10 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="StockRound" />
-			<RoundType name="AuctionRound" />
-			<RoundType name="OperatingRound" />
-			<RoundType name="FormationRound" />
+			<RoundType name="Stock Round" />
+			<RoundType name="Auction Round" />
+			<RoundType name="Operating Round" />
+			<RoundType name="Formation Round" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
@@ -419,7 +419,7 @@
 		location="Mississippi Valley, USA" producers="Mayfair Games (US)" releaseDate="1995"
 		status="BROKEN" bankPoolName="Open Market"
 		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3"  initialRoundType="StockRound"
+		maxRounds="3"  initialRoundType="Stock Round"
 		bankPoolDividends="bank" ipoDivedends="corporation"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
@@ -431,9 +431,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="StockRound" />
-			<RoundType name="AuctionRound" />
-			<RoundType name="OperatingRound" />
+			<RoundType name="Stock Round" />
+			<RoundType name="Auction Round" />
+			<RoundType name="Operating Round" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="$400 Finish">
@@ -531,7 +531,7 @@
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
 		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3" initialRoundType="StockRound"
+		maxRounds="3" initialRoundType="Stock Round"
 		bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
@@ -543,9 +543,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="StockRound" />
-			<RoundType name="AuctionRound" />
-			<RoundType name="OperatingRound" />
+			<RoundType name="Stock Round" />
+			<RoundType name="Auction Round" />
+			<RoundType name="Operating Round" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -659,7 +659,7 @@
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
 		producers="Mayfair" releaseDate="2011"
 		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3" initialRoundType="StockRound"
+		maxRounds="3" initialRoundType="Stock Round"
 		bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
@@ -671,9 +671,9 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="StockRound" />
-			<RoundType name="AuctionRound" />
-			<RoundType name="OperatingRound" />
+			<RoundType name="Stock Round" />
+			<RoundType name="Auction Round" />
+			<RoundType name="Operating Round" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
