@@ -114,7 +114,9 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" nextRound="Operating Round"/>
-			<RoundType name="Operating Round" interruptionRound="Formation Round" nextRound="Stock Round" maxRounds="3"/>
+			<RoundType name="Operating Round" interruptionRound="Formation Round" 
+					afterActions="Buy Train Action, Pay Revenue Action"
+					nextRound="Stock Round" maxRounds="3"/>
 			<RoundType name="Formation Round" afterActions="Buy Train Action" />
 		</RoundTypes>
 		<PlayerInfo>
@@ -265,7 +267,8 @@
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round" />
 			<RoundType name="Auction Round" afterActions="Done Player Action, Win Auction Action" />
-			<RoundType name="Operating Round" interruptionRound="Formation Round" nextRound="Stock Round" maxRounds="3"/>
+			<RoundType name="Operating Round" interruptionRound="Formation Round" afterActions="Done Action"
+					 nextRound="Stock Round" maxRounds="3"/>
 			<RoundType name="Formation Round" />
 		</RoundTypes>
 		<Variants>
