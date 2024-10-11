@@ -20,7 +20,7 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"/>
-			<RoundType name="Auction Round" afterActions="Done Player Action, Win Auction Action" />
+			<RoundType name="Auction Round" afterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3"/>
 		</RoundTypes>
 		<Variants>
@@ -266,7 +266,7 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round" />
-			<RoundType name="Auction Round" afterActions="Done Player Action, Win Auction Action" />
+			<RoundType name="Auction Round" afterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" afterActions="Done Action"
 					 nextRound="Stock Round" maxRounds="3"/>
 			<RoundType name="Formation Round" />
@@ -433,7 +433,7 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"/>
-			<RoundType name="Auction Round" afterActions="Done Player Action, Win Auction Action" />
+			<RoundType name="Auction Round" afterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3"/>
 		</RoundTypes>
 		<Variants>
@@ -545,7 +545,7 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"/>
-			<RoundType name="Auction Round" afterActions="Done Player Action, Win Auction Action" />
+			<RoundType name="Auction Round" afterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3"/>
 		</RoundTypes>
 		<Variants>
@@ -673,7 +673,7 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"/>
-			<RoundType name="Auction Round" afterActions="Done Player Action, Win Auction Action" />
+			<RoundType name="Auction Round" afterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3"/>
 		</RoundTypes>
 		<Variants>
