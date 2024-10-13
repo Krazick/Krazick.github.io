@@ -118,7 +118,7 @@
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					interuptsAfterActions="Buy Train Action, Pay Revenue Action"
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
-			<RoundType name="Formation Round" afterActions="Buy Train Action" />
+			<RoundType name="Formation Round" InteruptsAfterActions="Buy Train Action" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
