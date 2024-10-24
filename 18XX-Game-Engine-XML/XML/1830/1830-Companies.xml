@@ -36,7 +36,6 @@
 		note="A player owning the M&amp;H may exchange it for a 10% share of NYC provided the player does not already hold 60% of the NYC stock and there is NYC stock available in the Bank or the Pool. The exchange may be made during the player’s turn of a Stock Round or between the turns of other players or Railroads in either Stock or Operating Rounds.  This action closes the M&amp;H." 
 		special="Exchange for 10% of NYC" exchangeID="1103" exchangePercentage="10">
 		<Benefits>
-			<Benefit actorType="Player" class="ge18xx.company.benefit.ExchangeBenefit" corporationID="1103" certificatePercentage="10" closeOnUse="true" passive="false"/>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.QueryExchangeBenefit" corporationID="1103" certificatePercentage="10" closeOnUse="true" passive="false"/>
 		</Benefits>
 		<Certificate director="YES" percentage="100"
