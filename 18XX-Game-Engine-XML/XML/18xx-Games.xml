@@ -22,36 +22,59 @@
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"
 				endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
-			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action" />
+			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
+				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
 				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="500" title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
-				<VariantEffect action="Allow M&amp;H Exchange at Operating Round Start" class="ge18xx.game.variants.EnableBenefitVEffect" id="501" name="Query M&amp;H Exchange" companyID="1004" benefitName="QUERY EXCHANGE" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="500" 
+				title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
+				<VariantEffect action="Allow M&amp;H Exchange at Operating Round Start" 
+					class="ge18xx.game.variants.EnableBenefitVEffect" id="501" 
+					name="Query M&amp;H Exchange" companyID="1004" benefitName="QUERY EXCHANGE" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="800" title="Require Share Company to Operate before Sale" default="true">
-				<VariantEffect action="Require Share Company to Operate before Sale" class="ge18xx.game.variants.ModifyGameInfoVEffect" id="801" name="Operate Before Sale" attributeName="operateBeforeSale" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="800" 
+				title="Require Share Company to Operate before Sale" default="true">
+				<VariantEffect action="Require Share Company to Operate before Sale" 
+					class="ge18xx.game.variants.ModifyGameInfoVEffect" id="801" 
+					name="Operate Before Sale" attributeName="operateBeforeSale" />
 			</Variant>
-			<Variant class="ge18xx.game.variants.VariantToggle" id="900" title="Random Player Start Order" default="true" hotSeatOnly="true">
-				<VariantEffect action="Random Player Start Order" class="ge18xx.game.variants.ModifyGameInfoVEffect" id="901" name="Randomize Start Order" attributeName="randomizeStartOrder" />
+			<Variant class="ge18xx.game.variants.VariantToggle" id="900" title="Random Player Start Order" 
+				default="true" hotSeatOnly="true">
+				<VariantEffect action="Random Player Start Order" 
+					class="ge18xx.game.variants.ModifyGameInfoVEffect" id="901" 
+					name="Randomize Start Order" attributeName="randomizeStartOrder" />
 			</Variant>
 			<!--  Train specific Variants -->
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="Optional 6 Train">
-				<VariantEffect action="Set 6 Train Quantity to 3" class="ge18xx.game.variants.SetTrainCountVEffect" id="101" name="(3) 6 Trains" trainName="6" quantity="3" />
+				<VariantEffect action="Set 6 Train Quantity to 3" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="101" name="(3) 6 Trains" 
+					trainName="6" quantity="3" />
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantChoose1" id="200" title="Choose Diesel Count">
-				<VariantEffect action="Set Diesel Train Quantity to Zero (0)" class="ge18xx.game.variants.SetTrainCountVEffect" id="201" name="Zero (0)" trainName="Diesel" quantity="0"/>
-				<VariantEffect action="Set Diesel Train Quantity to 6 (Standard)" class="ge18xx.game.variants.SetTrainCountVEffect" id="202" defaultEffect="true" name="Standard" trainName="Diesel" quantity="6" />
-				<VariantEffect action="Set Diesel Train Quantity to Unlimited" class="ge18xx.game.variants.SetTrainCountVEffect" id="203" name="Unlimited" trainName="Diesel" quantity="99"/>
+				<VariantEffect action="Set Diesel Train Quantity to Zero (0)" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="201" name="Zero (0)" 
+					trainName="Diesel" quantity="0"/>
+				<VariantEffect action="Set Diesel Train Quantity to 6 (Standard)" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="202" defaultEffect="true" 
+					name="Standard" trainName="Diesel" quantity="6" />
+				<VariantEffect action="Set Diesel Train Quantity to Unlimited" 
+					class="ge18xx.game.variants.SetTrainCountVEffect" id="203" 
+					name="Unlimited" trainName="Diesel" quantity="99"/>
 			</Variant>
 			<!--  Tile specific Variants -->
 			<Variant class="ge18xx.game.variants.VariantAll" id="600" title="Add Double-Town Yellow Tiles">
-				<VariantEffect action="Add Yellow Tile 630" class="ge18xx.game.variants.AddTilesVEffect" id="601" name="Double Town 630" tileNumber="630" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 631" class="ge18xx.game.variants.AddTilesVEffect" id="602" name="Double Town 631" tileNumber="631" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 632" class="ge18xx.game.variants.AddTilesVEffect" id="603" name="Double Town 632" tileNumber="632" tileType="Yellow" quantity="1"/>
-				<VariantEffect action="Add Yellow Tile 633" class="ge18xx.game.variants.AddTilesVEffect" id="604" name="Double Town 633" tileNumber="633" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 630" 
+					class="ge18xx.game.variants.AddTilesVEffect" id="601" name="Double Town 630" 
+					tileNumber="630" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 631" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="602" name="Double Town 631" tileNumber="631" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 632" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="603" name="Double Town 632" tileNumber="632" tileType="Yellow" quantity="1"/>
+				<VariantEffect action="Add Yellow Tile 633" class="ge18xx.game.variants.AddTilesVEffect" 
+					id="604" name="Double Town 633" tileNumber="633" tileType="Yellow" quantity="1"/>
 			</Variant>
 		</Variants>
 		<PlayerInfo>
@@ -549,7 +572,8 @@
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"
 				endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
-			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action" />
+			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
+				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -678,7 +702,8 @@
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"
 				endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
-			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action" />
+			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
+				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
