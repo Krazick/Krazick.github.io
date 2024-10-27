@@ -141,7 +141,7 @@
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					interruptsAfterActions="Buy Train Action, Pay Revenue Action"
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
-			<RoundType name="Formation Round" interruptsAfterActions="Buy Train Action" />
+			<RoundType name="Formation Round" interruptsAfterActions="Buy Train Action" phase="2.3" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
@@ -294,7 +294,7 @@
 			<RoundType name="Auction Round" interuptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" interuptsAfterActions="Done Action"
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
-			<RoundType name="Formation Round" endsAfterActions="Loan Repayment Action, Final Formation Action" />
+			<RoundType name="Formation Round" endsAfterActions="Loan Repayment Action, Final Formation Action" phase="5" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
