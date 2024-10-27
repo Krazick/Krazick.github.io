@@ -291,8 +291,8 @@
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round" 
 					endsAfterActions="Pass Action" />
-			<RoundType name="Auction Round" interuptsAfterActions="Done Player Action, Change Round Action" />
-			<RoundType name="Operating Round" interruptionRound="Formation Round" interuptsAfterActions="Done Action"
+			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
+			<RoundType name="Operating Round" interruptionRound="Formation Round" interruptsAfterActions="Done Action"
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
 			<RoundType name="Formation Round" endsAfterActions="Loan Repayment Action, Final Formation Action" phase="5" />
 		</RoundTypes>
