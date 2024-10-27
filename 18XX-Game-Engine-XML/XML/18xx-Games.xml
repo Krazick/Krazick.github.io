@@ -139,9 +139,8 @@
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
-					interruptsAfterActions="Buy Train Action, Pay Revenue Action"
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
-			<RoundType name="Formation Round" interruptsAfterActions="Buy Train Action" phase="2.3" />
+			<RoundType name="Formation Round" interruptsAfterActions="Buy Train Action, Pay Revenue Action" phase="2.3" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
@@ -217,9 +216,11 @@
 		releaseDate="1989"  bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
 		<RoundTypes>
-			<RoundType name="Contract Bid Round" initialRound="true" nextRound="Stock Round" endsAfterActions="Done Player Action" />
+			<RoundType name="Contract Bid Round" initialRound="true" nextRound="Stock Round" 
+						endsAfterActions="Done Player Action" />
 			<RoundType name="Stock Round" nextRound="Operating Round" endsAfterActions="Pass Action" />
-			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" optionalExtra="true" endsAfterActions="Done Action" />
+			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
+						optionalExtra="true" endsAfterActions="Done Action" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="730" certificateLimit="21" />
@@ -292,9 +293,10 @@
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round" 
 					endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
-			<RoundType name="Operating Round" interruptionRound="Formation Round" interruptsAfterActions="Done Action"
+			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
-			<RoundType name="Formation Round" endsAfterActions="Loan Repayment Action, Final Formation Action" phase="5" />
+			<RoundType name="Formation Round" endsAfterActions="Loan Repayment Action, Final Formation Action" 
+					interruptsAfterActions="Done Action" phase="5" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
