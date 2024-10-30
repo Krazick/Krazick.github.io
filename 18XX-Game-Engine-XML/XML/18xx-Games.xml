@@ -391,13 +391,13 @@
 			<Phase name="5" subName="1" rounds="3" tiles="Yellow,Green,Brown,Grey"
 				canBuyTrain="true" trainLimit="2" govtTrainLimit="3" offBoard="Mid" 
 				loansAllowed="false" minToFloat="6" capitalization="FULL" 
-				triggerClass="ge18xx.company.formation.FormationPhase" formCompanyID="1512">
+				triggerClass="ge18xx.company.formation.FormCGR" formCompanyID="1512">
 				<PreparedAction>
 					<ActorType type="Corporation"/>
 					<TargetState state="Operated"/>
 					<TriggeringActor name="COCABBREV"/>
 					<Action actor="COCABBREV" chainPrevious="true" 
-						class="ge18xx.round.action.StartFormationAction" name="Formation Phase" 
+						class="ge18xx.round.action.StartFormationAction" name="Formation State" 
 						number="9999" roundID="RID" roundType="Operating Round">
 						<Effects>
 							<Effect actor="PLAYERNAME" 
