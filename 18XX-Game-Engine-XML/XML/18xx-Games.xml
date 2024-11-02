@@ -296,7 +296,7 @@
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
 			<RoundType name="Formation Round" endsAfterActions="Loan Repayment Action, Final Formation Action" 
-					interruptsAfterActions="Done Action" phase="5" />
+					interruptsAfterActions="Done Action" phase="5.1" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
