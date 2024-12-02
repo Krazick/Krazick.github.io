@@ -140,7 +140,8 @@
 			<RoundType name="Stock Round" initialRound="true" nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
-			<RoundType name="Formation Round" interruptsAfterActions="Buy Train Action, Pay Revenue Action" phase="2.3" />
+			<RoundType name="Formation Round" triggeringClass="ge18xx.company.formation.Prussian"
+					interruptsAfterActions="Buy Train Action, Pay Revenue Action" phase="2.3" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
@@ -295,7 +296,8 @@
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
-			<RoundType name="Formation Round" endsAfterActions="Loan Repayment Action, Final Formation Action" 
+			<RoundType name="Formation Round" triggeringClass="ge18xx.company.formation.FormCGR"
+					endsAfterActions="Loan Repayment Action, Final Formation Action" 
 					interruptsAfterActions="Done Action" phase="5.1" />
 		</RoundTypes>
 		<Variants>
