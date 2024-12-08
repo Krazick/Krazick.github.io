@@ -295,7 +295,7 @@
 					endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
-					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
+					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Change Round Action" />
 			<RoundType name="Formation Round"
 					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 					interruptsAfterActions="Done Action" phase="5.1" />
