@@ -25,7 +25,7 @@
 		</Benefits>
 	</Private>
 	<Private id="1603" name="Braunschweigische Bahn" abbrev="BSG"
-		note="The Braunschweigische Bahn. once the Prussian Railway has been formed, can be converted into a 10% share certificate of the Prussian Railway. This action closes them."
+		note="The Braunschweigische Bahn. once the Prussian Railway has been formed, can be converted into a 10% share certificate of the Prussian Railway. This action closes the Braunschweigische Bahn."
 		cost="130" revenue="25" special="Exchange for 10% Share of Prussian">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
@@ -34,7 +34,7 @@
 		</Benefits>
 	</Private>
 	<Private id="1604" name="Hannoversche Bahn" abbrev="Han" cost="160"
-		note="The Hannoversche Bahn, once the Prussian Railway has been formed, can be converted into a 10% share certificate of the Prussian Railway. This action closes them."
+		note="The Hannoversche Bahn, once the Prussian Railway has been formed, can be converted into a 10% share certificate of the Prussian Railway. This action closes the Hannoversche Bahn."
 		revenue="30" special="Exchange for 10% Share of Prussian">
 		<Certificate director="YES" percentage="100"
 			allowedOwners="IPO,Player,Share" />
