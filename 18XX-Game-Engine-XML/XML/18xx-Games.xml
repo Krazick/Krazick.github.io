@@ -19,15 +19,16 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"
-				endsAfterActions="Pass Action" />
+			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
+				nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
 				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
-				<VariantEffect action="Set Bank Cash to $4,500" class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
+				<VariantEffect action="Set Bank Cash to $4,500" 
+					class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantToggle" id="500" 
 				title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
@@ -85,8 +86,7 @@
 			<Player numPlayers="6" startingCash="400" certificateLimit="11" />
 		</PlayerInfo>
 		<Phases>
-			<Phase name="1" subName="1" rounds="1" tiles="Yellow"
-				trainLimit="4" offBoard="Low" />
+			<Phase name="1" subName="1" rounds="1" tiles="Yellow" trainLimit="4" offBoard="Low" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyPrivate="true" canBuyTrain="true" trainLimit="4" offBoard="Low" />
 			<Phase name="2" subName="2" rounds="2" tiles="Yellow,Green"
@@ -99,8 +99,7 @@
 				canBuyTrain="true" trainLimit="2" offBoard="High" />
 		</Phases>
 		<Trains>
-			<Train name="2" order="1" revenueCenters="2" quantity="6" price="80"
-				 onLast="2" />
+			<Train name="2" order="1" revenueCenters="2" quantity="6" price="80" onLast="2" />
 			<Train name="3" order="2" revenueCenters="3" quantity="5" price="180"
 				onLast="3" triggerPhase="2.1" tileInfo="Green"/>
 			<Train name="4" order="3" revenueCenters="4" quantity="4" price="300"
@@ -121,11 +120,9 @@
 			<File type="tileSet" name="1830/1830-TileSet.xml" />
 		</Files>
 	</GameInfo>
-	<GameInfo id="2" name="1835" minPlayers="3" maxPlayers="7"
-		status="INCOMPLETE"
+	<GameInfo id="2" name="1835" minPlayers="3" maxPlayers="7" status="INCOMPLETE"
 		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany)"
-		producers="Hans im Gluck (Germany)" location="Germany" 
-		maxRounds="3" initialRoundName="Stock Round"
+		producers="Hans im Gluck (Germany)" location="Germany" maxRounds="3" initialRoundName="Stock Round"
 		releaseDate="1990" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
 		<Capitalizations>
@@ -181,8 +178,7 @@
 				canBuyTrain="true" govtTrainLimit="3" majorTrainLimit="2" minToFloat="5" offBoard="High" />
 		</Phases>
 		<Trains>
-			<Train name="2" order="1" revenueCenters="2" quantity="9" price="80"
-				onLast="2" />
+			<Train name="2" order="1" revenueCenters="2" quantity="9" price="80" onLast="2" />
 			<Train name="2+2" order="2" revenueCenters="2" townRevenueCenters="2"
 				quantity="4" price="120" onLast="3" triggerPhase="1.2" />
 			<Train name="3" order="3" revenueCenters="3" quantity="4" price="180"
@@ -210,8 +206,7 @@
 			<File type="tileSet" name="1835/1835-TileSet.xml" />
 		</Files>
 	</GameInfo>
-	<GameInfo id="3" name="1853" minPlayers="3" maxPlayers="6"
-		status="INCOMPLETE"
+	<GameInfo id="3" name="1853" minPlayers="3" maxPlayers="6" status="INCOMPLETE"
 		bankTotal="12500" currencyFormat="£ ###,###" designers="Frances Tresham (UK)"
 		producers="Hartland Trefoil Ltd (UK)" location="India" 
 		maxRounds="4" optionalOR="true" initialRoundName="Contract Bid Round"
@@ -231,8 +226,7 @@
 			<Player numPlayers="6" startingCash="510" certificateLimit="11" />
 		</PlayerInfo>
 		<Phases>
-			<Phase name="1" subName="1" rounds="1" tiles="Yellow"
-				trainLimit="4" offBoard="Low" />
+			<Phase name="1" subName="1" rounds="1" tiles="Yellow" trainLimit="4" offBoard="Low" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyTrain="true" trainLimit="4" offBoard="Mid" />
 			<Phase name="2" subName="2" rounds="2" tiles="Yellow,Green"
@@ -256,13 +250,17 @@
 			<Train name="2M" order="3" revenueCenters="2" TownRevenueCenters="unlimited"
 				onLast="4" gauge="Meter" quantity="2" price="250" triggerPhase="2.2" />
 			<Train name="4" order="4" revenueCenters="4" TownRevenueCenters="unlimited"
-				onLast="5" quantity="4" price="620" rust="2" triggerPhase="3.1" tileInfo="Brown" isPermanent="true" />
+				onLast="5" quantity="4" price="620" rust="2" triggerPhase="3.1" 
+				tileInfo="Brown" isPermanent="true" />
 			<Train name="3M" order="5" revenueCenters="3" TownRevenueCenters="unlimited"
-				onLast="6" gauge="Meter" quantity="3" price="430" rust="2" triggerPhase="3.2" isPermanent="true" />
+				onLast="6" gauge="Meter" quantity="3" price="430" rust="2" triggerPhase="3.2" 
+				isPermanent="true" />
 			<Train name="5" order="6" revenueCenters="5" TownRevenueCenters="unlimited"
-				onLast="7" quantity="3" price="830" rust="3,2M" triggerPhase="4.1" tileInfo="Grey" isPermanent="true" />
+				onLast="7" quantity="3" price="830" rust="3,2M" triggerPhase="4.1" tileInfo="Grey" 
+				isPermanent="true" />
 			<Train name="4M" order="7" revenueCenters="4" TownRevenueCenters="unlimited"
-				onLast="8" gauge="Meter" quantity="2" price="590" rust="3,2M" triggerPhase="4.2" isPermanent="true" />
+				onLast="8" gauge="Meter" quantity="2" price="590" rust="3,2M" triggerPhase="4.2" 
+				isPermanent="true" />
 			<Train name="6" order="8" revenueCenters="6" TownRevenueCenters="unlimited"
 				quantity="2" price="1050" rust="3,2M" triggerPhase="4.3" isPermanent="true" />
 		</Trains>
@@ -277,12 +275,10 @@
 	<GameInfo id="4" name="1856" Subtitle="Railroading in Upper Canada from 1856" minPlayers="3" maxPlayers="6"
 		status="IN PROGRESS" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Southern Ontario, Canada" producers="Mayfair Games (US)" releaseDate="1995"
-		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3" initialRoundName="Stock Round"
+		firstTokenCost="40" laterTokenCost="100" maxRounds="3" initialRoundName="Stock Round"
 		privates="true" minors="false" shares="true" bankPoolDividends="corporation" ipoDivedends="bank"
-		bankPoolShareLimit="5" playerShareLimit="6" 
-		licenses="true" noTouchPass="true" bankPoolName="Open Market"
-		loans="true" loanAmount="100" loanInterest="10">
+		bankPoolShareLimit="5" playerShareLimit="6" licenses="true" 
+		noTouchPass="true" bankPoolName="Open Market" loans="true" loanAmount="100" loanInterest="10">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="Incremental_5" />
 			<Capitalization availableTrain="3" level="Incremental_5" />
@@ -292,14 +288,14 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round" 
-					endsAfterActions="Pass Action" />
+			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" 
+				nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
-					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Change Round Action" />
+				nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Change Round Action" />
 			<RoundType name="Formation Round"
-					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
-					interruptsAfterActions="Done Action" phase="5.1" />
+				endsAfterActions="Change Formation Round State Action, Final Formation Action" 
+				interruptsAfterActions="Done Action" phase="5.1" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
@@ -423,8 +419,7 @@
 				loansAllowed="false" minToFloat="6" capitalization="FULL" />
 		</Phases>
 		<Trains>
-			<Train name="2" order="1" revenueCenters="2" quantity="6" price="100" 
-				onLast="2" />
+			<Train name="2" order="1" revenueCenters="2" quantity="6" price="100" onLast="2" />
 			<Train name="3" order="2" revenueCenters="3" quantity="5" price="225"
 				onLast="3" triggerPhase="2.1" tileInfo="Green" />
 			<Train name="4" order="3" revenueCenters="4" quantity="4" price="350"
@@ -448,10 +443,8 @@
 	<GameInfo id="5" name="1870" subtitle="Railroading across the Trans Mississippi from 1870" minPlayers="2" 
 		maxPlayers="6" bankTotal="12000" currencyFormat="$ ###,###" designers="Bill Dixon (Canada)"
 		location="Mississippi Valley, USA" producers="Mayfair Games (US)" releaseDate="1995"
-		status="BROKEN" bankPoolName="Open Market"
-		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3"  initialRoundName="Stock Round"
-		bankPoolDividends="bank" ipoDivedends="corporation"
+		status="BROKEN" bankPoolName="Open Market" firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3"  initialRoundName="Stock Round" bankPoolDividends="bank" ipoDivedends="corporation"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -562,10 +555,8 @@
 	<GameInfo id="6" name="1830+" status="PLAYABLE" minPlayers="2" maxPlayers="6"
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
-		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3" initialRoundName="Stock Round"
-		bankPoolDividends="corporation" ipoDivedends="bank"
+		producers="Mayfair" releaseDate="2011" firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3" initialRoundName="Stock Round" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -653,8 +644,7 @@
 			<Player numPlayers="6" startingCash="400" certificateLimit="11" />
 		</PlayerInfo>
 		<Phases>
-			<Phase name="1" subName="1" rounds="1" tiles="Yellow"
-				trainLimit="4" offBoard="Low" />
+			<Phase name="1" subName="1" rounds="1" tiles="Yellow" trainLimit="4" offBoard="Low" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyPrivate="true" canBuyTrain="true" trainLimit="4" offBoard="Low" />
 			<Phase name="2" subName="2" rounds="2" tiles="Yellow,Green"
@@ -667,8 +657,7 @@
 				canBuyTrain="true" trainLimit="2" offBoard="High" />
 		</Phases>
 		<Trains>
-			<Train name="2" order="1" revenueCenters="2" quantity="6" price="80"
-				 onLast="2" />
+			<Train name="2" order="1" revenueCenters="2" quantity="6" price="80" onLast="2" />
 			<Train name="3" order="2" revenueCenters="3" quantity="5" price="180"
 				onLast="3" triggerPhase="2.1" tileInfo="Green"/>
 			<Train name="4" order="3" revenueCenters="4" quantity="4" price="300"
@@ -692,10 +681,8 @@
 	<GameInfo id="6" name="1830TEST" minPlayers="2" maxPlayers="6" status="Play Test ONLY" 
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
 		location="North Eastern United States" designers="Francis Tresham (UK) and Bruce Shelley (US)"
-		producers="Mayfair" releaseDate="2011"
-		firstTokenCost="40" laterTokenCost="100" 
-		maxRounds="3" initialRoundName="Stock Round"
-		bankPoolDividends="corporation" ipoDivedends="bank"
+		producers="Mayfair" releaseDate="2011" firstTokenCost="40" laterTokenCost="100" 
+		maxRounds="3" initialRoundName="Stock Round" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="false" shares="true" bankPoolShareLimit="5" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
@@ -706,8 +693,8 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"
-				endsAfterActions="Pass Action" />
+			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
+				nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
 				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
@@ -740,7 +727,7 @@
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="Optional 6 Train">
 				<VariantEffect action="Set 6 Train Quantity to 3" 
 					class="ge18xx.game.variants.SetTrainCountVEffect" id="101" 
-						name="(3) 6 Trains" trainName="6" quantity="3" />
+					name="(3) 6 Trains" trainName="6" quantity="3" />
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantChoose1" id="200" title="Choose Diesel Count">
 				<VariantEffect action="Set Diesel Train Quantity to Unlimited" 
@@ -758,8 +745,8 @@
 					class="ge18xx.game.variants.AddTrainVEffect" id="701" 
 					name="Add 2+2 Train" trainName="2+2" quantity="1" >
 					<Train name="2+2" order="2" revenueCenters="2" townRevenueCenters="2"
-							quantity="1" price="180" onLast="3" triggerPhase="1.2" />
-							<!--  2+2 - $180, 3+3 - $300, 4+4 - $450, 5+5 - $630, 6+6 - $ 800 -->
+						quantity="1" price="180" onLast="3" triggerPhase="1.2" />
+						<!--  2+2 - $180, 3+3 - $300, 4+4 - $450, 5+5 - $630, 6+6 - $ 800 -->
 				</VariantEffect>
 				<VariantEffect action="Set 2 Train Quantity to 5" 
 					class="ge18xx.game.variants.SetTrainCountVEffect" hide="true" id="702" 
@@ -813,8 +800,7 @@
 			<Player numPlayers="6" startingCash="400" certificateLimit="11" />
 		</PlayerInfo>
 		<Phases>
-			<Phase name="1" subName="1" rounds="1" tiles="Yellow"
-				trainLimit="4" offBoard="Low" />
+			<Phase name="1" subName="1" rounds="1" tiles="Yellow" trainLimit="4" offBoard="Low" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyPrivate="true" canBuyTrain="true" trainLimit="4" offBoard="Low" />
 			<Phase name="2" subName="2" rounds="2" tiles="Yellow,Green"
@@ -827,8 +813,7 @@
 				canBuyTrain="true" trainLimit="2" offBoard="High" />
 		</Phases>
 		<Trains>
-			<Train name="2" order="1" revenueCenters="2" quantity="6" price="80"
-				 onLast="3" />
+			<Train name="2" order="1" revenueCenters="2" quantity="6" price="80" onLast="3" />
 			<Train name="3" order="3" revenueCenters="3" quantity="5" price="180"
 				onLast="5" triggerPhase="2.1" tileInfo="Green"/>
 			<Train name="4" order="5" revenueCenters="4" quantity="4" price="300"
