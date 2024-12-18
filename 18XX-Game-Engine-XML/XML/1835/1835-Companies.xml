@@ -166,31 +166,31 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 	</Share>
 	<StartPacket>
 		<Item row="1">
-			<Certificate available="true" corporationId="1601" discountAmount="0" canBeBidOn="NO">
+			<Certificate available="true" corporationId="1601">
 				<FreeCertificate corporationId="1801" percentage="10"/>
 			</Certificate>
 		</Item>
 		<Item row="2" buyNItems="1">
-			<Certificate available="true" corporationId="1701" discountAmount="0" canBeBidOn="NO"></Certificate>
-			<Certificate available="true" corporationId="1602" discountAmount="0" canBeBidOn="NO">
+			<Certificate available="true" corporationId="1701" />
+			<Certificate available="true" corporationId="1602">
 				<FreeCertificate corporationId="1802" percentage="20"/>
 			</Certificate>
-			<Certificate available="true" corporationId="1702" discountAmount="0" canBeBidOn="NO"></Certificate>
+			<Certificate available="true" corporationId="1702" />
 		</Item>
 		<Item row="3" buyNItems="1">
-			<Certificate available="true" corporationId="1703" discountAmount="0" canBeBidOn="NO"></Certificate>
-			<Certificate available="true" corporationId="1704" discountAmount="0" canBeBidOn="NO"></Certificate>
-			<Certificate available="true" corporationId="1801" percentage="20" discountAmount="0" canBeBidOn="NO"></Certificate>
-			<Certificate available="true" corporationId="1603" discountAmount="0" canBeBidOn="NO"></Certificate>
+			<Certificate available="true" corporationId="1703"/>
+			<Certificate available="true" corporationId="1704" />
+			<Certificate available="true" corporationId="1801" percentage="20" ></Certificate>
+			<Certificate available="true" corporationId="1603" />
 		</Item>
 		<Item row="4" buyNItems="1">
-			<Certificate available="true" corporationId="1604" discountAmount="0" canBeBidOn="NO"></Certificate>
-			<Certificate available="true" corporationId="1705" discountAmount="0" canBeBidOn="NO"></Certificate>
-			<Certificate available="true" corporationId="1706" discountAmount="0" canBeBidOn="NO"></Certificate>
-			<Certificate available="true" corporationId="1605" discountAmount="0" canBeBidOn="NO">
+			<Certificate available="true" corporationId="1604" />
+			<Certificate available="true" corporationId="1705" />
+			<Certificate available="true" corporationId="1706" />
+			<Certificate available="true" corporationId="1605" >
 				<FreeCertificate corporationId="1801" percentage="10"/>
 			</Certificate>
-			<Certificate available="true" corporationId="1606" discountAmount="0" canBeBidOn="NO">
+			<Certificate available="true" corporationId="1606" >
 				<FreeCertificate corporationId="1801" percentage="10"/>
 			</Certificate>
 		</Item>
