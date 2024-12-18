@@ -21,7 +21,7 @@
 		cost="190" revenue="20" special="Free President's of Sachsische Eisenbahn">
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player,Share" />
 		<Benefits>
-			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1802" certificatePercentage="10" passive="true"/>
+			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1802" certificatePercentage="20" certificatePresident="true" passive="true"/>
 			<!--  LD is closed with Sachsieche Eisenbahn Buys it's first Train -->
 		</Benefits>
 	</Private>
