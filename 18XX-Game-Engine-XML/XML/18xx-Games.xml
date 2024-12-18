@@ -137,7 +137,8 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Stock Round" initialRound="true" nextRound="Operating Round" endsAfterActions="Pass Action" />
+			<RoundType name="Stock Round" initialRound="true" nextRound="Operating Round" 
+					endsAfterActions="Pass Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
 			<RoundType name="Formation Round"
@@ -461,9 +462,11 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round" endsAfterActions="Pass Action" />
-			<RoundType name="Auction Round" interuptsAfterActions="Done Player Action, Change Round Action" />
-			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
+			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
+				 nextRound="Operating Round" endsAfterActions="Pass Action" />
+			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
+			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
+				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="$400 Finish">
@@ -573,8 +576,8 @@
 			<Capitalization availableTrain="Diesel" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" nextRound="Operating Round"
-				endsAfterActions="Pass Action" />
+			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
+				nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
 				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
