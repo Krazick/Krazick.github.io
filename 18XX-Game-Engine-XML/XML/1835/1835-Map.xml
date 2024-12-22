@@ -446,7 +446,7 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" type="River" />
+			<Terrain category="optional" location="50" type="River" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
@@ -478,7 +478,7 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" type="River" />
+			<Terrain category="optional" location="17" type="River" />
 			<RevenueCenter id="6" location="50" name="" number="1"
 				type="Single City" />
 		</MapCell>
@@ -490,7 +490,7 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" type="River" />
+			<Terrain category="optional" location="50" type="River" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
