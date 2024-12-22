@@ -213,14 +213,14 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<Terrain category="optional" location="14" type="River" />
-			<TileName name="XX" />
+			<TileName location="13" name="XX" />
 			<RevenueCenter id="17" location="17" name="" number="1" type="Single City" />
 			<RevenueCenter id="17" location="21" name="" number="1" type="Single City" />
 			<Tile number="9967" starting="TRUE" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" location="14" type="River" />
+			<Terrain category="optional" location="41" type="River" />
 			<TileName location="15" name="Y" />
 			<RevenueCenter id="18" location="50" name="" number="2" type="Double City" />
 			<Tile number="9968" starting="TRUE" />
@@ -522,7 +522,7 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" location="10" type="River" />
+			<Terrain category="optional" location="50" type="River" />
 			<TileName name="HH" />
 			<RevenueCenter id="3" location="7" name="" number="1"
 				type="Single City" />

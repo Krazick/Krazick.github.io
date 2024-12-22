@@ -441,7 +441,7 @@
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9966" type="Yellow" fixed="true">
-		<TileName location="17" name="XX" />
+		<TileName location="12" name="XX" />
 		<RevenueCenter id="-1" location="15" name="" number="1"
 			type="Single City" />
 		<RevenueCenter id="-1" location="19" name="" number="1"
