@@ -414,8 +414,8 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<Terrain category="optional" cost="40" type="River" />
-			<TileName name="L" location="15" />
+			<Terrain category="optional" cost="40" location="9" type="River" />
+			<TileName name="L" location="14" />
 			<RevenueCenter id="24" location="50" name="" number="1"
 				type="Single City" />
 		</MapCell>
