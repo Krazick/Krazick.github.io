@@ -137,7 +137,7 @@
 			<RoundType name="Stock Round" initialRound="true" nextRound="Operating Round" 
 					endsAfterActions="Pass Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
-					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action" />
+					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action" />
 			<RoundType name="Formation Round"
 					interruptsAfterActions="Buy Train Action, Pay Revenue Action" phase="2.3" />
 		</RoundTypes>
