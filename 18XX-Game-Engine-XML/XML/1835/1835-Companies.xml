@@ -160,7 +160,8 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 	</Share>
 	<Share id="1810" name="PreuBische Eisenbahn" abbrev="PR" bgColor="Black" startPrice="3,8" 
 		group="2" fgColor="White" tokens="3"  tokenType="RangeCost" formationPhase="2.3" 
-		formationRequirement="MinorID 1702 Optional" formationMandatoryPhase="2.4" govtRailway="true">
+		formationRequirement="MinorID 1702 Optional" formationMandatoryPhase="2.4" govtRailway="true" 
+		status="Unformed" >
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
