@@ -121,7 +121,7 @@
 		</Files>
 	</GameInfo>
 	<GameInfo id="2" name="1835" minPlayers="3" maxPlayers="7" status="INCOMPLETE"
-		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany)"
+		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany), Francis Tresham"
 		producers="Hans im Gluck (Germany)" location="Germany" maxRounds="3" initialRoundName="Stock Round"
 		releaseDate="1990" bankPoolDividends="corporation" ipoDivedends="bank"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
