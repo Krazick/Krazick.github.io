@@ -71,9 +71,9 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 				corporationID="1801" certificatePercentage="10" passive="true"/>
 			<Benefit actorType="Share Company" ownerType="Player" 
 				class="ge18xx.company.benefit.TilePlacementBenefit" extra="true" mapCell="J6" 
-				cost="0" passive="false" closeOnUse="true"/>
+				cost="0" passive="false" closeOnAllUsed="true"/>
 			<Benefit actorType="Share Company" ownerType="Player"
-				 class="ge18xx.company.benefit.TokenPlacementBenefit" closeOnUse="true" extra="true" 
+				 class="ge18xx.company.benefit.TokenPlacementBenefit" closeOnAllUsed="true" extra="true" 
 				 mapCell="J6" cost="0" passive="false"/>
 		</Benefits>
 	</Private>
