@@ -54,10 +54,10 @@
 				corporationID="1801" certificatePercentage="10" passive="true"/>
 			<Benefit actorType="Share Company" ownerType="Player" 
 				class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="M15" 
-				cost="0" passive="false" closeOnUse="true" />
+				cost="0" passive="false" closeOnAllUsed="true" />
 			<Benefit actorType="Share Company" ownerType="Player" 
 				class="ge18xx.company.benefit.TilePlacementBenefit" extra="false" mapCell="M17" 
-				cost="0" passive="false" closeOnUse="true" />
+				cost="0" passive="false" closeOnAllUsed="true" />
 		</Benefits>
 	</Private>
 	<Private id="1606" name="Pfalzbahnen" abbrev="Pf" cost="150"
