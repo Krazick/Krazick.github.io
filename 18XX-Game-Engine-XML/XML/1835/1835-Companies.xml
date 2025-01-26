@@ -114,51 +114,51 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
-	<Share id="1801" name="Bayerische Eisenbahn" abbrev="BY" startPrice="2,2"
+	<Share id="1801" name="Bayerische Eisenbahn" abbrev="BY" startPrice="2,2" tileLaysAllowed="2"
 		homeCell1="O15" homeLocation1="6" group="1" bgColor="Deep Blue" fgColor="White"
 		tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1802" name="Sachsische Eisenbahn" abbrev="SX" startPrice="3,2"
+	<Share id="1802" name="Sachsische Eisenbahn" abbrev="SX" startPrice="3,2" tileLaysAllowed="2"
 		homeCell1="H16" homeLocation1="14" group="1" bgColor="Red" fgColor="White"
 		tokens="3" tokenType="RangeCost" closeOnTrainPurchase="1602">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1803" name="Badische Eisenbahn" abbrev="BA" startPrice="3,1" homeCell1="L6" 
+	<Share id="1803" name="Badische Eisenbahn" abbrev="BA" startPrice="3,1" homeCell1="L6" tileLaysAllowed="2"
 		homeLocation1="15" bgColor="102,51,0" group="2" fgColor="White" tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="6" allowedOwners="IPO,Player,BankPool" />
 		<Certificate director="NO" percentage="20" quantity="1" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1804" name="Wurttembergische Eisenbahn" abbrev="WT" startPrice="3,1" 
+	<Share id="1804" name="Wurttembergische Eisenbahn" abbrev="WT" startPrice="3,1" tileLaysAllowed="2"
 		homeCell1="M9" homeLocation1="12" group="2" bgColor="Yellow" fgColor="Black" homeColor="Black"
 		tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="6" allowedOwners="IPO,Player,BankPool" />
 		<Certificate director="NO" percentage="20" quantity="1" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1805" name="Hessische Eisenbahn" abbrev="HE" startPrice="3,1" 
+	<Share id="1805" name="Hessische Eisenbahn" abbrev="HE" startPrice="3,1" tileLaysAllowed="2"
 		homeCell1="J8" homeLocation1="50" group="2" bgColor="53,151,53" fgColor="Black"
 		tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="6" allowedOwners="IPO,Player,BankPool" />
 		<Certificate director="NO" percentage="20" quantity="1" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1806" name="Eisenbahn Mecklenburg-Schwerin" abbrev="MS" startPrice="4,1" 
+	<Share id="1806" name="Eisenbahn Mecklenburg-Schwerin" abbrev="MS" startPrice="4,1" tileLaysAllowed="2" 
 		homeCell1="C13" homeLocation1="8" group="3" bgColor="102,0,102" fgColor="White"
 		tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1807" name="Oldenburgische Eisenbahn" abbrev="OL" startPrice="4,1" 
+	<Share id="1807" name="Oldenburgische Eisenbahn" abbrev="OL" startPrice="4,1" tileLaysAllowed="2" 
 		homeCell1="D6" homeLocation1="50" group="3" bgColor="102,102,102" fgColor="White"
 		tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1810" name="PreuBische Eisenbahn" abbrev="PR" bgColor="Black" startPrice="3,8" 
+	<Share id="1810" name="PreuBische Eisenbahn" abbrev="PR" bgColor="Black" startPrice="3,8" tileLaysAllowed="2" 
 		group="2" fgColor="White" tokens="3"  tokenType="RangeCost" formationPhase="2.3" 
 		formationRequirement="MinorID 1702 Optional" formationMandatoryPhase="2.4" govtRailway="true" 
 		status="Unformed" >
