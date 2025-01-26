@@ -149,9 +149,9 @@
 			<Player numPlayers="7" startingCash="310" certificateLimit="9" />
 		</PlayerInfo>
 		<Phases>
-			<Phase name="1" subName="1" rounds="1" tiles="Yellow" majorTileLays="2"
+			<Phase name="1" subName="1" rounds="1" tiles="Yellow" tileLaysAllowed="2"
 				majorTrainLimit="4" minorTrainLimit="2" willFloat="5" offBoard="Low" />
-			<Phase name="1" subName="2" rounds="1" tiles="Yellow" majorTileLays="2"
+			<Phase name="1" subName="2" rounds="1" tiles="Yellow" tileLaysAllowed="2"
 				majorTrainLimit="4" minorTrainLimit="2" willFloat="5" offBoard="Low" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
 				canBuyPrivate="true" canBuyTrain="true" majorTrainLimit="4" 
@@ -227,19 +227,19 @@
 		</PlayerInfo>
 		<Phases>
 			<Phase name="1" subName="1" rounds="1" tiles="Yellow" majorTileLays="2" trainLimit="4" offBoard="Low" />
-			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green" majorTileLays="2"
+			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green" tileLaysAllowed="2"
 				canBuyTrain="true" trainLimit="4" offBoard="Mid" />
-			<Phase name="2" subName="2" rounds="2" tiles="Yellow,Green" majorTileLays="2"
+			<Phase name="2" subName="2" rounds="2" tiles="Yellow,Green" tileLaysAllowed="2"
 				canBuyTrain="true" trainLimit="4" offBoard="Mid" />
-			<Phase name="3" subName="1" rounds="3" tiles="Yellow,Green,Brown" majorTileLays="2"
+			<Phase name="3" subName="1" rounds="3" tiles="Yellow,Green,Brown" tileLaysAllowed="2"
 				canBuyTrain="true" trainLimit="3" offBoard="High" />
-			<Phase name="3" subName="2" rounds="3" tiles="Yellow,Green,Brown" majorTileLays="2"
+			<Phase name="3" subName="2" rounds="3" tiles="Yellow,Green,Brown" tileLaysAllowed="2"
 				canBuyTrain="true" trainLimit="3" offBoard="High" />
-			<Phase name="4" subName="1" rounds="3" tiles="Yellow,Green,Brown,Grey" majorTileLays="2"
+			<Phase name="4" subName="1" rounds="3" tiles="Yellow,Green,Brown,Grey" tileLaysAllowed="2"
 				canBuyTrain="true" trainLimit="2" offBoard="High" />
-			<Phase name="4" subName="2" rounds="3" tiles="Yellow,Green,Brown,Grey" majorTileLays="2"
+			<Phase name="4" subName="2" rounds="3" tiles="Yellow,Green,Brown,Grey" tileLaysAllowed="2"
 				canBuyTrain="true" trainLimit="2" offBoard="High" />
-			<Phase name="4" subName="3" rounds="3" tiles="Yellow,Green,Brown,Grey" majorTileLays="2"
+			<Phase name="4" subName="3" rounds="3" tiles="Yellow,Green,Brown,Grey" tileLaysAllowed="2"
 				canBuyTrain="true" trainLimit="2" offBoard="High" />
 		</Phases>
 		<Trains>
