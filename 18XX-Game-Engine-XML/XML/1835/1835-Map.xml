@@ -330,7 +330,7 @@
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
-			<TileName name="Y" location="14" />
+			<TileName name="Y" location="7" />
 			<RevenueCenter id="15" location="12" name="" number="1"
 				type="Single City" />
 		</MapCell>

@@ -127,7 +127,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1803" name="Badische Eisenbahn" abbrev="BA" startPrice="3,1" homeCell1="L6" tileLaysAllowed="2"
-		homeLocation1="15" bgColor="102,51,0" group="2" fgColor="White" tokens="3" tokenType="RangeCost">
+		homeLocation1="15" homeLocation2="19" bgColor="102,51,0" group="2" fgColor="White" tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="6" allowedOwners="IPO,Player,BankPool" />
 		<Certificate director="NO" percentage="20" quantity="1" allowedOwners="IPO,Player,BankPool" />
