@@ -147,7 +147,9 @@
 				type="Single City" />
 			<RevenueCenter id="19" location="19" name="" number="1"
 				type="Single City" />
-<!--		<Tile number="9966" starting="TRUE" /> -->
+			<CorporationBase abbrev="BA" location="15"/>
+            <CorporationBase abbrev="BA" location="19"/>
+			<Tile number="9966" starting="TRUE" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
