@@ -157,13 +157,13 @@
 			<Phase name="1" subName="2" rounds="1" tiles="Yellow" tileLaysAllowed="2"
 				majorTrainLimit="4" minorTrainLimit="2" willFloat="5" offBoard="Low" />
 			<Phase name="2" subName="1" rounds="2" tiles="Yellow,Green"
-				canBuyPrivate="true" canBuyTrain="true" majorTrainLimit="4" 
+				canBuyPrivate="false" canBuyTrain="true" majorTrainLimit="4" 
 				minorTrainLimit="2" willFloat="5" offBoard="Mid" />
 			<Phase name="2" subName="2" rounds="2" tiles="Yellow,Green"
-				canBuyPrivate="true" canBuyTrain="true" majorTrainLimit="3" 
+				canBuyPrivate="false" canBuyTrain="true" majorTrainLimit="3" 
 				minorTrainLimit="2" willFloat="5" offBoard="Mid" />
 			<Phase name="2" subName="3" rounds="2" tiles="Yellow,Green"
-				canBuyPrivate="true" canBuyTrain="true" govtTrainLimit="4" majorTrainLimit="3" 
+				canBuyPrivate="false" canBuyTrain="true" govtTrainLimit="4" majorTrainLimit="3" 
 				minorTrainLimit="1" willFloat="5" offBoard="Mid" 
 				triggerClass="ge18xx.company.formation.FormPrussianOption" />
 			<Phase name="2" subName="4" rounds="2" tiles="Yellow,Green"
