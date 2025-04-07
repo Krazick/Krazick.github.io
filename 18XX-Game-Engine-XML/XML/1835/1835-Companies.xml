@@ -4,8 +4,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="https://krazick.github.io/schema 
 						https://krazick.github.io/18XX-Game-Engine-XML/public/XSD/18XX-Corporations.xsd">
-	<Private id="1601" name="Nurnberg-Furth" abbrev="NF" cost="100"
-		note="The owner of the Nurenberg-Furth receives in addition a free share in the Bayerische. He may, if he becomes director of a share company, lay a station marker of that company onto the Nurnberg-Furth hex (L14) during an operating round. This can be in addition to the normal placing of a station marker and is free. A connection with the track of the company as per rule VIII (7) is not reguired. This action closes the Nurnberg-Furth."
+	<Private id="1601" name="Nürnberg-Fürth" abbrev="NF" cost="100"
+		note="The owner of the Nürnberg-Fürth receives in addition a free share in the Bayerische. He may, if he becomes director of a share company, lay a station marker of that company onto the Nürnberg-Fürth hex (L14) during an operating round. This can be in addition to the normal placing of a station marker and is free. A connection with the track of the company as per rule VIII (7) is not reguired. This action closes the Nürnberg-Fürth."
 		homeCell1="L14" homeLocation1="6" homeLocation2="9"
 		revenue="5" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player" />
@@ -81,7 +81,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 				 mapCell="J6" cost="0" passive="false"/>
 		</Benefits>
 	</Private>
-	<Minor id="1701" name="Bergisch-Markische Bahn" abbrev="1" cost="80"
+	<Minor id="1701" name="Bergisch-Märkische Bahn" abbrev="1" cost="80"
 		homeCell1="H2" homeLocation1="15" upgradeID="1810" upgradePercentage="5"
 		formUpgrade="true" formPhase="2.3"
 		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
@@ -100,7 +100,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
-	<Minor id="1704" name="Koln-Mindener Bahn" abbrev="4" cost="160"
+	<Minor id="1704" name="Köln-Mindener Bahn" abbrev="4" cost="160"
 		homeCell1="G5" homeLocation1="12" upgradeID="1810" upgradePercentage="10"
 		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
@@ -124,7 +124,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1802" name="Sachsische Eisenbahn" abbrev="SX" startPrice="3,2"
+	<Share id="1802" name="Sächsische Eisenbahn" abbrev="SX" startPrice="3,2"
 		homeCell1="H16" homeLocation1="14" group="1" bgColor="Red" fgColor="White"
 		tokens="3" tokenType="RangeCost" closeOnTrainPurchase="1602">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
@@ -137,7 +137,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="NO" percentage="10" quantity="6" allowedOwners="IPO,Player,BankPool" />
 		<Certificate director="NO" percentage="20" quantity="1" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1804" name="Wurttembergische Eisenbahn" abbrev="WT" startPrice="3,1"
+	<Share id="1804" name="Württembergische Eisenbahn" abbrev="WT" startPrice="3,1"
 		homeCell1="M9" homeLocation1="12" group="2" bgColor="Yellow" fgColor="Black" homeColor="Black"
 		tokens="3" tokenType="RangeCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
@@ -165,7 +165,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="NO" percentage="20" quantity="2" allowedOwners="IPO,Player,BankPool" />
 		<Certificate director="NO" percentage="10" quantity="4" allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1810" name="PreuBische Eisenbahn" abbrev="PR" bgColor="Black" startPrice="3,8" 
+	<Share id="1810" name="Preußische Eisenbahn" abbrev="PR" bgColor="Black" startPrice="3,8" 
 		group="2" fgColor="White" tokens="3"  tokenType="RangeCost" formationPhase="2.3" 
 		formationRequirement="MinorID 1702 Optional" formationMandatoryPhase="2.4" govtRailway="true" 
 		status="Unformed" >
