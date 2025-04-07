@@ -8,7 +8,7 @@
 		note="The owner of the Nurenberg-Furth receives in addition a free share in the Bayerische. He may, if he becomes director of a share company, lay a station marker of that company onto the Nurnberg-Furth hex (L14) during an operating round. This can be in addition to the normal placing of a station marker and is free. A connection with the track of the company as per rule VIII (7) is not reguired. This action closes the Nurnberg-Furth."
 		homeCell1="L14" homeLocation1="6" homeLocation2="9"
 		revenue="5" special="Free Share of Bayerische Eisenbahn">
-		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player,Share" />
+		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player" />
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" 
 				corporationID="1801" certificatePercentage="10" passive="true"/>
@@ -20,7 +20,7 @@
 	<Private id="1602" name="Leipzig-Dresdner Bahn" abbrev="LD"
 		note="The buyer of the Leipzig-Dresdener receives in addition the Director's Certificate of the Sachsische Railway. The Leinzig-Dresdener is closed as soon as the Sachsische buys it's first train."
 		cost="190" revenue="20" special="Free President's of Sachsische Eisenbahn">
-		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player,Share" />
+		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player" />
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1802" 
 				certificatePercentage="20" certificatePresident="true" passive="true"/>
@@ -40,7 +40,7 @@
 		note="The Hannoversche Bahn, once the Prussian Railway has been formed, can be converted into a 10% share certificate of the Prussian Railway. This action closes the Hannoversche Bahn."
 		revenue="30" special="Exchange for 10% Share of Prussian">
 		<Certificate director="YES" percentage="100"
-			allowedOwners="IPO,Player,Share" />
+			allowedOwners="IPO,Player" />
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.ExchangeBenefit" 
 				corporationID="1810" certificatePercentage="10" closeOnUse="true" passive="false" />
@@ -51,7 +51,7 @@
 				homeCell1="M15" homeLocation1="9" homeCell2="M17" homeLocation2="6"
 				revenue="10" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
-			allowedOwners="IPO,Player,Share" />
+			allowedOwners="IPO,Player" />
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" 
 				corporationID="1801" certificatePercentage="10" passive="true"/>
@@ -69,7 +69,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		homeCell1="J6" homeLocation1="9" homeLocation2="6"
 		revenue="15" special="Free Share of Bayerische Eisenbahn">
 		<Certificate director="YES" percentage="100"
-			allowedOwners="IPO,Player,Share" />
+			allowedOwners="IPO,Player" />
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" 
 				corporationID="1801" certificatePercentage="10" passive="true"/>
