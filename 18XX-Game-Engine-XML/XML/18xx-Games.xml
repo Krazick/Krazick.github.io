@@ -219,6 +219,16 @@
 		maxRounds="4" optionalOR="true" initialRoundName="Contract Bid Round"
 		releaseDate="1989"  bankPoolDividends="corporation" ipoDividends="bank"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
+		<Capitalizations>
+			<Capitalization availableTrain="2" level="FULL" />
+			<Capitalization availableTrain="3" level="FULL" />
+			<Capitalization availableTrain="2M" level="FULL" />
+			<Capitalization availableTrain="4" level="FULL" />
+			<Capitalization availableTrain="3M" level="FULL" />
+			<Capitalization availableTrain="5" level="FULL" />
+			<Capitalization availableTrain="4M" level="FULL" />
+			<Capitalization availableTrain="6" level="FULL" />
+		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Contract Bid Round" initialRound="true" nextRound="Stock Round" 
 						endsAfterActions="Done Player Action" />
@@ -460,7 +470,9 @@
 			<Capitalization availableTrain="4" level="FULL" />
 			<Capitalization availableTrain="5" level="FULL" />
 			<Capitalization availableTrain="6" level="FULL" />
-			<Capitalization availableTrain="Diesel" level="FULL" />
+			<Capitalization availableTrain="8" level="FULL" />
+			<Capitalization availableTrain="10" level="FULL" />
+			<Capitalization availableTrain="12" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
