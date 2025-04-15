@@ -88,7 +88,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
-	<Minor id="1702" name="Berline-Potsdamer Bahn" abbrev="2" cost="170"
+	<Minor id="1702" name="Berlin-Potsdamer Bahn" abbrev="2" cost="170"
 		homeCell1="E19" homeLocation1="6" upgradeID="1810" upgradePercentage="10"
 		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
@@ -166,7 +166,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="NO" percentage="10" quantity="4" allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1810" name="Preußische Eisenbahn" abbrev="PR" bgColor="Black" startPrice="3,8" 
-		group="2" fgColor="White" tokens="3"  tokenType="RangeCost" formationPhase="2.3" 
+		group="2" fgColor="White" tokens="9"  tokenType="RangeCost" formationPhase="2.3" 
 		formationRequirement="MinorID 1702 Optional" formationMandatoryPhase="2.4" govtRailway="true" 
 		status="Unformed" >
 		<Certificate director="YES" percentage="10" allowedOwners="IPO,Player" />
