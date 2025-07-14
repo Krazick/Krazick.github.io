@@ -169,7 +169,7 @@
 			<Phase name="2" subName="3" rounds="2" tiles="Yellow,Green"
 				canBuyPrivate="false" canBuyTrain="true" govtTrainLimit="4" majorTrainLimit="3" 
 				minorTrainLimit="1" willFloat="5" offBoard="Mid" 
-				triggerClass="ge18xx.company.formation.FormPrussianOption" />
+				triggerClass="ge18xx.company.formation.FormPrussianOption" formCompanyID="1810"/>
 			<Phase name="2" subName="4" rounds="2" tiles="Yellow,Green"
 				canBuyTrain="true" govtTrainLimit="4" majorTrainLimit="3" minorTrainLimit="1" 
 				willFloat="5" offBoard="Mid" 
