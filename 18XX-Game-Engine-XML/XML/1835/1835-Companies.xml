@@ -80,13 +80,13 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 	</Private>
 	<Minor id="1701" name="Bergisch-Markische Bahn" abbrev="1" cost="80"
 		homeCell1="H2" homeLocation1="15" upgradeID="1810" upgradePercentage="5"
-		formUpgrade="true" formPhase="2.3"
 		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
 	</Minor>
 	<Minor id="1702" name="Berlin-Potsdamer Bahn" abbrev="2" cost="170"
 		homeCell1="E19" homeLocation1="6" upgradeID="1810" upgradePercentage="10"
+		formUpgrade="true" formPhase="2.3"
 		bgColor="Black" fgColor="White" homeColor="Black" tokens="1">
 		<Certificate director="YES" percentage="50" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="50" allowedOwners="Minor" />
