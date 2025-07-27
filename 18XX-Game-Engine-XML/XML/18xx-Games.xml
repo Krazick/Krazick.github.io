@@ -146,7 +146,7 @@
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action" />
 			<RoundType name="Formation Round"
-					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
+					endsAfterActions="Change State Action, Final Formation Action" 
 					interruptsAfterActions="Done Action, Pay Revenue Action" phase="2.3" />
 		</RoundTypes>
 		<PlayerInfo>
