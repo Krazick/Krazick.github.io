@@ -147,7 +147,7 @@
 					nextRound="Stock Round" maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action" />
 			<RoundType name="Formation Round"
 					endsAfterActions="Change State Action, Final Formation Action" 
-					interruptsAfterActions="Done Action, Pay Revenue Action" phase="2.3" />
+					interruptsAfterActions="Done Action, Change Round Action" phase="2.3" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
