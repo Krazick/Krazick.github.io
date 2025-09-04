@@ -147,7 +147,7 @@
 					nextRound="Stock Round" maxRounds="3" 
 					endsAfterActions="Done Action, Pay Revenue Action, Change Round Action" />
 			<RoundType name="Formation Round"
-					endsAfterActions="Change State Action, Final Formation Action" 
+					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 					interruptsAfterActions="Done Action, Change Round Action, Pass Action, Sold Out Adjustment Action" 
 					phase="2.3" />
 		</RoundTypes>
