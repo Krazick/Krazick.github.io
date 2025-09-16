@@ -33,7 +33,7 @@
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player" />
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.ExchangeBenefit" 
-				corporationID="1810" certificatePercentage="10" closeOnUse="true" passive="false"/>
+				corporationID="1810" certificatePercentage="10" closeOnUse="true" passive="true"/>
 		</Benefits>
 	</Private>
 	<Private id="1604" name="Hannoversche Bahn" abbrev="Han" cost="160"
@@ -42,7 +42,7 @@
 		<Certificate director="YES" percentage="100" allowedOwners="IPO,Player" />
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.ExchangeBenefit" 
-				corporationID="1810" certificatePercentage="10" closeOnUse="true" passive="false" />
+				corporationID="1810" certificatePercentage="10" closeOnUse="true" passive="true" />
 		</Benefits>
 	</Private>
 	<Private id="1605" name="Ostbayerische Bahn" abbrev="OB" cost="120"
