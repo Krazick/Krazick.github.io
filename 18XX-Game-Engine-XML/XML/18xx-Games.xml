@@ -141,14 +141,14 @@
 			<Capitalization availableTrain="6+6" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Stock Round" initialRound="true" 
+			<RoundType name="Stock Round" initialRound="true" interruptionRound="Formation Round"
 					nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" 
 					endsAfterActions="Done Action, Pay Revenue Action, Change Round Action" />
 			<RoundType name="Formation Round"
 					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
-					interruptsAfterActions="Done Action, Change Round Action, Sold Out Adjustment Action" 
+					interruptsAfterActions="Done Action, Change Round Action" 
 					phase="2.3" />
 		</RoundTypes>
 		<PlayerInfo>
