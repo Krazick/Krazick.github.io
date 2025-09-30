@@ -166,12 +166,12 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		group="2" fgColor="White" tokens="9"  tokenType="RangeCost" formationPhase="2.3" 
 		formationRequirement="MinorID 1702 Optional" formationMandatoryPhase="2.4" govtRailway="true" 
 		status="Unformed" >
+		<Certificate director="NO" percentage="10" quantity="4" allowedOwners="IPO,Player,BankPool"/>
 		<Certificate director="YES" percentage="10" allowedOwners="IPO,Player" onlyExchangeable="true" />
 		<Certificate director="NO" percentage="5" quantity="4" allowedOwners="IPO,Player,BankPool"
 				 onlyExchangeable="true" />
 		<Certificate director="NO" percentage="10" quantity="3" allowedOwners="IPO,Player,BankPool"
 				 onlyExchangeable="true" />
-		<Certificate director="NO" percentage="10" quantity="4" allowedOwners="IPO,Player,BankPool"/>
 	</Share>
 	<StartPacket>
 		<Item row="1">
