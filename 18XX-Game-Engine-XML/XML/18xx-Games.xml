@@ -149,6 +149,7 @@
 			<RoundType name="Formation Round"
 					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 					interruptsAfterActions="Done Action, Pass Action, Sold Out Adjustment Action" 
+					interruptsCondition="All Passed"
 					phase="2.3" />
 		</RoundTypes>
 		<PlayerInfo>
