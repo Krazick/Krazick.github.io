@@ -150,7 +150,7 @@
 					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 					interruptsAfterActions="Done Action, Pass Action, Sold Out Adjustment Action" 
 					interruptsCondition="All Passed"
-					phase="2.3" />
+					phases="2.3, 2.4, 3.1" />
 		</RoundTypes>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
