@@ -318,7 +318,7 @@
 				endsAfterActions="Done Action, Pay Revenue Action, Change Round Action" />		
 			<RoundType name="Formation Round"
 				endsAfterActions="Change Formation Round State Action, Final Formation Action" 
-				interruptsAfterActions="Done Action" phase="5.1" />
+				interruptsAfterActions="Done Action" phases="5.1" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="900" title="Alternate Destinations">
