@@ -5,23 +5,23 @@
 18XX Game Engine - XSD Files for XML Game Files
 
 # Table of Contents
-*[Project Description](#Description)*
+*[Project Description](#project-description)*
 
-*[Wiki](#Wiki)*
+*[Wiki](#wiki-site)*
 
-*[How to Use](#Use)*
+*[How to Use](#how-to-use)*
 
-*[Credits](#Credits)*
+*[Credits](#credits)*
 
-*[License](#License)*
+*[License](#license)*
 
-*[Badges](#Badges)*
+*[Badges](#badges)*
 
-*[Contribute](#Contribute)*
+*[Contribute](#how-to-contribute)*
 
-*[Tests](#Tests)*
+*[Tests](#tests)*
 
-*[Related Projects](#Related)*
+*[Related Projects](#related-projects)*
 
 # Wiki Site
 <a name="Wiki"></a>
@@ -53,7 +53,7 @@ No Updates should be posted that don't pass these tests, whether it is an update
 
 # Related Projects
 <a name="Related"></a>
-## Currently all private
+
 * GE18XX Game Engine
 * Net Game Server
 * Card Game Manager
