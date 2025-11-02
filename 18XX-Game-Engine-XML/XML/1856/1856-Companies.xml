@@ -132,8 +132,9 @@
 	</Share>
 	<Share id="1512" name="Canadian Government Railway" abbrev="CGR"
 		bgColor="Black" fgColor="White" tokens="10" tokenType="FixedCost" allTokensCost="100"
-		formationPhase="5" formationRequirement="loanDefault" 
-		govtRailway="true" canBorrowTrain="true" mustPayFullPrice="true" onlyPermanentTrain="true" >
+		formationPhase="5" formationRequirement="loanDefault" govtRailway="true" 
+		canBorrowTrain="true" mustPayFullPrice="true" onlyPermanentTrain="true" 
+		status="Unformed">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
 		<Certificate director="NO" percentage="10" quantity="8" allowedOwners="IPO,Player,BankPool" />
 		<Certificate secondIssue="YES" director="YES" percentage="10" allowedOwners="IPO,Player" />
