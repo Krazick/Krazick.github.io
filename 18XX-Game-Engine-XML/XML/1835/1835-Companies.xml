@@ -163,7 +163,7 @@ lay is in addition to a normal lay and is free. A connection with the company ho
 		<Certificate director="NO" percentage="10" quantity="4" allowedOwners="IPO,Player,BankPool" />
 	</Share>
 	<Share id="1810" name="Preusische Eisenbahn" abbrev="PR" bgColor="Black" startPrice="3,8" 
-		homeCell1="E19" homeLocation1="50"
+		homeCell1="E19" homeLocation1="50" capitalization="4"
 		group="2" fgColor="White" tokens="9"  tokenType="RangeCost" formationPhase="2.3" 
 		formationRequirement="MinorID 1702 Optional" formationMandatoryPhase="2.4" govtRailway="true" 
 		status="Unformed" >
