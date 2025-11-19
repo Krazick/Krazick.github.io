@@ -24,7 +24,7 @@
 		<Benefits>
 			<Benefit actorType="Player" class="ge18xx.company.benefit.FreeCertificateBenefit" corporationID="1802" 
 				certificatePercentage="20" certificatePresident="true" passive="true"/>
-			<!--  LD is closed with Sachsieche Eisenbahn Buys it's first Train -->
+			<!--  LD is closed when Sachsieche Eisenbahn Buys it's first Train -->
 		</Benefits>
 	</Private>
 	<Private id="1603" name="Braunschweigische Bahn" abbrev="BSG"
