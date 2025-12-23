@@ -129,16 +129,16 @@
 		tokenType="RangeCost" allTokensCost="20"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
 		<Capitalizations>
-			<Capitalization availableTrain="2" level="FULL" />
-			<Capitalization availableTrain="2+2" level="FULL" />
-			<Capitalization availableTrain="3" level="FULL" />
-			<Capitalization availableTrain="3+3" level="FULL" />
-			<Capitalization availableTrain="4" level="FULL" />
-			<Capitalization availableTrain="4+4" level="FULL" />
-			<Capitalization availableTrain="5" level="FULL" />
-			<Capitalization availableTrain="5+5" level="FULL" />
-			<Capitalization availableTrain="6" level="FULL" />
-			<Capitalization availableTrain="6+6" level="FULL" />
+			<Capitalization availableTrain="2" level="Incremental_10" />
+			<Capitalization availableTrain="2+2" level="Incremental_10" />
+			<Capitalization availableTrain="3" level="Incremental_10" />
+			<Capitalization availableTrain="3+3" level="Incremental_10" />
+			<Capitalization availableTrain="4" level="Incremental_10" />
+			<Capitalization availableTrain="4+4" level="Incremental_10" />
+			<Capitalization availableTrain="5" level="Incremental_10" />
+			<Capitalization availableTrain="5+5" level="Incremental_10" />
+			<Capitalization availableTrain="6" level="Incremental_10" />
+			<Capitalization availableTrain="6+6" level="Incremental_10" />
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Formation Round"
