@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GE18xx version="1.0">
 <Network name="Mark's Server" localServerIP="192.168.1.21" remoteServerIP="72.83.66.50" serverPort="18300"/>
-<Games ge18XXVersion="0.8.8 Beta">
+<Games ge18XXVersion="0.8.9 Beta">
 	<GameInfo id="1" name="1830" minPlayers="2" maxPlayers="6"
 		status="Playable"
 		bankTotal="12000" currencyFormat="$ ###,###" subtitle="Railroads and Robber Barons"
@@ -121,7 +121,7 @@
 			<File type="tileSet" name="1830/1830-TileSet.xml" />
 		</Files>
 	</GameInfo>
-	<GameInfo id="2" name="1835" minPlayers="3" maxPlayers="7" status="INCOMPLETE"
+	<GameInfo id="2" name="1835" minPlayers="3" maxPlayers="7" status="Mostly Playable"
 		bankTotal="12000" currencyFormat="###,### M" designers="Michael Meier-Bachl (Germany), Francis Tresham"
 		producers="Hans im Gluck (Germany)" location="Germany" 
 		maxRounds="3" initialRoundName="Stock Round"
@@ -129,16 +129,16 @@
 		tokenType="RangeCost" allTokensCost="20"
 		privates="true" minors="true" shares="true" bankPoolShareLimit="5" playerShareLimit="10">
 		<Capitalizations>
-			<Capitalization availableTrain="2" level="Incremental_10" />
-			<Capitalization availableTrain="2+2" level="Incremental_10" />
-			<Capitalization availableTrain="3" level="Incremental_10" />
-			<Capitalization availableTrain="3+3" level="Incremental_10" />
-			<Capitalization availableTrain="4" level="Incremental_10" />
-			<Capitalization availableTrain="4+4" level="Incremental_10" />
-			<Capitalization availableTrain="5" level="Incremental_10" />
-			<Capitalization availableTrain="5+5" level="Incremental_10" />
-			<Capitalization availableTrain="6" level="Incremental_10" />
-			<Capitalization availableTrain="6+6" level="Incremental_10" />
+			<Capitalization availableTrain="2" level="Always_Incremental" />
+			<Capitalization availableTrain="2+2" level="Always_Incremental" />
+			<Capitalization availableTrain="3" level="Always_Incremental" />
+			<Capitalization availableTrain="3+3" level="Always_Incremental" />
+			<Capitalization availableTrain="4" level="Always_Incremental" />
+			<Capitalization availableTrain="4+4" level="Always_Incremental" />
+			<Capitalization availableTrain="5" level="Always_Incremental" />
+			<Capitalization availableTrain="5+5" level="Always_Incremental" />
+			<Capitalization availableTrain="6" level="Always_Incremental" />
+			<Capitalization availableTrain="6+6" level="Always_Incremental" />
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Formation Round"
