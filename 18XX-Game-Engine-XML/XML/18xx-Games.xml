@@ -152,6 +152,15 @@
 					interruptsCondition="All Passed"
 					phases="2.3, 2.4, 3.1" />
 		</RoundTypes>
+		<Variants>
+			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="Increase Leipzig
+Dresdener Private Railway Revenue">
+			</Variant>
+			<Variant class="ge18xx.game.variants.VariantAll" id="200" title="Unsold Privates decrease value">
+			</Variant>
+			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Minor Companies don't Operate">
+			</Variant>
+		</Variants>
 		<PlayerInfo>
 			<Player numPlayers="3" startingCash="600" certificateLimit="19" />
 			<Player numPlayers="4" startingCash="475" certificateLimit="15" />
