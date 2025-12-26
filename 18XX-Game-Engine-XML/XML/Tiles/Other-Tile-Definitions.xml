@@ -217,8 +217,8 @@
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="0" layout="horizontal" />
-			<Revenue location="50" phase="4" value="50" layout="horizontal" />
-			<Revenue location="50" phase="6" value="0" layout="horizontal" />
+			<Revenue location="50" phase="2" value="50" layout="horizontal" />
+			<Revenue location="50" phase="3" value="0" layout="horizontal" />
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9831" type="Red Off Board" fixed="true">
@@ -226,8 +226,8 @@
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="horizontal" />
-			<Revenue location="50" phase="4" value="30" layout="horizontal" />
-			<Revenue location="50" phase="6" value="40" layout="horizontal" />
+			<Revenue location="50" phase="2" value="30" layout="horizontal" />
+			<Revenue location="50" phase="3" value="40" layout="horizontal" />
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9832" type="Red Off Board" fixed="true">
@@ -235,8 +235,8 @@
 		<RevenueCenter id="-1" location="99" name="" number="0"
 			type="Dead-End Only City">
 			<Revenue location="50" phase="1" value="20" layout="horizontal" />
-			<Revenue location="50" phase="4" value="20" layout="horizontal" />
-			<Revenue location="50" phase="6" value="40" layout="horizontal" />
+			<Revenue location="50" phase="2" value="20" layout="horizontal" />
+			<Revenue location="50" phase="3" value="40" layout="horizontal" />
 		</RevenueCenter>
 	</Tile>
 	<Tile number="9833" type="Red Off Board" fixed="true">
