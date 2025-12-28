@@ -146,7 +146,7 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<Terrain category="optional" location="6" type="Large River" />
-			<RevenueCenter id="7" location="50" name="" number="1"
+			<RevenueCenter id="7" location="16" name="" number="1"
 				type="Single City" />
 		</MapCell>
 		<MapCell>
@@ -331,7 +331,7 @@
 			<Terrain category="optional" location="50" type="River" />
 			<RevenueCenter id="0" location="15" name="" number="1"
 				type="Small Town" />
-			<RevenueCenter id="0" location="13" name="" number="1"
+			<RevenueCenter id="0" location="17" name="" number="1"
 				type="Small Town" />
 		</MapCell>
 		<MapCell>
@@ -716,7 +716,7 @@
 		<MapCell>
 			<Terrain category="base" type="Clear" />
 			<Terrain category="optional" location="50" type="Small River" />
-			<RevenueCenter id="0" location="13" name="" number="1" type="Small Town" />
+			<RevenueCenter id="0" location="17" name="" number="1" type="Small Town" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Clear" />
