@@ -333,11 +333,11 @@
 			</Upgrade>
 			<Upgrade toNumber="212" rotations="0,1,2,3,4,5">
 				<RevenueCenter from="15" to="12" />
-				<RevenueCenter from="19" to="16" />
+				<RevenueCenter from="19" to="15" />
 			</Upgrade>
 			<Upgrade toNumber="213" rotations="0,1,2,3,4,5">
 				<RevenueCenter from="15" to="12" />
-				<RevenueCenter from="19" to="13" />
+				<RevenueCenter from="19" to="33" />
 			</Upgrade>
 			<Upgrade toNumber="214" rotations="0,1,2,3,4,5">
 				<RevenueCenter from="15" to="13" />
