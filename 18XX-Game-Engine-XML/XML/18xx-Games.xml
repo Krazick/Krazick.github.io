@@ -22,7 +22,8 @@
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
 				nextRound="Operating Round" endsAfterActions="Pass Action" />
-			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
+			<RoundType name="Auction Round" interruptedName="Stock Round"
+				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
 				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
@@ -149,12 +150,13 @@
 			<RoundType name="Formation Round"
 					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 					interruptsAfterActions="Done Action, Pass Action, Sold Out Adjustment Action" 
+					interruptedName="Operating Round"
 					interruptsCondition="All Passed"
 					phases="2.3, 2.4, 3.1" />
 		</RoundTypes>
 		<Variants>
-			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="Increase Leipzig
-Dresdener Private Railway Revenue">
+			<Variant class="ge18xx.game.variants.VariantAll" id="100" 
+				title="Increase Leipzig Dresdener Private Railway Revenue">
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantAll" id="200" title="Unsold Privates decrease value">
 			</Variant>
@@ -321,11 +323,11 @@ Dresdener Private Railway Revenue">
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" 
 				nextRound="Operating Round" endsAfterActions="Pass Action" />
-			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
+			<RoundType name="Auction Round" interruptedName="Stock Round" 
+				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" nextRound="Stock Round" 
-				maxRounds="3" 
-				endsAfterActions="Done Action, Pay Revenue Action, Change Round Action" />		
-			<RoundType name="Formation Round"
+				maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action, Change Round Action" />		
+			<RoundType name="Formation Round" interruptedName="Operating Round"
 				endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 				interruptsAfterActions="Done Action" phases="5.1" />
 		</RoundTypes>
@@ -468,8 +470,9 @@ Dresdener Private Railway Revenue">
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
-				 nextRound="Operating Round" endsAfterActions="Pass Action" />
-			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
+				nextRound="Operating Round" endsAfterActions="Pass Action" />
+			<RoundType name="Auction Round" interruptedName="Stock Round"
+				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
 				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
@@ -581,7 +584,8 @@ Dresdener Private Railway Revenue">
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
 				nextRound="Operating Round" endsAfterActions="Pass Action" />
-			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
+			<RoundType name="Auction Round" interruptedName="Stock Round"
+				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
 				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
@@ -707,7 +711,8 @@ Dresdener Private Railway Revenue">
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
 				nextRound="Operating Round" endsAfterActions="Pass Action" />
-			<RoundType name="Auction Round" interruptsAfterActions="Done Player Action, Change Round Action" />
+			<RoundType name="Auction Round" interruptedName="Stock Round"
+				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
 				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
 		</RoundTypes>
