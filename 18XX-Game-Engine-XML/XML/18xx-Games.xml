@@ -253,10 +253,14 @@
 						optionalExtra="true" endsAfterActions="Done Action" />
 		</RoundTypes>
 		<PlayerInfo>
-			<Player numPlayers="3" startingCash="730" certificateLimit="21" />
-			<Player numPlayers="4" startingCash="570" certificateLimit="16" />
-			<Player numPlayers="5" startingCash="570" certificateLimit="13" />
-			<Player numPlayers="6" startingCash="510" certificateLimit="11" />
+			<Player numPlayers="3" startingCash="730" certificateLimit="21" 
+					minBidCities="4" maxBidCities="6" />
+			<Player numPlayers="4" startingCash="570" certificateLimit="16" 
+					minBidCities="3" maxBidCities="6" />
+			<Player numPlayers="5" startingCash="570" certificateLimit="13" 
+					minBidCities="3" maxBidCities="5" />
+			<Player numPlayers="6" startingCash="510" certificateLimit="11" 
+					minBidCities="3" maxBidCities="4" />
 		</PlayerInfo>
 		<Phases>
 			<Phase name="1" subName="1" rounds="1" tiles="Yellow" majorTileLays="2" trainLimit="4" offBoard="Low" />
