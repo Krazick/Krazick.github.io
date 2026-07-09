@@ -30,7 +30,7 @@
 	<CityInfo id="19" location="17" name="Bangalore" type="3" bond="20" shareCompanies="1906" />
 	<CityInfo id="20" name="Madras" type="3" bond="30" shareCompanies="1906,1907"/>
 	<CityInfo id="21" location="14" name="Trichniopoly" type="4" bond="20" shareCompanies="1907"/>
-	<CityInfo id="22" name="Calcutta" type="3" bond="50" shareCompanies="1,4,8" />
+	<CityInfo id="22" name="Calcutta" type="3" bond="50" shareCompanies="1901,1904,1908" />
 	<CityInfo id="23" location="14" name="Dacca" type="3" bond="20" shareCompanies="1908" />
 	<CityInfo id="24" location="14" name="Chittagong" type="3" bond="20" shareCompanies="1908" />
 </Cities>
