@@ -253,7 +253,7 @@
 			<Capitalization availableTrain="6" level="FULL" />
 		</Capitalizations>
 		<RoundTypes>
-			<RoundType name="Contract Bid Round" initialRound="true" nextRound="Stock Round" 
+			<RoundType name="Contract Bid Round" initialRound="true" nextRound="Stock Round" concurrent="true"
 						endsAfterActions="Done Player Action" />
 			<RoundType name="Stock Round" nextRound="Operating Round" endsAfterActions="Pass Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
