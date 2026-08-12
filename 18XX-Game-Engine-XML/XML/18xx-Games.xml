@@ -240,7 +240,7 @@
 		bankTotal="12500" currencyFormat="£ ###,###" designers="Frances Tresham (UK)"
 		producers="Hartland Trefoil Ltd (UK)" location="India" 
 		maxRounds="4" optionalOR="true" initialRoundName="Contract Bid Round"
-		releaseDate="1989"  bankPoolDividends="corporation" ipoDividends="bank"
+		hasCorporateBank="true" releaseDate="1989"  bankPoolDividends="corporation" ipoDividends="bank"
 		privates="false" minors="false" shares="true" bankPoolShareLimit="10" playerShareLimit="6">
 		<Capitalizations>
 			<Capitalization availableTrain="2" level="FULL" />
