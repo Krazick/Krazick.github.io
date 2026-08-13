@@ -687,7 +687,7 @@
 		<MapCell>
 			<Terrain category="base" type="Delta" />
 			<Terrain category="optional" location="11" type="River" />
-			<RevenueCenter id="6" location="12" name="" number="0"
+			<RevenueCenter id="12" location="12" name="" number="0"
 				type="Single City" />
 		</MapCell>
 		<MapCell>
