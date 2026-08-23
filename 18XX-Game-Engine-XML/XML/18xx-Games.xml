@@ -33,7 +33,7 @@
 					class="ge18xx.game.variants.AddBankCashVEffect" id="301" name="$4,500" quantity="-7500" />
 			</Variant>
 			<Variant class="ge18xx.game.variants.VariantToggle" id="500" 
-				title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="true">
+				title="Enable Operating Round Query Exchange of M&amp;H for NYC" default="false">
 				<VariantEffect action="Allow M&amp;H Exchange at Operating Round Start" 
 					class="ge18xx.game.variants.EnableBenefitVEffect" id="501" 
 					name="Query M&amp;H Exchange" companyID="1004" benefitName="QUERY EXCHANGE" />
