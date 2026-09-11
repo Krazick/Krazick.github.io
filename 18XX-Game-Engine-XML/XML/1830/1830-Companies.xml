@@ -107,7 +107,7 @@
 		<Certificate director="NO" percentage="10" quantity="8"
 			allowedOwners="IPO,Player,BankPool" />
 	</Share>
-	<Share id="1108" name="Eire" abbrev="Erie" homeCell1="E11"
+	<Share id="1108" name="Erie" abbrev="Erie" homeCell1="E11"
 		homeLocation1="17" homeLocation2="15" bgColor="Gold" fgColor="Black"
 		homeColor="Black" tokens="3" tokenType="FixedCost">
 		<Certificate director="YES" percentage="20" allowedOwners="IPO,Player" />
