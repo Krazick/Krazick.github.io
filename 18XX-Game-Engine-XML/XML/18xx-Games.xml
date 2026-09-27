@@ -21,11 +21,15 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
-				nextRound="Operating Round" endsAfterActions="Pass Action" />
+				nextRound="Operating Round" endsAfterActions="Pass Action"
+				captureStartForActions= "Start Stock Action"
+				captureEndForActions="Pass Action, Done Player Action" />
 			<RoundType name="Auction Round" interruptedName="Stock Round"
 				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
-				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
+				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action"
+				captureStartForActions="Prepared Corporation Action"
+				captureEndForActions="Done Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
@@ -143,10 +147,14 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Formation Round"
-					nextRound="Operating Round" endsAfterActions="Pass Action" />
+					nextRound="Operating Round" endsAfterActions="Pass Action"
+					captureStartForActions= "Start Stock Action"
+					captureEndForActions="Pass Action, Done Player Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" 
 					nextRound="Stock Round" maxRounds="3" 
-					endsAfterActions="Done Action, Pay Revenue Action, Change Round Action" />
+					endsAfterActions="Done Action, Pay Revenue Action, Change Round Action"
+					captureStartForActions="Prepared Corporation Action"
+					captureEndForActions="Done Action" />
 			<RoundType name="Formation Round"
 					endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 					interruptsAfterActions="Done Action, Pass Action, Sold Out Adjustment Action" 
@@ -255,9 +263,13 @@
 		<RoundTypes>
 			<RoundType name="Contract Bid Round" initialRound="true" nextRound="Stock Round" concurrent="true"
 						endsAfterActions="Done Player Action" />
-			<RoundType name="Stock Round" nextRound="Operating Round" endsAfterActions="Pass Action" />
+			<RoundType name="Stock Round" nextRound="Operating Round" endsAfterActions="Pass Action"
+						captureStartForActions= "Start Stock Action"
+						captureEndForActions="Pass Action, Done Player Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
-						optionalExtra="true" endsAfterActions="Done Action" />
+						optionalExtra="true" endsAfterActions="Done Action"
+						captureStartForActions="Prepared Corporation Action"
+						captureEndForActions="Done Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantToggle" id="900" title="Random Player Start Order" 
@@ -342,11 +354,15 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round" 
-				nextRound="Operating Round" endsAfterActions="Pass Action" />
+				nextRound="Operating Round" endsAfterActions="Pass Action"
+				captureStartForActions= "Start Stock Action"
+				captureEndForActions="Pass Action, Done Player Action" />
 			<RoundType name="Auction Round" interruptedName="Stock Round" 
 				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" interruptionRound="Formation Round" nextRound="Stock Round" 
-				maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action, Change Round Action" />		
+				maxRounds="3" endsAfterActions="Done Action, Pay Revenue Action, Change Round Action"
+				captureStartForActions="Prepared Corporation Action"
+				captureEndForActions="Done Action" />		
 			<RoundType name="Formation Round" interruptedName="Operating Round"
 				endsAfterActions="Change Formation Round State Action, Final Formation Action" 
 				interruptsAfterActions="Done Action" phases="5.1" />
@@ -497,11 +513,15 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
-				nextRound="Operating Round" endsAfterActions="Pass Action" />
+				nextRound="Operating Round" endsAfterActions="Pass Action"
+				captureStartForActions= "Start Stock Action"
+				captureEndForActions="Pass Action, Done Player Action" />
 			<RoundType name="Auction Round" interruptedName="Stock Round"
 				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
-				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
+				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action"
+				captureStartForActions="Prepared Corporation Action"
+				captureEndForActions="Done Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="100" title="$400 Finish">
@@ -617,11 +637,15 @@
 		</Capitalizations>
 		<RoundTypes>
 			<RoundType name="Stock Round" initialRound="true" interruptionRound="Auction Round"
-				nextRound="Operating Round" endsAfterActions="Pass Action" />
+				nextRound="Operating Round" endsAfterActions="Pass Action"
+				captureStartForActions= "Start Stock Action"
+				captureEndForActions="Pass Action, Done Player Action" />
 			<RoundType name="Auction Round" interruptedName="Stock Round"
 				interruptsAfterActions="Done Player Action, Change Round Action" />
 			<RoundType name="Operating Round" nextRound="Stock Round" maxRounds="3" 
-				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action" />
+				endsAfterActions="Done Action, Pay Revenue Action, Exchange Stock Action, Set Wait State Action"
+				captureStartForActions="Prepared Corporation Action"
+				captureEndForActions="Done Action" />
 		</RoundTypes>
 		<Variants>
 			<Variant class="ge18xx.game.variants.VariantAll" id="300" title="Introductory Game">
