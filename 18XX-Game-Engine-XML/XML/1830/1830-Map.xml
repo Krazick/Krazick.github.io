@@ -211,10 +211,8 @@
 			<Terrain category="optional" location="16" type="River" />
 			<TileName name="NY" location="13" />
 			<Tile number="9940" orientation="0" starting="TRUE" />
-			<RevenueCenter id="8" location="8" name="" number="1"
-				type="Single City" />
-			<RevenueCenter id="8" location="11" name="" number="1"
-				type="Single City" />
+			<RevenueCenter id="8" location="8" name="" number="1" type="Single City" />
+			<RevenueCenter id="8" location="11" name="" number="1" type="Single City" />
 		</MapCell>
 		<MapCell>
 			<Terrain category="base" type="Off Board Green" />
