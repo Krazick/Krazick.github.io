@@ -45,6 +45,10 @@
 		</Tile>
 		<Tile number="58" quantity="2" />
 		<Tile number="69" quantity="1" />
+		<Tile number="630" quantity="1" />
+		<Tile number="631" quantity="1" />
+		<Tile number="632" quantity="1" />
+		<Tile number="633" quantity="1" />
 	</TileSet>
 	<TileSet color="Green">
 		<Tile number="14" quantity="2">
