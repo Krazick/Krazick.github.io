@@ -3,8 +3,7 @@
 		<Track enter="2" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -12,8 +11,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -22,8 +20,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="42" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -32,8 +29,7 @@
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="42" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -93,8 +89,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="50" />
 		</RevenueCenter>
 	</Tile>
@@ -104,12 +99,10 @@
 		<Track enter="1" exit="14" gauge="NORMAL" />
 		<Track enter="5" exit="12" gauge="NORMAL" />
 		<Track enter="0" exit="12" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="14" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="14" name="" number="1" type="Single City">
 			<Revenue location="17" phase="0" value="60" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="12" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="12" name="" number="1" type="Single City">
 			<Revenue location="17" phase="0" value="60" />
 		</RevenueCenter>
 	</Tile>
@@ -117,12 +110,10 @@
 		<TileName location="17" name="OO" />
 		<Track enter="1" exit="13" gauge="NORMAL" />
 		<Track enter="3" exit="16" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="13" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="13" name="" number="1" type="Single City">
 			<Revenue location="50" phase="0" value="40" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="16" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="16" name="" number="1" type="Single City">
 			<Revenue location="50" phase="0" value="40" />
 		</RevenueCenter>
 	</Tile>
@@ -210,8 +201,7 @@
 		<Track enter="4" exit="50" gauge="METER" />
 		<Track enter="5" exit="50" gauge="METER BASE" />
 		<Track enter="5" exit="50" gauge="METER" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="13" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
@@ -226,8 +216,7 @@
 		<Track enter="4" exit="50" gauge="METER" />
 		<Track enter="5" exit="50" gauge="METER BASE" />
 		<Track enter="5" exit="50" gauge="METER" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="13" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
@@ -242,8 +231,7 @@
 		<Track enter="4" exit="50" gauge="METER" />
 		<Track enter="5" exit="50" gauge="METER BASE" />
 		<Track enter="5" exit="50" gauge="METER" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="13" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
@@ -256,8 +244,7 @@
 		<Track enter="3" exit="50" gauge="METER" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="13" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
@@ -268,8 +255,7 @@
 		<Track enter="4" exit="50" gauge="METER BASE" />
 		<Track enter="4" exit="50" gauge="METER" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="13" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
@@ -280,8 +266,7 @@
 		<Track enter="4" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="METER BASE" />
 		<Track enter="5" exit="50" gauge="METER" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="13" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
@@ -292,8 +277,7 @@
 		<Track enter="4" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="METER BASE" />
 		<Track enter="5" exit="50" gauge="METER" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -304,8 +288,7 @@
 		<Track enter="4" exit="50" gauge="METER BASE" />
 		<Track enter="4" exit="50" gauge="METER" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -315,8 +298,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -326,8 +308,7 @@
 		<Track enter="3" exit="50" gauge="METER BASE" />
 		<Track enter="3" exit="50" gauge="METER" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -338,8 +319,7 @@
 		<Track enter="3" exit="50" gauge="METER" />
 		<Track enter="4" exit="50" gauge="METER BASE" />
 		<Track enter="4" exit="50" gauge="METER" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -350,8 +330,7 @@
 		<Track enter="3" exit="50" gauge="METER" />
 		<Track enter="5" exit="50" gauge="METER BASE" />
 		<Track enter="5" exit="50" gauge="METER" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -361,12 +340,10 @@
 		<Track enter="1" exit="13" gauge="NORMAL" />
 		<Track enter="4" exit="17" gauge="NORMAL" />
 		<Track enter="5" exit="17" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="13" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="13" name="" number="1" type="Single City">
 			<Revenue location="12" phase="0" value="60" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="17" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="17" name="" number="1" type="Single City">
 			<Revenue location="-1" phase="0" value="60" />
 		</RevenueCenter>
 	</Tile>
@@ -375,8 +352,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="16" phase="0" value="50" />
 		</RevenueCenter>
 	</Tile>
@@ -433,8 +409,7 @@
 		<Track enter="0" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -442,8 +417,7 @@
 		<Track enter="0" exit="50" gauge="NORMAL" />
 		<Track enter="2" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="30" />
 		</RevenueCenter>
 	</Tile>
@@ -453,8 +427,7 @@
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="42" phase="0" value="40" />
 		</RevenueCenter>
 	</Tile>
@@ -464,8 +437,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
 			<Revenue location="42" phase="0" value="40" />
 		</RevenueCenter>
 	</Tile>
@@ -476,8 +448,7 @@
 		<Track enter="2" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="3"
-			type="Triple City">
+		<RevenueCenter id="-1" location="50" name="" number="3" type="Triple City">
 			<Revenue location="16" phase="0" value="40" />
 		</RevenueCenter>
 	</Tile>
@@ -574,8 +545,7 @@
 		<Track enter="0" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="40" />
 		</RevenueCenter>
 	</Tile>
@@ -584,8 +554,7 @@
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="4" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="40" />
 		</RevenueCenter>
 	</Tile>
@@ -594,8 +563,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="40" />
 		</RevenueCenter>
 	</Tile>
@@ -605,12 +573,10 @@
 		<Track enter="1" exit="13" gauge="NORMAL" />
 		<Track enter="2" exit="15" gauge="NORMAL" />
 		<Track enter="3" exit="15" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="13" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="13" name="" number="1" type="Single City">
 			<Revenue location="12" phase="0" value="60" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="15" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="15" name="" number="1" type="Single City">
 			<Revenue location="16" phase="0" value="60" />
 		</RevenueCenter>
 	</Tile>
@@ -622,17 +588,24 @@
 		<Track enter="2" exit="14" gauge="NORMAL" />
 		<Track enter="3" exit="16" gauge="NORMAL" />
 		<Track enter="4" exit="16" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="12" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="12" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="50" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="14" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="14" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="50" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="16" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="16" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="50" />
 		</RevenueCenter>
 	</Tile>
+	<Tile number="592" type="Green">
+		<TileName location="12" name="B" />
+		<Track enter="1" exit="50" gauge="NORMAL" />
+		<Track enter="3" exit="50" gauge="NORMAL" />
+		<Track enter="5" exit="50" gauge="NORMAL" />
+		<RevenueCenter id="-1" location="50" name="" number="2" type="Double City">
+			<Revenue location="13" phase="0" value="50" />
+		</RevenueCenter>
+	</Tile>
+
 </TileDefinitions>
