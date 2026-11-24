@@ -120,7 +120,12 @@
 			<Upgrade toNumber="61" rotations="0,1,2,4,5">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
-			
+			<Upgrade toNumber="884" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="997" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
 		</Tile>
 		<Tile number="54" quantity="1">
 			<Upgrade toNumber="62" rotations="0">
@@ -159,9 +164,11 @@
 			</Upgrade>
 		</Tile>
 		<Tile number="592" quantity="2">
-			<Upgrade toNumber="62" rotations="0">
-				<RevenueCenter from="50" to="50" rotation="884"/>
-				<RevenueCenter from="50" to="50" rotation="997"/>
+			<Upgrade toNumber="884" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="997" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
 
@@ -185,6 +192,8 @@
 		<Tile number="67" quantity="1" />
 		<Tile number="68" quantity="1" />
 		<Tile number="70" quantity="1" />
+		<Tile number="884" quantity="1" />
+		<Tile number="997" quantity="1" />
 	</TileSet>
 	<TileSet color="Other">
 		<Tile number="9801" quantity="1" />

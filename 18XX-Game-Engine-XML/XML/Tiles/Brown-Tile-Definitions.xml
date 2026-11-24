@@ -60,8 +60,7 @@
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
 		<Track enter="5" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="13" phase="0" value="60" />
 		</RevenueCenter>
 	</Tile>
@@ -71,12 +70,10 @@
 		<Track enter="2" exit="14" gauge="NORMAL" />
 		<Track enter="5" exit="12" gauge="NORMAL" />
 		<Track enter="0" exit="12" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="14" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="14" name="" number="2" type="Double City">
 			<Revenue location="16" phase="0" value="80" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="12" name="" number="2"
-			type="Double City">
+		<RevenueCenter id="-1" location="12" name="" number="2" type="Double City">
 			<Revenue location="-1" phase="0" value="80" />
 		</RevenueCenter>
 	</Tile>
@@ -492,6 +489,26 @@
 		<RevenueCenter id="-1" location="50" name="" number="2"
 			type="Double City">
 			<Revenue location="14" phase="0" value="40" />
+		</RevenueCenter>
+	</Tile>
+	<Tile number="884" type="Brown">
+		<TileName location="12" name="B" />
+		<Track enter="0" exit="50" gauge="NORMAL" />
+		<Track enter="1" exit="50" gauge="NORMAL" />
+		<Track enter="3" exit="50" gauge="NORMAL" />
+		<Track enter="5" exit="50" gauge="NORMAL" />
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Triple City">
+			<Revenue location="13" phase="0" value="60" />
+		</RevenueCenter>
+	</Tile>
+	<Tile number="997" type="Brown">
+		<TileName location="12" name="B" />
+		<Track enter="0" exit="50" gauge="NORMAL" />
+		<Track enter="1" exit="50" gauge="NORMAL" />
+		<Track enter="3" exit="50" gauge="NORMAL" />
+		<Track enter="5" exit="50" gauge="NORMAL" />
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Double City">
+			<Revenue location="13" phase="0" value="60" />
 		</RevenueCenter>
 	</Tile>
 </TileDefinitions>
