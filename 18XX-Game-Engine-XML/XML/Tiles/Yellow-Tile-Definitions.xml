@@ -46,16 +46,14 @@
 	<Tile number="5" type="Yellow">
 		<Track enter="2" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="12" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
 	<Tile number="6" type="Yellow">
 		<Track enter="1" exit="50" gauge="NORMAL" />
 		<Track enter="3" exit="50" gauge="NORMAL" />
-		<RevenueCenter id="-1" location="50" name="" number="1"
-			type="Single City">
+		<RevenueCenter id="-1" location="50" name="" number="1" type="Single City">
 			<Revenue location="8" phase="0" value="20" />
 		</RevenueCenter>
 	</Tile>
