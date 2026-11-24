@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TileManifest game="1830" variant="Normal" direction="EW"
+<TileManifest game="1830+" variant="Normal" direction="EW"
 	width="830" height="525" xLocation="845" yLocation="30" visible="false">
 	<TileSet color="Yellow">
 		<Tile number="1" quantity="1" />
@@ -120,6 +120,7 @@
 			<Upgrade toNumber="61" rotations="0,1,2,4,5">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
+			
 		</Tile>
 		<Tile number="54" quantity="1">
 			<Upgrade toNumber="62" rotations="0">
@@ -157,6 +158,13 @@
 				<RevenueCenter from="16" to="8" rotation="1" />
 			</Upgrade>
 		</Tile>
+		<Tile number="592" quantity="2">
+			<Upgrade toNumber="62" rotations="0">
+				<RevenueCenter from="50" to="50" rotation="884"/>
+				<RevenueCenter from="50" to="50" rotation="997"/>
+			</Upgrade>
+		</Tile>
+
 	</TileSet>
 	<TileSet color="Brown">
 		<Tile number="39" quantity="1" />
@@ -199,6 +207,9 @@
 		<Tile number="9939" quantity="1" />
 		<Tile number="9941" quantity="1">
 			<Upgrade toNumber="53" rotations="0">
+				<RevenueCenter from="21" to="50"/>
+			</Upgrade>
+			<Upgrade toNumber="592" rotations="0">
 				<RevenueCenter from="21" to="50"/>
 			</Upgrade>
 		</Tile>
