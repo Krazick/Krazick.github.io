@@ -51,12 +51,12 @@
 		<Tile number="633" quantity="1" />
 	</TileSet>
 	<TileSet color="Green">
-		<Tile number="14" quantity="2">
+		<Tile number="14" quantity="3">
 			<Upgrade toNumber="63" rotations="0">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
-		<Tile number="15" quantity="2">
+		<Tile number="15" quantity="4">
 			<Upgrade toNumber="63" rotations="0">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
@@ -64,6 +64,9 @@
 		<Tile number="16" quantity="1">
 			<Upgrade toNumber="43" rotations="4" />
 			<Upgrade toNumber="70" rotations="4" />
+		</Tile>
+		<Tile number="17" quantity="1">
+			<Upgrade toNumber="43" rotations="0" />
 		</Tile>
 		<Tile number="18" quantity="1">
 			<Upgrade toNumber="43" rotations="0" />
@@ -167,7 +170,7 @@
 		<Tile number="47" quantity="1" />
 		<Tile number="61" quantity="2" />
 		<Tile number="62" quantity="1" />
-		<Tile number="63" quantity="3" />
+		<Tile number="63" quantity="4" />
 		<Tile number="64" quantity="1" />
 		<Tile number="65" quantity="1" />
 		<Tile number="66" quantity="1" />
