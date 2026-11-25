@@ -4,7 +4,17 @@
 	<TileSet color="Yellow">
 		<Tile number="1" quantity="1" />
 		<Tile number="2" quantity="1" />
-		<Tile number="3" quantity="2" />
+		<Tile number="3" quantity="2" >
+			<Upgrade toNumber="141" rotations="0">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="142" rotations="1">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="143" rotations="4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+		</Tile>
 		<Tile number="4" quantity="2" >
 			<Upgrade toNumber="141" rotations="0" />
 			<Upgrade toNumber="142" rotations="0" />
@@ -47,7 +57,20 @@
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
-		<Tile number="58" quantity="2" />
+		<Tile number="58" quantity="2" >
+			<Upgrade toNumber="141" rotations="3">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="142" rotations="1">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="143" rotations="3">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="144" rotations="1,3,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+		</Tile>
 		<Tile number="69" quantity="1" />
 		<Tile number="630" quantity="1" />
 		<Tile number="631" quantity="1" />
@@ -215,6 +238,19 @@
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
 		</Tile>
+		<Tile number="619" quantity="1">
+			<Upgrade toNumber="884" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="997" rotations="0">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+		</Tile>
+		<Tile number="810" quantity="1">
+			<Upgrade toNumber="882" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+		</Tile>
 	</TileSet>
 	<TileSet color="Brown">
 		<Tile number="39" quantity="1" />
@@ -237,6 +273,7 @@
 		<Tile number="70" quantity="1" />
 		<Tile number="884" quantity="1" />
 		<Tile number="997" quantity="1" />
+		<Tile number="882" quantity="1" />
 	</TileSet>
 	<TileSet color="Other">
 		<Tile number="9801" quantity="1" />
