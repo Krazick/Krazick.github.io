@@ -6,7 +6,7 @@
 		<Tile number="2" quantity="1" />
 		<Tile number="3" quantity="2" />
 		<Tile number="4" quantity="2" >
-			<Upgrade toNumber="141" rotations="4" />
+			<Upgrade toNumber="141" rotations="0" />
 			<Upgrade toNumber="142" rotations="0" />
 		</Tile>
 		<Tile number="5" quantity="2" />
@@ -183,7 +183,31 @@
 			<Upgrade toNumber="146" rotations="0,1,2,4,5">
 			</Upgrade>
 		</Tile>
-		<Tile number="592" quantity="2">
+		<Tile number="143" quantity="1">
+			<Upgrade toNumber="145" rotations="0,1,2,4,5">
+			</Upgrade>
+			<Upgrade toNumber="147" rotations="0,1,2,4,5">
+			</Upgrade>
+			<Upgrade toNumber="146" rotations="0,1,2,4,5">
+			</Upgrade>
+		</Tile>
+		<Tile number="144" quantity="1">
+			<Upgrade toNumber="145" rotations="0,1,2,4,5">
+			</Upgrade>
+			<Upgrade toNumber="147" rotations="0,1,2,4,5">
+			</Upgrade>
+			<Upgrade toNumber="146" rotations="0,1,2,4,5">
+			</Upgrade>
+		</Tile>
+		<Tile number="88" quantity="2">
+			<Upgrade toNumber="884" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+			<Upgrade toNumber="997" rotations="0,1,2,4,5">
+				<RevenueCenter from="50" to="50" />
+			</Upgrade>
+		</Tile>
+		<Tile number="204" quantity="2">
 			<Upgrade toNumber="884" rotations="0,1,2,4,5">
 				<RevenueCenter from="50" to="50" />
 			</Upgrade>
