@@ -419,11 +419,11 @@
 			</Upgrade>
 		</Tile>
 		<Tile number="9972" quantity="1">
-			<Upgrade toNumber="221" rotations="5">
+			<Upgrade toNumber="221" rotations="0">
 				<BaseCityName value="Hamburg" />
-				<RevenueCenter from="7" to="9" />
-				<RevenueCenter from="11" to="6" />
-				<RevenueCenter from="15" to="9" />
+				<RevenueCenter from="7" to="14" />
+				<RevenueCenter from="11" to="17" />
+				<RevenueCenter from="15" to="14" />
 			</Upgrade>
 		</Tile>
 		<Tile number="9973" quantity="5" />
