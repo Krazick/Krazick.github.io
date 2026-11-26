@@ -247,8 +247,9 @@
 			</Upgrade>
 		</Tile>
 		<Tile number="810" quantity="1">
-			<Upgrade toNumber="882" rotations="0,1,2,4,5">
-				<RevenueCenter from="50" to="50" />
+			<Upgrade toNumber="882" rotations="0">
+				<RevenueCenter from="11" to="11" />
+				<RevenueCenter from="14" to="14" />
 			</Upgrade>
 		</Tile>
 	</TileSet>

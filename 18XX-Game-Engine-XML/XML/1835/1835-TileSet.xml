@@ -422,7 +422,7 @@
 			<Upgrade toNumber="221" rotations="0">
 				<BaseCityName value="Hamburg" />
 				<RevenueCenter from="7" to="14" />
-				<RevenueCenter from="11" to="17" />
+				<RevenueCenter from="11" to="11" />
 				<RevenueCenter from="15" to="14" />
 			</Upgrade>
 		</Tile>
