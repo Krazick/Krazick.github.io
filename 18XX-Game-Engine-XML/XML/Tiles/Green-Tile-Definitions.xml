@@ -621,13 +621,13 @@
 		<Track enter="1" exit="14" gauge="NORMAL" />
 		<Track enter="2" exit="14" gauge="NORMAL" />
 		<Track enter="3" exit="14" gauge="NORMAL" />
-		<Track enter="4" exit="12" gauge="NORMAL" />
-		<Track enter="5" exit="12" gauge="NORMAL" />
-		<Track enter="6" exit="12" gauge="NORMAL" />
+		<Track enter="4" exit="11" gauge="NORMAL" />
+		<Track enter="5" exit="11" gauge="NORMAL" />
+		<Track enter="0" exit="11" gauge="NORMAL" />
 		<RevenueCenter id="-1" location="14" name="" number="2" type="Double City">
 			<Revenue location="16" phase="0" value="50" />
 		</RevenueCenter>
-		<RevenueCenter id="-1" location="12" name="" number="2" type="Single City">
+		<RevenueCenter id="-1" location="11" name="" number="2" type="Single City">
 			<Revenue location="-1" phase="0" value="50" />
 		</RevenueCenter>
 	</Tile>
